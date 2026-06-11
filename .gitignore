@@ -1,0 +1,12 @@
+# Vector store — rebuild with: python ingest.py (from inside agentic-rag/)
+agentic-rag/chroma_db/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Large run logs are noise; CSVs, failure reports, and archives are kept
+agentic-rag/results/*.log
+
+# Temp files
+*.tmp

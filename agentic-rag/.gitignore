@@ -1,0 +1,13 @@
+# Vector store (rebuild with: python ingest.py)
+chroma_db/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Logs over 10 MB are added here explicitly at commit time (none currently);
+# small logs are kept in the repo for transparency.

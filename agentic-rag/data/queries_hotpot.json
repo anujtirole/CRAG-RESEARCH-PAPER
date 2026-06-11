@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+    "ground_truth": "yes",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "ground_truth": "Chief of Protocol",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "ground_truth": "Animorphs",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+    "ground_truth": "no",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "ground_truth": "Greenwich Village, New York City",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+    "ground_truth": "YG Entertainment",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+    "ground_truth": "Eenasul Fateh",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+    "ground_truth": "3,677 seated",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Who is older, Annie Morton or Terry Richardson?",
+    "ground_truth": "Terry Richardson",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Are Local H and For Against both from the United States?",
+    "ground_truth": "yes",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+    "ground_truth": "Kansas Song",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and Téa Leoni?",
+    "ground_truth": "David Weissman",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+    "ground_truth": "1999",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+    "ground_truth": "no",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+    "ground_truth": "from 1986 to 2013",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+    "ground_truth": "9,984",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+    "ground_truth": "the North Atlantic Conference",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+    "ground_truth": "yes",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+    "ground_truth": "1969 until 1974",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+    "ground_truth": "Robert Erskine Childers DSC",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+    "ground_truth": "Pedro Rodríguez",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+    "ground_truth": "Sonic",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+    "ground_truth": "keyboard function keys",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+    "ground_truth": "Badly Drawn Boy",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+    "ground_truth": "World's Best Goalkeeper",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+    "ground_truth": "Barton Lee Hazlewood",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+    "ground_truth": "1838",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Are both Dictyosperma, and Huernia described as a genus?",
+    "ground_truth": "yes",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+    "ground_truth": "Henry J. Kaiser",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+    "ground_truth": "Arena of Khazan",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+    "ground_truth": "2000",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+    "ground_truth": "Fujioka, Gunma",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+    "ground_truth": "Charles Eugène",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+    "ground_truth": "no",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+    "ground_truth": "Letters to Cleo",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+    "ground_truth": "October 1922",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+    "ground_truth": "2000",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+    "ground_truth": "World War II",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+    "ground_truth": "no",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+    "ground_truth": "New York City",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+    "ground_truth": "Scotch Collie",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+    "ground_truth": "Mumbai",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+    "ground_truth": "1962",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+    "ground_truth": "sovereignty",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+    "ground_truth": "Nelson Rockefeller",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+    "ground_truth": "Yellowcraig",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+    "ground_truth": "Phil Spector",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What type of forum did a former Soviet statesman initiate?",
+    "ground_truth": "Organizations could come together to address global issues",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Are Ferocactus and Silene both types of plant?",
+    "ground_truth": "yes",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+    "ground_truth": "English Electric Canberra",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+    "ground_truth": "2009 Big 12 Conference",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "In 1991 Euromarché was bought by a chain that operated how any hypermarkets at the end of 2016?",
+    "ground_truth": "1,462",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+    "ground_truth": "Indianapolis Motor Speedway",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+    "ground_truth": "Rome",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+    "ground_truth": "Max Martin, Savan Kotecha and Ilya Salmanzadeh",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+    "ground_truth": "Marion, South Australia",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "D1NZ is a series based on what oversteering technique?",
+    "ground_truth": "Drifting",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "who is younger Keith Bostic or Jerry Glanville ?",
+    "ground_truth": "Keith Bostic",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+    "ground_truth": "35,124",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Are both Cypress and Ajuga genera?",
+    "ground_truth": "no",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
+    "ground_truth": "shortest player ever to play in the National Basketball Association",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+    "ground_truth": "Ronald Shusett",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Who was born earlier, Emma Bull or Virginia Woolf?",
+    "ground_truth": "Adeline Virginia Woolf",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
+    "ground_truth": "821",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
+    "ground_truth": "more than 70 countries",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+    "ground_truth": "Charmed",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
+    "ground_truth": "International Boxing Hall of Fame",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+    "ground_truth": "Usher",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+    "ground_truth": "Bill Murray",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "The 2017–18 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+    "ground_truth": "Carabao Cup",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+    "ground_truth": "Teen Titans Go!",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
+    "ground_truth": "276,170 inhabitants",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ",
+    "ground_truth": "orange",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What was the name of the 1996 loose adaptation of William Shakespeare's \"Romeo & Juliet\" written by James Gunn?",
+    "ground_truth": "Tromeo and Juliet",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?",
+    "ground_truth": "William Jefferson Clinton",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?",
+    "ground_truth": "John John Florence",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+    "ground_truth": "Ann",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
+    "ground_truth": "Apalachees",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What nationality were social anthropologists Alfred Gell and Edmund Leach?",
+    "ground_truth": "British",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "In which year was the King who made the 1925 Birthday Honours born?",
+    "ground_truth": "1865",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+    "ground_truth": "Newport",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name ?",
+    "ground_truth": "Bob Seger",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
+    "ground_truth": "Conscription",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Handi-Snacks are a snack food product line sold by what American multinational confectionery, food, and beverage company that is based in Illinois?",
+    "ground_truth": "Mondelez International, Inc.",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What was the name of a woman from the book titled \"Their Lives: The Women Targeted by the Clinton Machine \" and was also a former white house intern?",
+    "ground_truth": "Monica Lewinsky",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "When was the American lawyer, lobbyist and political consultant who was a senior member of the presidential campaign of Donald Trump born?",
+    "ground_truth": "April 1, 1949",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "In what year was the novel that Lourenço Mutarelli based \"Nina\" on based first published?",
+    "ground_truth": "1866",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Where are Teide National Park and Garajonay National Park located?",
+    "ground_truth": "Canary Islands, Spain",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "How many copies of Roald Dahl's variation on a popular anecdote sold?",
+    "ground_truth": "250 million",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What occupation do Chris Menges and Aram Avakian share?",
+    "ground_truth": "director",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Andrew Jaspan was the co-founder of what not-for-profit media outlet?",
+    "ground_truth": "The Conversation",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which American film director hosted the 18th Independent Spirit Awards in 2002?",
+    "ground_truth": "John Waters",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
+    "ground_truth": "Las Vegas Strip in Paradise",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Do the drinks Gibson and Zurracapote both contain gin?",
+    "ground_truth": "no",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",
+    "ground_truth": "March and April",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Tysons Galleria is located in what county?",
+    "ground_truth": "Fairfax County",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Bordan Tkachuk was the CEO of a company that provides what sort of products?",
+    "ground_truth": "IT products and services",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which filmmaker was known for animation, Lev Yilmaz or Pamela B. Green?",
+    "ground_truth": "Levni Yilmaz",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "In which city is the ambassador of the Rabat-Salé-Kénitra administrative region to China based?",
+    "ground_truth": "Beijing",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Are Yingkou and Fuding the same level of city?",
+    "ground_truth": "no",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Where did the descendants of the group of black Indians associated with the Seminole people settle?",
+    "ground_truth": "Coahuila, Mexico",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "David Huntsinger has worked with this gospel singer born in the month of July?",
+    "ground_truth": "Larnelle Harris",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What year was the brother of this first round draft pick by the Washington Redskins drafted?",
+    "ground_truth": "2003",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Where is the stadium at which 1964 Georgia Tech Yellow Jackets football team played their home game located? ",
+    "ground_truth": "North Avenue at Techwood Drive",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Since 2 June 2017, The Leader of Fine Gael had been held by which Irish Fine Gael politician who has served as Taoiseach and Minister for Defence?",
+    "ground_truth": "Leo Varadkar",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which American film actor and dancer starred in the 1945 film Johnny Angel?",
+    "ground_truth": "George Raft",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "hree Men on a Horse is a play by a playwright born in which year ?",
+    "ground_truth": "1887",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What type of activity does Owner earnings and Warren Buffett have in common?",
+    "ground_truth": "business",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "When was the  former Indian cricketer who made his ODI debuts during the 2000 ICC KnockOut Trophy born? ",
+    "ground_truth": "7 October 1978",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which airplane was this Major test-flying after whom the base, that 514th Flight Test Squadron is stated at, is named?",
+    "ground_truth": "B-17 Flying Fortress bomber",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Based on a True Story... is an album by which country music star, with the single My Eyes?",
+    "ground_truth": "Blake Shelton",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Over how many centuries were the \"dwelling place of the dead\" built?",
+    "ground_truth": "three centuries",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "When was the British author who wrote the novel on which \"Here We Go Round the Mulberry Bush\" was based born? ",
+    "ground_truth": "7 January 1936",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Who died first, George Archainbaud or Ralph Murphy?",
+    "ground_truth": "George Archainbaud",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Which component of shellite has the formula (ON)CHOH?",
+    "ground_truth": "picric acid",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "The Argentine PGA Championship record holder has won how many tournaments worldwide?",
+    "ground_truth": "230",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Suicide's 1977 released album features a song based on what brand's comic character?",
+    "ground_truth": "Marvel",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What other political position did the person who introduced the DISCLOSE Act hold?",
+    "ground_truth": "United States Senator",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Were the bands Skin Yard and Ostava from the U.S.?",
+    "ground_truth": "no",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Are Daryl Hall and Gerry Marsden both musicians?",
+    "ground_truth": "yes",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "What major truck road is located in Backford Cross?",
+    "ground_truth": "The A41",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "In which role did Caroline Carver played in a 1999 Hallmark Entertainment made-for-TV fantasy movie?",
+    "ground_truth": "Princess Jessica",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What's the name of the fantasy film starring Sarah Bolger, featuring a New England family who discover magical creatures around their estate?",
+    "ground_truth": "The Spiderwick Chronicles",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Maxeda has been owned since 2004 by which American multinational equity firm?",
+    "ground_truth": "KKR & Co",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "The youngest daughter of Lady Mary-Gaye Curzon stars with Douglas Smith and Lucien Laviscount  in what 2017 film?",
+    "ground_truth": "The Bye Bye Man",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Mummulgum is a stop on the Bruxner Highway before reaching the town on the banks of which river?",
+    "ground_truth": "Richmond",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which American audio engineer and clandestine chemist, who was a key figure in the San Francisco Bay Area hippie movement during the 1960s recorded the album \"Old and in the Way?\"",
+    "ground_truth": "Owsley Stanley",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "When was the palace founded at which Columba de Dunbar died in 1435?",
+    "ground_truth": "the late 12th Century",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Where is the Bubblegum Alley, that is similar to Gum Wall, located in California?",
+    "ground_truth": "San Luis Obispo, California",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "At what venue was the January 2, 2012 game featured the University of Louisville team?",
+    "ground_truth": "Mercedes-Benz Superdome",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which film was Oscar nominated, LaLee's Kin: The Legacy of Cotton or Gimme Shelter, the 1970 Rolling Stones documentary?",
+    "ground_truth": "LaLee's Kin: The Legacy of Cotton",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Which board game was published most recently, Pirate's Cove or Catan?",
+    "ground_truth": "Pirate's Cove",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Alice David is the voice of Lara Croft in a video game developed by which company ?",
+    "ground_truth": "Crystal Dynamics",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which Eminem album included vocals from a singer who had an album titled \"Unapologetic\"?",
+    "ground_truth": "\"The Marshall Mathers LP 2\"",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "This American crime film set in South Los Angeles was written and directed by the same director and writer of screenwriter of \"Street Kings\", \"End of Watch\", \"Sabotage\", \"Fury\" and what other film? ",
+    "ground_truth": "Suicide Squad",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "SuperMansion starred the actress who had a recurring role as whom on Workaholics?",
+    "ground_truth": "Jillian Belk",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "The 1974 Texas Tech Raiders football team represented what public research university in Lubbock, Texas?",
+    "ground_truth": "Texas Tech University",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "During Siege of Bharatpur, which Commander-in-Chief of Ireland and Commander-in-Chief of India contributed to the storming of the castle?",
+    "ground_truth": "Lord Combermere",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "For what type of work is the production company for The Year Without a Santa Claus best known?",
+    "ground_truth": "seasonal television specials, particularly its work in stop motion animation",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What year was the film that starred the composer for \"The Naked Brothers Band\"?",
+    "ground_truth": "2014",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "The author of Sexual Politics attended which British University?",
+    "ground_truth": "Oxford",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Who had the best singles ranking, Roberta Vinci or Jorge Lozano?",
+    "ground_truth": "Roberta Vinci",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "Both Truth in Science and Discovery embrace what campaign?",
+    "ground_truth": "\"Teach the Controversy\" campaign",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Josey Scott and Ian Watkins were both promising musicians. Which of these talented men was incarcerated, impacting his career with a rock band?",
+    "ground_truth": "Lostprophets disbanded in 2013 after Watkins was charged with sexual offences in late 2012.",
+    "level": "hard",
+    "type": "comparison"
+  },
+  {
+    "question": "The movies Queen of Blood and Battle Beyond the Sun both contained scenes from what 1959 Soviet feature?",
+    "ground_truth": "Nebo Zovyot",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Who was born first, Erika Jayne or Marco Da Silva",
+    "ground_truth": "Erika Jayne",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "When did the English local newspaper, featuring the sculpture and war memorial in the Forbury gardens, change names?",
+    "ground_truth": "2009",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "What is the name of the Isles who were led by Aonghus Mór and covered a total land area of over 8300 km2?",
+    "ground_truth": "Kingdom of the Isles",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Who is Bruce Spizer an expert on, known as the most influential act of the rock era?",
+    "ground_truth": "The Beatles",
+    "level": "hard",
+    "type": "bridge"
+  },
+  {
+    "question": "Which song was behind the third single on the album  \"A Lot About Livin' (And a Little 'bout Love)\" for two weeks on the country charts?",
+    "ground_truth": "\"We'll Burn That Bridge\"",
+    "level": "hard",
+    "type": "bridge"
+  }
+]

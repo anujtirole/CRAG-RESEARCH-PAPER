@@ -1,0 +1,11 @@
+RAGAS failure report
+generated: 2026-06-10 21:15:06
+Counts of per-query RAGAS evaluations that succeeded vs. failed
+(failure = batch error after retries, per-sample timeout/parse error,
+ or RAGAS returning NaN for that sample).
+================================================================
+
+[agentic]  rows=150  batches_failed=0/10
+  faithfulness           scored= 142   failed=   8
+  answer_relevancy       scored= 148   failed=   2
+  context_precision      scored= 150   failed=   0

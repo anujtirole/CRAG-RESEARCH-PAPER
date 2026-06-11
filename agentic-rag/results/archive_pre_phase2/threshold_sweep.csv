@@ -1,0 +1,2 @@
+tau,mean_latency_s,mean_n_attempts,mean_confidence,low_conf_count,faithfulness,answer_relevancy,context_precision
+0.4,15.936108254999954,1.75,0.43200000000000005,7,0.7587719298245613,0.3878762367719247,0.6527777777393517

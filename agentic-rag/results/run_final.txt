@@ -1,0 +1,1489 @@
+C:\Users\ANUJ\AppData\Local\Programs\Python\Python313\Lib\site-packages\instructor\providers\gemini\client.py:5: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai  # type: ignore[import-not-found]
+C:\Users\ANUJ\OneDrive\Desktop\CRAG RESEARCH PAPER\agentic-rag\evaluate.py:47: DeprecationWarning: Importing Faithfulness from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import Faithfulness
+  from ragas.metrics import Faithfulness, AnswerRelevancy
+C:\Users\ANUJ\OneDrive\Desktop\CRAG RESEARCH PAPER\agentic-rag\evaluate.py:47: DeprecationWarning: Importing AnswerRelevancy from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import AnswerRelevancy
+  from ragas.metrics import Faithfulness, AnswerRelevancy
+C:\Users\ANUJ\OneDrive\Desktop\CRAG RESEARCH PAPER\agentic-rag\evaluate.py:51: DeprecationWarning: Importing ContextPrecision from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import ContextPrecision
+  from ragas.metrics import ContextPrecision
+[evaluate] RAGAS loaded successfully.
+[evaluate] config.TAU overridden to 0.4
+Loaded 150 queries from C:\Users\ANUJ\OneDrive\Desktop\CRAG RESEARCH PAPER\agentic-rag\data\queries_hotpot.json
+[retriever] Loading embedding model: BAAI/bge-base-en-v1.5 (CPU)
+[retriever] ChromaDB collection 'rag_corpus' loaded — 1494 chunks
+[reranker] Loading cross-encoder: BAAI/bge-reranker-base (CPU)
+
+Running all 3 conditions on 150 queries…
+Queries:   0%|          | 0/150 [00:00<?, ?q/s]Queries:   1%|          | 1/150 [00:44<1:50:00, 44.30s/q]Queries:   1%|▏         | 2/150 [01:14<1:28:11, 35.75s/q]Queries:   2%|▏         | 3/150 [02:14<1:55:41, 47.22s/q]Queries:   3%|▎         | 4/150 [03:10<2:02:31, 50.35s/q]Queries:   3%|▎         | 5/150 [03:40<1:44:08, 43.09s/q]Queries:   4%|▍         | 6/150 [04:13<1:35:14, 39.69s/q]Queries:   5%|▍         | 7/150 [04:59<1:39:55, 41.92s/q]Queries:   5%|▌         | 8/150 [05:34<1:33:36, 39.56s/q]Queries:   6%|▌         | 9/150 [06:07<1:28:00, 37.45s/q]Queries:   7%|▋         | 10/150 [06:41<1:25:14, 36.53s/q]Queries:   7%|▋         | 11/150 [07:18<1:24:31, 36.48s/q]Queries:   8%|▊         | 12/150 [07:48<1:19:38, 34.62s/q]Queries:   9%|▊         | 13/150 [08:45<1:34:41, 41.47s/q]Queries:   9%|▉         | 14/150 [09:18<1:27:58, 38.81s/q]Queries:  10%|█         | 15/150 [09:40<1:15:46, 33.68s/q]Queries:  11%|█         | 16/150 [10:06<1:10:37, 31.62s/q]Queries:  11%|█▏        | 17/150 [10:42<1:12:46, 32.83s/q]Queries:  12%|█▏        | 18/150 [11:02<1:03:59, 29.09s/q]Queries:  13%|█▎        | 19/150 [11:43<1:11:15, 32.64s/q]Queries:  13%|█▎        | 20/150 [12:20<1:13:35, 33.97s/q]Queries:  14%|█▍        | 21/150 [12:47<1:07:59, 31.62s/q]Queries:  15%|█▍        | 22/150 [13:08<1:00:43, 28.46s/q]Queries:  15%|█▌        | 23/150 [13:48<1:07:50, 32.05s/q]Queries:  16%|█▌        | 24/150 [14:22<1:08:30, 32.62s/q]Queries:  17%|█▋        | 25/150 [14:43<1:00:44, 29.16s/q]Queries:  17%|█▋        | 26/150 [15:06<56:16, 27.23s/q]  Queries:  18%|█▊        | 27/150 [15:32<54:56, 26.80s/q]Queries:  19%|█▊        | 28/150 [15:54<51:44, 25.45s/q]Queries:  19%|█▉        | 29/150 [16:17<49:45, 24.68s/q]Queries:  20%|██        | 30/150 [16:36<46:15, 23.13s/q]Queries:  21%|██        | 31/150 [17:02<47:13, 23.81s/q]Queries:  21%|██▏       | 32/150 [17:33<51:01, 25.94s/q]Queries:  22%|██▏       | 33/150 [17:54<47:42, 24.47s/q]Queries:  23%|██▎       | 34/150 [18:19<47:59, 24.82s/q]Queries:  23%|██▎       | 35/150 [18:42<46:12, 24.11s/q]Queries:  24%|██▍       | 36/150 [19:07<46:35, 24.53s/q]Queries:  25%|██▍       | 37/150 [19:47<54:35, 28.99s/q]Queries:  25%|██▌       | 38/150 [20:12<52:01, 27.87s/q]Queries:  26%|██▌       | 39/150 [20:37<49:42, 26.87s/q]Queries:  27%|██▋       | 40/150 [21:11<53:38, 29.26s/q]Queries:  27%|██▋       | 41/150 [21:53<59:44, 32.88s/q]Queries:  28%|██▊       | 42/150 [22:30<1:01:41, 34.28s/q]Queries:  29%|██▊       | 43/150 [23:13<1:05:28, 36.72s/q]Queries:  29%|██▉       | 44/150 [23:40<1:00:07, 34.04s/q]Queries:  30%|███       | 45/150 [24:18<1:01:14, 35.00s/q]Queries:  31%|███       | 46/150 [24:43<55:23, 31.96s/q]  Queries:  31%|███▏      | 47/150 [25:08<51:37, 30.08s/q]Queries:  32%|███▏      | 48/150 [25:47<55:34, 32.70s/q]Queries:  33%|███▎      | 49/150 [26:10<50:09, 29.80s/q]Queries:  33%|███▎      | 50/150 [26:51<55:24, 33.25s/q][agentic] Loading cross-encoder: BAAI/bge-reranker-base (CPU)
+  [agentic] attempt 1/2  confidence=0.680  tau=0.40
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What science fiction or speculative fiction young adult series, written in a fir'
+  [agentic] attempt 2/2  confidence=0.300  tau=0.40
+  [agentic] reformulated → 'What science fiction or speculative fiction young adult series written in a firs'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.240  tau=0.40
+  [agentic] reformulated → 'What are the geographical coordinates and proximity of the Laleli Mosque in Lale'
+  [agentic] attempt 2/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What are the geographical coordinates and proximity of the Laleli Mosque in Fati'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What Bangladeshi-British cultural practitioners known by their stage name Aladdi'
+  [agentic] attempt 2/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What Bangladeshi-British cultural practitioners with expertise in organizational'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.480  tau=0.40
+  [agentic] attempt 1/2  confidence=0.440  tau=0.40
+  [agentic] attempt 1/2  confidence=0.480  tau=0.40
+  [agentic] attempt 1/2  confidence=0.440  tau=0.40
+  [agentic] attempt 1/2  confidence=0.500  tau=0.40
+  [agentic] attempt 1/2  confidence=0.300  tau=0.40
+  [agentic] reformulated → 'What year did Guns N' Roses perform a promotional song for an action film featur'
+  [agentic] attempt 2/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What year did Guns N' Roses release a promotional song for an action film featur'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What was the name of the NCAA Division I conference that the Vermont Catamounts '
+  [agentic] attempt 2/2  confidence=0.460  tau=0.40
+  [agentic] attempt 1/2  confidence=0.660  tau=0.40
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What were the years in office for the US president under whom Roger O. Egeberg s'
+  [agentic] attempt 2/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What were the years in office for the US presidents who served concurrently with'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'Which British or English novelist is most closely associated with works such as '
+  [agentic] attempt 2/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'Which British or English novelist is most closely associated with works such as '
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.520  tau=0.40
+  [agentic] attempt 1/2  confidence=0.620  tau=0.40
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What other devices can control or interact with the Apple TV, aside from the App'
+  [agentic] attempt 2/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What other external devices or peripherals can integrate with or communicate wit'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'Which musical performance act, specifically a rock band or singer-songwriter duo'
+  [agentic] attempt 2/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.460  tau=0.40
+  [agentic] attempt 1/2  confidence=0.460  tau=0.40
+  [agentic] attempt 1/2  confidence=0.500  tau=0.40
+  [agentic] attempt 1/2  confidence=0.680  tau=0.40
+  [agentic] attempt 1/2  confidence=0.660  tau=0.40
+  [agentic] attempt 1/2  confidence=0.540  tau=0.40
+  [agentic] attempt 1/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What are the countries of origin for the Japanese rock band Buck-Tick and the Ca'
+  [agentic] attempt 2/2  confidence=0.520  tau=0.40
+  [agentic] attempt 1/2  confidence=0.700  tau=0.40
+  [agentic] attempt 1/2  confidence=0.560  tau=0.40
+  [agentic] attempt 1/2  confidence=0.580  tau=0.40
+  [agentic] attempt 1/2  confidence=0.600  tau=0.40
+  [agentic] attempt 1/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What is the year Carlo Rovelli began working in France as a theoretical physicis'
+  [agentic] attempt 2/2  confidence=0.240  tau=0.40
+  [agentic] reformulated → 'What is the year Carlo Rovelli started working as a theoretical physicist in Fra'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.460  tau=0.40
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.260  tau=0.40
+  [agentic] reformulated → 'What city is home to Columbia University, where Ralph Franklin Hefferline was a '
+  [agentic] attempt 2/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.260  tau=0.40
+  [agentic] reformulated → 'Which breeds of dog include Gordon Setters and Irish Setters in their ancestry: '
+  [agentic] attempt 2/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What breeds of dog that are part of the Collie or Terrier family include Gordon '
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What are the headquarters locations of companies where Sachin Warrier has worked'
+  [agentic] attempt 2/2  confidence=0.340  tau=0.40
+  [agentic] reformulated → 'What are the headquarters locations of companies where Sachin Warrier has held a'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What is the birth year of Masakazu Katsura, the creator of the Japanese manga se'
+  [agentic] attempt 2/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What are the birth year and notable works of Masakazu Katsura, a Japanese manga '
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.580  tau=0.40
+  [agentic] attempt 1/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What were the key roles and responsibilities of Alfred Balk as secretary of the '
+  [agentic] attempt 2/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What were the primary duties and obligations of Alfred Balk as a member of the C'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.600  tau=0.40
+  [agentic] attempt 1/2  confidence=0.440  tau=0.40
+  [agentic] attempt 1/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What type of online discussion forum or platform did Mikhail Gorbachev initiate '
+  [agentic] attempt 2/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.640  tau=0.40
+  [agentic] attempt 1/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What British jet-powered medium bombers were used by the Allies in the Southwest'
+  [agentic] attempt 2/2  confidence=0.300  tau=0.40
+  [agentic] reformulated → 'What British jet-powered medium bombers, specifically first-generation aircraft '
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.360  tau=0.40Queries:  34%|███▍      | 51/150 [27:32<58:44, 35.60s/q]Queries:  35%|███▍      | 52/150 [28:09<58:39, 35.91s/q]Queries:  35%|███▌      | 53/150 [28:46<58:34, 36.23s/q]Queries:  36%|███▌      | 54/150 [29:10<52:02, 32.53s/q]Queries:  37%|███▋      | 55/150 [29:51<55:42, 35.18s/q]Queries:  37%|███▋      | 56/150 [30:32<57:49, 36.90s/q]Queries:  38%|███▊      | 57/150 [31:11<58:07, 37.50s/q]Queries:  39%|███▊      | 58/150 [31:44<55:27, 36.17s/q]Queries:  39%|███▉      | 59/150 [32:09<49:53, 32.89s/q]Queries:  40%|████      | 60/150 [32:31<44:25, 29.62s/q]Queries:  41%|████      | 61/150 [33:13<49:05, 33.10s/q]Queries:  41%|████▏     | 62/150 [33:36<44:08, 30.10s/q]Queries:  42%|████▏     | 63/150 [33:57<39:57, 27.56s/q]Queries:  43%|████▎     | 64/150 [34:36<44:15, 30.88s/q]Queries:  43%|████▎     | 65/150 [35:20<49:21, 34.85s/q]Queries:  44%|████▍     | 66/150 [35:44<44:02, 31.45s/q]Queries:  45%|████▍     | 67/150 [36:19<45:17, 32.74s/q]Queries:  45%|████▌     | 68/150 [36:42<40:31, 29.65s/q]Queries:  46%|████▌     | 69/150 [37:05<37:18, 27.64s/q]Queries:  47%|████▋     | 70/150 [37:42<40:41, 30.52s/q]Queries:  47%|████▋     | 71/150 [38:04<36:51, 27.99s/q]Queries:  48%|████▊     | 72/150 [38:27<34:32, 26.57s/q]Queries:  49%|████▊     | 73/150 [38:52<33:17, 25.95s/q]Queries:  49%|████▉     | 74/150 [39:27<36:20, 28.69s/q]Queries:  50%|█████     | 75/150 [40:08<40:29, 32.40s/q]Queries:  51%|█████     | 76/150 [40:29<35:51, 29.07s/q]Queries:  51%|█████▏    | 77/150 [41:06<38:14, 31.43s/q]Queries:  52%|█████▏    | 78/150 [41:31<35:30, 29.59s/q]Queries:  53%|█████▎    | 79/150 [41:52<31:39, 26.76s/q]Queries:  53%|█████▎    | 80/150 [42:13<29:20, 25.15s/q]Queries:  54%|█████▍    | 81/150 [42:34<27:36, 24.01s/q]Queries:  55%|█████▍    | 82/150 [43:10<31:01, 27.37s/q]Queries:  55%|█████▌    | 83/150 [43:34<29:41, 26.58s/q]Queries:  56%|█████▌    | 84/150 [43:55<27:20, 24.86s/q]Queries:  57%|█████▋    | 85/150 [44:19<26:39, 24.61s/q]Queries:  57%|█████▋    | 86/150 [44:59<31:14, 29.29s/q]Queries:  58%|█████▊    | 87/150 [45:22<28:44, 27.37s/q]Queries:  59%|█████▊    | 88/150 [45:46<26:59, 26.12s/q]Queries:  59%|█████▉    | 89/150 [46:08<25:19, 24.91s/q]Queries:  60%|██████    | 90/150 [46:28<23:38, 23.64s/q]Queries:  61%|██████    | 91/150 [47:04<26:45, 27.21s/q]Queries:  61%|██████▏   | 92/150 [47:23<23:56, 24.77s/q]Queries:  62%|██████▏   | 93/150 [47:43<22:16, 23.45s/q]Queries:  63%|██████▎   | 94/150 [48:07<21:56, 23.51s/q]
+  [agentic] reformulated → 'What were the year and conference name for the 14th season of the Big 12 Confere'
+  [agentic] attempt 2/2  confidence=0.200  tau=0.40
+  [agentic] reformulated → 'What were the year and conference name for the 14th season of the Big 12 Confere'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What was the number of hypermarkets operated by the company that acquired Euroma'
+  [agentic] attempt 2/2  confidence=0.260  tau=0.40
+  [agentic] reformulated → 'What was the number of Carrefour-operated hypermarkets at the end of 2016, speci'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.280  tau=0.40
+  [agentic] reformulated → 'What NASCAR tracks in the Midwestern United States host a 500-mile race annually'
+  [agentic] attempt 2/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What NASCAR tracks in the Midwestern United States host a 400-500 mile race annu'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What are the names of the songwriters and collaborators who contributed to Ellie'
+  [agentic] attempt 2/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What are the names of the songwriting and production personnel who contributed t'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.240  tau=0.40
+  [agentic] reformulated → 'Which Australian city founded in 1838 contains a co-educational boarding school '
+  [agentic] attempt 2/2  confidence=0.280  tau=0.40
+  [agentic] reformulated → 'Which Australian city founded in 1838 has a co-educational boarding school model'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.240  tau=0.40
+  [agentic] reformulated → 'What oversteering technique is employed in D1NZ drifting competitions, specifica'
+  [agentic] attempt 2/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What rear-wheel oversteer technique or method involving purposeful loss of tract'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What are the birthdates of Keith Bostic and Jerry Glanville?'
+  [agentic] attempt 2/2  confidence=0.540  tau=0.40
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What distinction is held by Tyrone Curtis "Muggsy" Bogues, who played for the Ch'
+  [agentic] attempt 2/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What notable achievements or records does Tyrone Curtis "Muggsy" Bogues hold, pa'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.640  tau=0.40
+  [agentic] attempt 1/2  confidence=0.440  tau=0.40
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What are the characteristics of traditional English folk songs with Roud Folk So'
+  [agentic] attempt 2/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What are the traditional melodic, harmonic, and lyrical characteristics of Engli'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'Scott Parkin has been a vocal critic of ExxonMobil and another multinational oil'
+  [agentic] attempt 2/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'Scott Parkin's criticisms of fossil fuel extraction and global environmental deg'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.520  tau=0.40
+  [agentic] attempt 1/2  confidence=0.260  tau=0.40
+  [agentic] reformulated → 'What larger boxing organizations are recognized by the International Boxing Hall'
+  [agentic] attempt 2/2  confidence=0.440  tau=0.40
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What is the name of the EFL Cup for the 2017-18 season, considering it was spons'
+  [agentic] attempt 2/2  confidence=0.260  tau=0.40
+  [agentic] reformulated → 'What are the names of the English Football League (EFL) Cup tournaments for the '
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.660  tau=0.40
+  [agentic] attempt 1/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.440  tau=0.40
+  [agentic] attempt 1/2  confidence=0.280  tau=0.40
+  [agentic] reformulated → 'What was the title of the 1996 loose adaptation of William Shakespeare's Romeo a'
+  [agentic] attempt 2/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What is the name of the former Governor of Arkansas who served as President duri'
+  [agentic] attempt 2/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What is the name of the former Governor of Arkansas who served as President duri'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.640  tau=0.40
+  [agentic] attempt 1/2  confidence=0.300  tau=0.40
+  [agentic] reformulated → 'What are the full names of the actresses who have portrayed private investigator'
+  [agentic] attempt 2/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What are the full names of actresses who have portrayed private investigator Bob'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.460  tau=0.40
+  [agentic] attempt 1/2  confidence=0.480  tau=0.40
+  [agentic] attempt 1/2  confidence=0.560  tau=0.40
+  [agentic] attempt 1/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What are the stage names of American rock singers Bob Seger and Robert Clark Seg'
+  [agentic] attempt 2/2  confidence=0.280  tau=0.40
+  [agentic] reformulated → 'What are the stage names used by American rock musicians Robert Clark Seger and '
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.440  tau=0.40
+  [agentic] attempt 1/2  confidence=0.480  tau=0.40
+  [agentic] attempt 1/2  confidence=0.680  tau=0.40
+  [agentic] attempt 1/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What is the birthdate of Paul Manafort, a senior advisor to Donald Trump's presi'
+  [agentic] attempt 2/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What are the birthdate and relevant professional affiliations of Paul Manafort, '
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.480  tau=0.40
+  [agentic] attempt 1/2  confidence=0.640  tau=0.40
+  [agentic] attempt 1/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.700  tau=0.40
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What academic-led, independent not-for-profit media outlets co-founded by Andrew'
+  [agentic] attempt 2/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What academic-led, independently funded media outlets co-founded by Andrew Jaspa'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.540  tau=0.40
+  [agentic] attempt 1/2  confidence=0.580  tau=0.40
+  [agentic] attempt 1/2  confidence=0.460  tau=0.40
+  [agentic] attempt 1/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What are the dates of the London International Documentary Festival, presented b'Queries:  63%|██████▎   | 95/150 [48:45<25:27, 27.77s/q]Queries:  64%|██████▍   | 96/150 [49:09<23:58, 26.63s/q]Queries:  65%|██████▍   | 97/150 [49:49<27:07, 30.72s/q]Queries:  65%|██████▌   | 98/150 [50:10<24:15, 27.98s/q]Queries:  66%|██████▌   | 99/150 [50:49<26:30, 31.19s/q]Queries:  67%|██████▋   | 100/150 [51:20<25:53, 31.07s/q]Queries:  67%|██████▋   | 101/150 [51:48<24:41, 30.23s/q]Queries:  68%|██████▊   | 102/150 [52:12<22:32, 28.17s/q]Queries:  69%|██████▊   | 103/150 [52:50<24:34, 31.37s/q]Queries:  69%|██████▉   | 104/150 [53:11<21:38, 28.24s/q]Queries:  70%|███████   | 105/150 [53:33<19:41, 26.26s/q]Queries:  71%|███████   | 106/150 [53:54<18:12, 24.83s/q]Queries:  71%|███████▏  | 107/150 [54:26<19:11, 26.78s/q]Queries:  72%|███████▏  | 108/150 [54:48<17:44, 25.35s/q]Queries:  73%|███████▎  | 109/150 [55:11<16:48, 24.59s/q]Queries:  73%|███████▎  | 110/150 [55:32<15:49, 23.74s/q]Queries:  74%|███████▍  | 111/150 [55:56<15:24, 23.70s/q]Queries:  75%|███████▍  | 112/150 [56:31<17:12, 27.18s/q]Queries:  75%|███████▌  | 113/150 [57:10<18:49, 30.52s/q]Queries:  76%|███████▌  | 114/150 [57:31<16:40, 27.79s/q]Queries:  77%|███████▋  | 115/150 [57:53<15:08, 25.95s/q]Queries:  77%|███████▋  | 116/150 [58:29<16:24, 28.96s/q]Queries:  78%|███████▊  | 117/150 [58:52<15:03, 27.39s/q]Queries:  79%|███████▊  | 118/150 [59:33<16:40, 31.28s/q]Queries:  79%|███████▉  | 119/150 [59:55<14:41, 28.44s/q]Queries:  80%|████████  | 120/150 [1:00:16<13:10, 26.36s/q]Queries:  81%|████████  | 121/150 [1:00:40<12:21, 25.56s/q]Queries:  81%|████████▏ | 122/150 [1:01:11<12:40, 27.15s/q]Queries:  82%|████████▏ | 123/150 [1:01:32<11:28, 25.51s/q]Queries:  83%|████████▎ | 124/150 [1:02:09<12:31, 28.90s/q]Queries:  83%|████████▎ | 125/150 [1:02:46<13:00, 31.23s/q]Queries:  84%|████████▍ | 126/150 [1:03:08<11:23, 28.49s/q]Queries:  85%|████████▍ | 127/150 [1:03:28<09:58, 26.03s/q]Queries:  85%|████████▌ | 128/150 [1:03:53<09:26, 25.76s/q]Queries:  86%|████████▌ | 129/150 [1:04:14<08:30, 24.33s/q]Queries:  87%|████████▋ | 130/150 [1:04:55<09:45, 29.27s/q]Queries:  87%|████████▋ | 131/150 [1:05:17<08:34, 27.10s/q]Queries:  88%|████████▊ | 132/150 [1:05:44<08:07, 27.10s/q]Queries:  89%|████████▊ | 133/150 [1:06:18<08:14, 29.08s/q]Queries:  89%|████████▉ | 134/150 [1:06:52<08:08, 30.56s/q]Queries:  90%|█████████ | 135/150 [1:07:15<07:05, 28.37s/q]Queries:  91%|█████████ | 136/150 [1:07:53<07:15, 31.07s/q]Queries:  91%|█████████▏| 137/150 [1:08:25<06:48, 31.40s/q]Queries:  92%|█████████▏| 138/150 [1:08:49<05:49, 29.14s/q]Queries:  93%|█████████▎| 139/150 [1:09:10<04:56, 26.95s/q]Queries:  93%|█████████▎| 140/150 [1:09:32<04:12, 25.26s/q]Queries:  94%|█████████▍| 141/150 [1:09:57<03:47, 25.32s/q]Queries:  95%|█████████▍| 142/150 [1:10:37<03:57, 29.73s/q]Queries:  95%|█████████▌| 143/150 [1:11:09<03:33, 30.47s/q]Queries:  96%|█████████▌| 144/150 [1:11:32<02:49, 28.23s/q]Queries:  97%|█████████▋| 145/150 [1:11:56<02:13, 26.79s/q]
+  [agentic] attempt 2/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What are the dates of the London International Documentary Festival, presented b'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.640  tau=0.40
+  [agentic] attempt 1/2  confidence=0.160  tau=0.40
+  [agentic] reformulated → 'What types of consumer goods or packaged foods did Bordan Tkachuk's company, Vig'
+  [agentic] attempt 2/2  confidence=0.260  tau=0.40
+  [agentic] reformulated → 'What types of packaged foods or consumer goods did Viglen, a UK-based IT company'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.620  tau=0.40
+  [agentic] attempt 1/2  confidence=0.220  tau=0.40
+  [agentic] reformulated → 'What is the location of the diplomatic mission of the Rabat-Salé-Kénitra adminis'
+  [agentic] attempt 2/2  confidence=0.300  tau=0.40
+  [agentic] reformulated → 'What are the coordinates or location details of the Chinese diplomatic mission i'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What are the administrative hierarchies and geographical classifications of Ying'
+  [agentic] attempt 2/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.620  tau=0.40
+  [agentic] attempt 1/2  confidence=0.560  tau=0.40
+  [agentic] attempt 1/2  confidence=0.280  tau=0.40
+  [agentic] reformulated → 'What year was the sibling of the first overall draft pick selected by the Washin'
+  [agentic] attempt 2/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.480  tau=0.40
+  [agentic] attempt 1/2  confidence=0.440  tau=0.40
+  [agentic] attempt 1/2  confidence=0.540  tau=0.40
+  [agentic] attempt 1/2  confidence=0.340  tau=0.40
+  [agentic] reformulated → 'What are the birth years of notable playwrights who have written a play called "'
+  [agentic] attempt 2/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.600  tau=0.40
+  [agentic] attempt 1/2  confidence=0.480  tau=0.40
+  [agentic] attempt 1/2  confidence=0.580  tau=0.40
+  [agentic] attempt 1/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What is the construction period or duration over which the ancient Mesopotamian '
+  [agentic] attempt 2/2  confidence=0.460  tau=0.40
+  [agentic] attempt 1/2  confidence=0.300  tau=0.40
+  [agentic] reformulated → 'What is the birthdate of the British author who wrote the novel "Here We Go Roun'
+  [agentic] attempt 2/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What are the birthdate and biographical details of Hunter Davies, the British au'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.520  tau=0.40
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.340  tau=0.40
+  [agentic] reformulated → 'What are the total number of worldwide golf tournament victories achieved by the'
+  [agentic] attempt 2/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'What are the total number of worldwide golf tournament victories achieved by Rob'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.080  tau=0.40
+  [agentic] reformulated → 'What other political offices or roles did the sponsor or co-sponsor of the DISCL'
+  [agentic] attempt 2/2  confidence=0.300  tau=0.40
+  [agentic] reformulated → 'What other political positions or affiliations did the primary sponsors of a pro'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.520  tau=0.40
+  [agentic] attempt 1/2  confidence=0.760  tau=0.40
+  [agentic] attempt 1/2  confidence=0.520  tau=0.40
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What was Caroline Carver's character role in the 1999 Hallmark Entertainment mad'
+  [agentic] attempt 2/2  confidence=0.540  tau=0.40
+  [agentic] attempt 1/2  confidence=0.540  tau=0.40
+  [agentic] attempt 1/2  confidence=0.360  tau=0.40
+  [agentic] reformulated → 'Which American private equity firm has owned Maxeda since 2004?'
+  [agentic] attempt 2/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'Which US-based private equity firm has held a controlling stake in Maxeda since '
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What English-language supernatural horror or drama films released in 2017 featur'
+  [agentic] attempt 2/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What English-language supernatural horror or drama films released in 2017 featur'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.520  tau=0.40
+  [agentic] attempt 1/2  confidence=0.440  tau=0.40
+  [agentic] attempt 1/2  confidence=0.640  tau=0.40
+  [agentic] attempt 1/2  confidence=0.480  tau=0.40
+  [agentic] attempt 1/2  confidence=0.340  tau=0.40
+  [agentic] reformulated → 'What was the name of the stadium or arena where the University of Louisville's m'
+  [agentic] attempt 2/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What is the name of the venue where the University of Louisville Cardinals men's'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.480  tau=0.40
+  [agentic] attempt 1/2  confidence=0.560  tau=0.40
+  [agentic] attempt 1/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What video game development company produced a Tomb Raider game featuring Lara C'
+  [agentic] attempt 2/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.280  tau=0.40
+  [agentic] reformulated → 'Which Eminem album features vocals from an artist who has released an album titl'
+  [agentic] attempt 2/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.560  tau=0.40
+  [agentic] attempt 1/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What are the names of actresses who had recurring roles in both Workaholics and '
+  [agentic] attempt 2/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What are the names of female comedic actresses who have had recurring roles in b'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What public research institution in Lubbock, Texas, was represented by the 1974 '
+  [agentic] attempt 2/2  confidence=0.540  tau=0.40
+  [agentic] attempt 1/2  confidence=0.420  tau=0.40
+  [agentic] attempt 1/2  confidence=0.640  tau=0.40
+  [agentic] attempt 1/2  confidence=0.480  tau=0.40
+  [agentic] attempt 1/2  confidence=0.400  tau=0.40
+  [agentic] attempt 1/2  confidence=0.320  tau=0.40
+  [agentic] reformulated → 'What were the highest career singles rankings achieved by Roberta Vinci and Jorg'
+  [agentic] attempt 2/2  confidence=0.240  tau=0.40
+  [agentic] reformulated → 'What were the highest career singles rankings achieved by Roberta Vinci and Jorg'
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.380  tau=0.40
+  [agentic] reformulated → 'What campaigns does the Discovery Institute's "Teach the Controversy" initiative'
+  [agentic] attempt 2/2  confidence=0.540  tau=0.40
+  [agentic] attempt 1/2  confidence=0.500  tau=0.40
+  [agentic] attempt 1/2  confidence=0.460  tau=0.40
+  [agentic] attempt 1/2  confidence=0.340  tau=0.40
+  [agentic] reformulated → 'What are the birth dates of Erika Girardi (American singer) and Marco da Silva ('
+  [agentic] attempt 2/2  confidence=0.260  tau=0.40
+  [agentic] reformulated → 'What are the birth dates of Erika Girardi, an American singer-songwriter and tel'Queries:  97%|█████████▋| 146/150 [1:12:34<02:00, 30.18s/q]Queries:  98%|█████████▊| 147/150 [1:12:58<01:24, 28.28s/q]Queries:  99%|█████████▊| 148/150 [1:13:22<00:53, 26.95s/q]Queries:  99%|█████████▉| 149/150 [1:13:45<00:25, 25.95s/q]Queries: 100%|██████████| 150/150 [1:14:07<00:00, 24.62s/q]Queries: 100%|██████████| 150/150 [1:14:07<00:00, 29.65s/q]
+C:\Users\ANUJ\OneDrive\Desktop\CRAG RESEARCH PAPER\agentic-rag\evaluate.py:97: DeprecationWarning: LangchainLLMWrapper is deprecated and will be removed in a future version. Use llm_factory instead: from openai import OpenAI; from ragas.llms import llm_factory; llm = llm_factory('gpt-4o-mini', client=OpenAI(api_key='...'))
+  llm_wrapper = LangchainLLMWrapper(
+C:\Users\ANUJ\OneDrive\Desktop\CRAG RESEARCH PAPER\agentic-rag\evaluate.py:105: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the `langchain-huggingface package and should be used instead. To use it run `pip install -U `langchain-huggingface` and import as `from `langchain_huggingface import HuggingFaceEmbeddings``.
+  emb = HuggingFaceEmbeddings(
+C:\Users\ANUJ\OneDrive\Desktop\CRAG RESEARCH PAPER\agentic-rag\evaluate.py:109: DeprecationWarning: LangchainEmbeddingsWrapper is deprecated and will be removed in a future version. Use the modern embedding providers instead: embedding_factory('openai', model='text-embedding-3-small', client=openai_client) or from ragas.embeddings import OpenAIEmbeddings, GoogleEmbeddings, HuggingFaceEmbeddings
+  emb_wrapper = LangchainEmbeddingsWrapper(emb)
+
+  [agentic] max attempts (2) reached; generating with low-confidence flag
+  [agentic] attempt 1/2  confidence=0.440  tau=0.40
+  [agentic] attempt 1/2  confidence=0.740  tau=0.40
+  [agentic] attempt 1/2  confidence=0.580  tau=0.40
+  [agentic] attempt 1/2  confidence=0.560  tau=0.40
+
+Generation cache saved → C:\Users\ANUJ\OneDrive\Desktop\CRAG RESEARCH PAPER\agentic-rag\results\generation_cache.csv
+
+Computing RAGAS metrics for condition: baseline…
+Evaluating:   0%|          | 0/450 [00:00<?, ?it/s]Evaluating:   0%|          | 1/450 [00:19<2:23:02, 19.11s/it]Evaluating:   0%|          | 2/450 [00:33<2:03:24, 16.53s/it]Evaluating:   1%|          | 3/450 [00:34<1:08:48,  9.24s/it]Evaluating:   1%|          | 4/450 [00:36<48:28,  6.52s/it]  Evaluating:   1%|          | 5/450 [00:41<44:42,  6.03s/it]Evaluating:   1%|▏         | 6/450 [01:07<1:33:19, 12.61s/it]Evaluating:   2%|▏         | 7/450 [01:14<1:18:57, 10.69s/it]Evaluating:   2%|▏         | 8/450 [01:25<1:20:03, 10.87s/it]Exception raised in Job[12]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}Do not use single quotes in your response but double quotes, properly escaped with a backslash.
+-------------------------------
+
+Now perform the same with the following input
+input: {
+    "question": \"The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?\",
+    "answer": \"I don't have enough information in the provided context to answer this question.\"
+}
+Output:
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:   2%|▏         | 9/450 [01:37<1:23:20, 11.34s/it]Evaluating:   2%|▏         | 10/450 [01:44<1:12:40,  9.91s/it]Evaluating:   2%|▏         | 11/450 [01:49<1:02:14,  8.51s/it]Evaluating:   3%|▎         | 12/450 [02:01<1:10:26,  9.65s/it]Evaluating:   3%|▎         | 13/450 [02:07<1:01:03,  8.38s/it]Evaluating:   3%|▎         | 14/450 [02:15<1:00:16,  8.29s/it]Evaluating:   3%|▎         | 15/450 [02:26<1:05:02,  8.97s/it]Evaluating:   4%|▎         | 16/450 [02:30<54:00,  7.47s/it]  Evaluating:   4%|▍         | 17/450 [02:37<54:58,  7.62s/it]Evaluating:   4%|▍         | 18/450 [02:51<1:07:43,  9.41s/it]Exception raised in Job[2]: TimeoutError()
+Exception raised in Job[5]: TimeoutError()
+Exception raised in Job[8]: TimeoutError()
+Exception raised in Job[11]: TimeoutError()
+Exception raised in Job[14]: TimeoutError()
+Evaluating:   4%|▍         | 19/450 [03:00<1:05:32,  9.12s/it]Evaluating:   5%|▌         | 24/450 [03:01<22:28,  3.17s/it]  Evaluating:   6%|▌         | 25/450 [03:12<31:11,  4.40s/it]Evaluating:   6%|▌         | 26/450 [03:21<37:00,  5.24s/it]Exception raised in Job[17]: TimeoutError()
+Evaluating:   6%|▌         | 27/450 [03:33<47:30,  6.74s/it]Evaluating:   6%|▌         | 28/450 [03:36<41:22,  5.88s/it]Evaluating:   6%|▋         | 29/450 [03:38<33:07,  4.72s/it]Exception raised in Job[20]: TimeoutError()
+Evaluating:   7%|▋         | 30/450 [03:41<31:18,  4.47s/it]Evaluating:   7%|▋         | 31/450 [03:48<35:29,  5.08s/it]Evaluating:   7%|▋         | 32/450 [03:50<29:15,  4.20s/it]Evaluating:   7%|▋         | 33/450 [04:00<40:56,  5.89s/it]Evaluating:   8%|▊         | 34/450 [04:16<1:00:25,  8.72s/it]Evaluating:   8%|▊         | 35/450 [04:19<48:58,  7.08s/it]  Exception raised in Job[23]: TimeoutError()
+Evaluating:   8%|▊         | 36/450 [04:25<46:22,  6.72s/it]Evaluating:   8%|▊         | 37/450 [04:32<48:00,  6.98s/it]Evaluating:   8%|▊         | 38/450 [04:35<39:59,  5.82s/it]Exception raised in Job[26]: TimeoutError()
+Evaluating:   9%|▊         | 39/450 [04:49<56:03,  8.18s/it]Evaluating:   9%|▉         | 40/450 [04:55<50:38,  7.41s/it]Evaluating:   9%|▉         | 41/450 [04:56<37:59,  5.57s/it]Evaluating:   9%|▉         | 42/450 [05:11<57:13,  8.41s/it]Exception raised in Job[29]: TimeoutError()
+Evaluating:  10%|▉         | 43/450 [05:15<47:53,  7.06s/it]Evaluating:  10%|▉         | 44/450 [05:19<40:51,  6.04s/it]Evaluating:  10%|█         | 45/450 [05:32<56:18,  8.34s/it]Exception raised in Job[32]: TimeoutError()
+Evaluating:  10%|█         | 46/450 [05:38<49:38,  7.37s/it]Evaluating:  10%|█         | 47/450 [05:45<49:04,  7.31s/it]Evaluating:  11%|█         | 48/450 [05:53<50:52,  7.59s/it]Evaluating:  11%|█         | 49/450 [05:56<42:11,  6.31s/it]Exception raised in Job[35]: TimeoutError()
+Exception raised in Job[38]: TimeoutError()
+Evaluating:  11%|█         | 50/450 [06:00<36:02,  5.41s/it]Evaluating:  12%|█▏        | 52/450 [06:14<40:54,  6.17s/it]Exception raised in Job[41]: TimeoutError()
+Evaluating:  12%|█▏        | 53/450 [06:21<42:50,  6.48s/it]Evaluating:  12%|█▏        | 54/450 [06:23<34:37,  5.25s/it]Exception raised in Job[44]: TimeoutError()
+Evaluating:  12%|█▏        | 55/450 [06:38<51:39,  7.85s/it]Evaluating:  12%|█▏        | 56/450 [06:38<38:28,  5.86s/it]Evaluating:  13%|█▎        | 57/450 [06:40<30:08,  4.60s/it]Exception raised in Job[47]: TimeoutError()
+Evaluating:  13%|█▎        | 58/450 [06:50<40:42,  6.23s/it]Evaluating:  13%|█▎        | 59/450 [07:00<47:35,  7.30s/it]Evaluating:  13%|█▎        | 60/450 [07:01<35:14,  5.42s/it]Evaluating:  14%|█▎        | 61/450 [07:16<54:20,  8.38s/it]Evaluating:  14%|█▍        | 62/450 [07:18<40:25,  6.25s/it]Exception raised in Job[50]: TimeoutError()
+Evaluating:  14%|█▍        | 63/450 [07:19<31:02,  4.81s/it]Evaluating:  14%|█▍        | 64/450 [07:27<37:02,  5.76s/it]Evaluating:  14%|█▍        | 65/450 [07:33<38:27,  5.99s/it]Exception raised in Job[53]: TimeoutError()
+Evaluating:  15%|█▍        | 66/450 [07:35<30:45,  4.81s/it]Evaluating:  15%|█▍        | 67/450 [07:49<47:16,  7.40s/it]Exception raised in Job[56]: TimeoutError()
+Evaluating:  15%|█▌        | 68/450 [07:56<46:36,  7.32s/it]Evaluating:  15%|█▌        | 69/450 [08:13<1:03:55, 10.07s/it]Evaluating:  16%|█▌        | 70/450 [08:16<51:20,  8.11s/it]  Exception raised in Job[59]: TimeoutError()
+Evaluating:  16%|█▌        | 71/450 [08:19<40:44,  6.45s/it]Evaluating:  16%|█▌        | 72/450 [08:29<47:03,  7.47s/it]Evaluating:  16%|█▌        | 73/450 [08:31<37:54,  6.03s/it]Evaluating:  16%|█▋        | 74/450 [08:39<40:35,  6.48s/it]Exception raised in Job[62]: TimeoutError()
+Evaluating:  17%|█▋        | 75/450 [08:45<39:28,  6.32s/it]Evaluating:  17%|█▋        | 76/450 [08:54<44:19,  7.11s/it]Exception raised in Job[65]: TimeoutError()
+Evaluating:  17%|█▋        | 77/450 [09:00<41:58,  6.75s/it]Evaluating:  17%|█▋        | 78/450 [09:00<30:30,  4.92s/it]Evaluating:  18%|█▊        | 79/450 [09:10<40:16,  6.51s/it]Exception raised in Job[68]: TimeoutError()
+Evaluating:  18%|█▊        | 80/450 [09:21<47:49,  7.76s/it]Evaluating:  18%|█▊        | 81/450 [09:38<1:03:47, 10.37s/it]Exception raised in Job[71]: TimeoutError()
+Evaluating:  18%|█▊        | 82/450 [09:38<46:06,  7.52s/it]  Evaluating:  18%|█▊        | 83/450 [09:43<41:12,  6.74s/it]Evaluating:  19%|█▊        | 84/450 [09:53<47:10,  7.73s/it]Evaluating:  19%|█▉        | 85/450 [09:59<42:34,  7.00s/it]Exception raised in Job[74]: TimeoutError()
+Evaluating:  19%|█▉        | 86/450 [10:00<32:04,  5.29s/it]Exception raised in Job[88]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the response. If the response is a statement that can be turned into a question by changing it from declarative to interrogative mood, then it's committal. Otherwise, it's noncommittal.
+
+For the input:
+{
+    "response": "Arena of Khazan"
+}
+
+We can generate a question for the given answer as follows:
+
+What is Arena of Khazan?
+
+However, this response does not provide enough information to determine if the answer is noncommittal or committal. Since it's a statement that doesn't convey any uncertainty or vagueness, we'll consider it committal.
+
+Here's the output in JSON format:
+{
+  "question": "What is Arena of Khazan?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  19%|█▉        | 87/450 [10:07<34:44,  5.74s/it]Exception raised in Job[77]: TimeoutError()
+Evaluating:  20%|█▉        | 88/450 [10:18<43:43,  7.25s/it]Evaluating:  20%|█▉        | 89/450 [10:19<33:12,  5.52s/it]Evaluating:  20%|██        | 90/450 [10:26<35:14,  5.87s/it]Exception raised in Job[80]: TimeoutError()
+Evaluating:  20%|██        | 91/450 [10:33<38:31,  6.44s/it]Evaluating:  20%|██        | 92/450 [10:36<30:33,  5.12s/it]Evaluating:  21%|██        | 93/450 [10:46<39:38,  6.66s/it]Evaluating:  21%|██        | 94/450 [10:55<44:19,  7.47s/it]Exception raised in Job[83]: TimeoutError()
+Evaluating:  21%|██        | 95/450 [10:56<32:39,  5.52s/it]Evaluating:  21%|██▏       | 96/450 [11:03<35:08,  5.96s/it]Evaluating:  22%|██▏       | 97/450 [11:13<41:44,  7.10s/it]Exception raised in Job[86]: TimeoutError()
+Evaluating:  22%|██▏       | 98/450 [11:19<39:27,  6.73s/it]Evaluating:  22%|██▏       | 99/450 [11:23<35:24,  6.05s/it]Evaluating:  22%|██▏       | 100/450 [11:32<40:09,  6.88s/it]Evaluating:  22%|██▏       | 101/450 [11:36<34:14,  5.89s/it]Exception raised in Job[89]: TimeoutError()
+Evaluating:  23%|██▎       | 102/450 [11:39<29:25,  5.07s/it]Evaluating:  23%|██▎       | 103/450 [11:58<54:28,  9.42s/it]Exception raised in Job[92]: TimeoutError()
+Evaluating:  23%|██▎       | 104/450 [12:00<40:11,  6.97s/it]Evaluating:  23%|██▎       | 105/450 [12:02<32:32,  5.66s/it]Evaluating:  24%|██▎       | 106/450 [12:14<42:48,  7.47s/it]Evaluating:  24%|██▍       | 107/450 [12:18<37:49,  6.62s/it]Exception raised in Job[95]: TimeoutError()
+Evaluating:  24%|██▍       | 108/450 [12:21<30:52,  5.42s/it]Evaluating:  24%|██▍       | 109/450 [12:40<54:23,  9.57s/it]Evaluating:  24%|██▍       | 110/450 [12:41<39:46,  7.02s/it]Exception raised in Job[98]: TimeoutError()
+Evaluating:  25%|██▍       | 111/450 [12:43<31:01,  5.49s/it]Exception raised in Job[101]: TimeoutError()
+Evaluating:  25%|██▍       | 112/450 [13:00<49:45,  8.83s/it]Evaluating:  25%|██▌       | 113/450 [13:03<40:00,  7.12s/it]Evaluating:  25%|██▌       | 114/450 [13:05<31:42,  5.66s/it]Exception raised in Job[104]: TimeoutError()
+Evaluating:  26%|██▌       | 115/450 [13:19<45:01,  8.07s/it]Evaluating:  26%|██▌       | 116/450 [13:30<49:25,  8.88s/it]Evaluating:  26%|██▌       | 117/450 [13:31<36:41,  6.61s/it]Exception raised in Job[107]: TimeoutError()
+Evaluating:  26%|██▌       | 118/450 [13:36<32:54,  5.95s/it]Exception raised in Job[110]: TimeoutError()
+Evaluating:  26%|██▋       | 119/450 [13:56<57:02, 10.34s/it]Evaluating:  27%|██▋       | 120/450 [13:57<41:29,  7.54s/it]Evaluating:  27%|██▋       | 121/450 [14:01<34:45,  6.34s/it]Evaluating:  27%|██▋       | 122/450 [14:13<44:03,  8.06s/it]Evaluating:  27%|██▋       | 123/450 [14:18<39:37,  7.27s/it]Exception raised in Job[113]: TimeoutError()
+Evaluating:  28%|██▊       | 124/450 [14:19<28:31,  5.25s/it]Evaluating:  28%|██▊       | 125/450 [14:35<46:54,  8.66s/it]Exception raised in Job[116]: TimeoutError()
+Evaluating:  28%|██▊       | 126/450 [14:36<33:08,  6.14s/it]Evaluating:  28%|██▊       | 127/450 [14:43<35:22,  6.57s/it]Evaluating:  28%|██▊       | 128/450 [14:52<39:10,  7.30s/it]Exception raised in Job[119]: TimeoutError()
+Evaluating:  29%|██▊       | 129/450 [15:00<39:13,  7.33s/it]Evaluating:  29%|██▉       | 130/450 [15:07<38:38,  7.25s/it]Evaluating:  29%|██▉       | 131/450 [15:16<42:46,  8.04s/it]Exception raised in Job[122]: TimeoutError()
+Evaluating:  29%|██▉       | 132/450 [15:18<32:57,  6.22s/it]Exception raised in Job[133]: OutputParserException(Invalid json output: To generate a question for the given answer, we need to identify what is being asked. In this case, the response is a single name: "Nelson Rockefeller". We can assume that the question being answered is likely about who Nelson Rockefeller is.
+
+Here's an example of how to generate a question and determine if the answer is noncommittal:
+
+* Question: "Who is Nelson Rockefeller?"
+* Noncommittal: 0 (since the answer provides a specific name)
+
+However, without more context or information about what exactly is being asked, it's difficult to provide a more specific question. But we can still generate a basic question and determine if the answer is noncommittal.
+
+Here's the output in JSON format:
+
+{
+  "question": "Who is Nelson Rockefeller?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  30%|██▉       | 133/450 [15:23<30:30,  5.78s/it]Evaluating:  30%|██▉       | 134/450 [15:41<48:47,  9.27s/it]Exception raised in Job[125]: TimeoutError()
+Evaluating:  30%|███       | 135/450 [15:41<35:18,  6.73s/it]Evaluating:  30%|███       | 136/450 [15:42<25:32,  4.88s/it]Evaluating:  30%|███       | 137/450 [16:01<46:56,  9.00s/it]Evaluating:  31%|███       | 138/450 [16:02<35:11,  6.77s/it]Exception raised in Job[128]: TimeoutError()
+Evaluating:  31%|███       | 139/450 [16:03<26:01,  5.02s/it]Evaluating:  31%|███       | 140/450 [16:13<33:43,  6.53s/it]Evaluating:  31%|███▏      | 141/450 [16:26<43:03,  8.36s/it]Exception raised in Job[131]: TimeoutError()
+Evaluating:  32%|███▏      | 142/450 [16:30<36:14,  7.06s/it]Evaluating:  32%|███▏      | 143/450 [16:37<36:39,  7.16s/it]Evaluating:  32%|███▏      | 144/450 [16:44<35:47,  7.02s/it]Evaluating:  32%|███▏      | 145/450 [16:53<38:16,  7.53s/it]Exception raised in Job[134]: TimeoutError()
+Evaluating:  32%|███▏      | 146/450 [16:56<32:01,  6.32s/it]Evaluating:  33%|███▎      | 147/450 [17:00<27:33,  5.46s/it]Evaluating:  33%|███▎      | 148/450 [17:11<36:02,  7.16s/it]Exception raised in Job[137]: TimeoutError()
+Evaluating:  33%|███▎      | 149/450 [17:13<28:13,  5.63s/it]Evaluating:  33%|███▎      | 150/450 [17:23<34:30,  6.90s/it]Evaluating:  34%|███▎      | 151/450 [17:35<42:55,  8.62s/it]Exception raised in Job[140]: TimeoutError()
+Evaluating:  34%|███▍      | 153/450 [17:37<25:17,  5.11s/it]Exception raised in Job[143]: TimeoutError()
+Evaluating:  34%|███▍      | 154/450 [17:52<37:10,  7.54s/it]Evaluating:  34%|███▍      | 155/450 [17:58<34:32,  7.03s/it]Evaluating:  35%|███▍      | 156/450 [18:01<29:34,  6.03s/it]Evaluating:  35%|███▍      | 157/450 [18:15<39:36,  8.11s/it]Exception raised in Job[146]: TimeoutError()
+Evaluating:  35%|███▌      | 158/450 [18:17<30:53,  6.35s/it]Evaluating:  35%|███▌      | 159/450 [18:17<23:09,  4.77s/it]Evaluating:  36%|███▌      | 160/450 [18:40<48:38, 10.06s/it]Exception raised in Job[149]: TimeoutError()
+Evaluating:  36%|███▌      | 161/450 [18:41<34:39,  7.20s/it]Evaluating:  36%|███▌      | 162/450 [18:43<28:04,  5.85s/it]Evaluating:  36%|███▌      | 163/450 [19:01<45:05,  9.43s/it]Exception raised in Job[152]: TimeoutError()
+Evaluating:  37%|███▋      | 165/450 [19:06<29:01,  6.11s/it]Exception raised in Job[155]: TimeoutError()
+Evaluating:  37%|███▋      | 166/450 [19:13<30:38,  6.47s/it]Evaluating:  37%|███▋      | 167/450 [19:26<38:00,  8.06s/it]Evaluating:  37%|███▋      | 168/450 [19:29<31:32,  6.71s/it]Exception raised in Job[158]: TimeoutError()
+Evaluating:  38%|███▊      | 169/450 [19:37<33:40,  7.19s/it]Evaluating:  38%|███▊      | 170/450 [19:46<36:12,  7.76s/it]Evaluating:  38%|███▊      | 171/450 [19:49<29:33,  6.36s/it]Exception raised in Job[161]: TimeoutError()
+Evaluating:  38%|███▊      | 172/450 [19:56<30:24,  6.56s/it]Evaluating:  38%|███▊      | 173/450 [20:00<26:12,  5.68s/it]Evaluating:  39%|███▊      | 174/450 [20:12<35:12,  7.65s/it]Exception raised in Job[164]: TimeoutError()
+Evaluating:  39%|███▉      | 175/450 [20:13<25:16,  5.51s/it]Evaluating:  39%|███▉      | 176/450 [20:23<31:11,  6.83s/it]Evaluating:  39%|███▉      | 177/450 [20:32<34:49,  7.65s/it]Exception raised in Job[167]: TimeoutError()
+Evaluating:  40%|███▉      | 178/450 [20:35<28:28,  6.28s/it]Evaluating:  40%|███▉      | 179/450 [20:46<33:57,  7.52s/it]Evaluating:  40%|████      | 180/450 [20:48<26:42,  5.94s/it]Evaluating:  40%|████      | 181/450 [20:56<29:58,  6.69s/it]Exception raised in Job[170]: TimeoutError()
+Evaluating:  40%|████      | 182/450 [20:58<22:42,  5.08s/it]Evaluating:  41%|████      | 183/450 [21:05<26:07,  5.87s/it]Evaluating:  41%|████      | 184/450 [21:14<29:16,  6.60s/it]Exception raised in Job[173]: TimeoutError()
+Evaluating:  41%|████      | 185/450 [21:17<24:03,  5.45s/it]Evaluating:  41%|████▏     | 186/450 [21:20<21:25,  4.87s/it]Evaluating:  42%|████▏     | 187/450 [21:33<32:19,  7.38s/it]Evaluating:  42%|████▏     | 188/450 [21:35<24:15,  5.56s/it]Exception raised in Job[176]: TimeoutError()
+Evaluating:  42%|████▏     | 189/450 [21:41<24:49,  5.71s/it]Evaluating:  42%|████▏     | 190/450 [21:54<34:36,  7.99s/it]Evaluating:  42%|████▏     | 191/450 [21:57<28:14,  6.54s/it]Exception raised in Job[179]: TimeoutError()
+Evaluating:  43%|████▎     | 192/450 [22:01<24:54,  5.79s/it]Evaluating:  43%|████▎     | 193/450 [22:18<38:42,  9.04s/it]Evaluating:  43%|████▎     | 194/450 [22:21<30:56,  7.25s/it]Exception raised in Job[182]: TimeoutError()
+Evaluating:  43%|████▎     | 195/450 [22:26<27:45,  6.53s/it]Evaluating:  44%|████▎     | 196/450 [22:38<34:53,  8.24s/it]Evaluating:  44%|████▍     | 197/450 [22:41<28:02,  6.65s/it]Exception raised in Job[185]: TimeoutError()
+Evaluating:  44%|████▍     | 198/450 [22:46<26:31,  6.32s/it]Evaluating:  44%|████▍     | 199/450 [22:57<31:35,  7.55s/it]Exception raised in Job[188]: TimeoutError()
+Evaluating:  44%|████▍     | 200/450 [23:00<25:54,  6.22s/it]Exception raised in Job[204]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}Do not use single quotes in your response but double quotes, properly escaped with a backslash.
+
+-------------------------------
+Now perform the same with the following input
+input: {
+    "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+    "answer": "I don't have enough information in the provided context to answer this question."
+}
+Output:
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  45%|████▍     | 202/450 [23:22<35:04,  8.49s/it]Exception raised in Job[191]: TimeoutError()
+Evaluating:  45%|████▌     | 203/450 [23:23<26:44,  6.50s/it]Evaluating:  45%|████▌     | 204/450 [23:23<20:27,  4.99s/it]Evaluating:  46%|████▌     | 205/450 [23:39<32:25,  7.94s/it]Evaluating:  46%|████▌     | 206/450 [23:42<26:28,  6.51s/it]Exception raised in Job[194]: TimeoutError()
+Evaluating:  46%|████▌     | 207/450 [23:46<23:04,  5.70s/it]Exception raised in Job[197]: TimeoutError()
+Evaluating:  46%|████▌     | 208/450 [23:58<30:21,  7.53s/it]Evaluating:  46%|████▋     | 209/450 [24:00<23:40,  5.89s/it]Evaluating:  47%|████▋     | 210/450 [24:01<18:10,  4.54s/it]Exception raised in Job[200]: TimeoutError()
+Evaluating:  47%|████▋     | 211/450 [24:17<31:03,  7.80s/it]Evaluating:  47%|████▋     | 212/450 [24:18<23:51,  6.01s/it]Evaluating:  47%|████▋     | 213/450 [24:20<18:22,  4.65s/it]Evaluating:  48%|████▊     | 214/450 [24:32<26:50,  6.82s/it]Exception raised in Job[203]: TimeoutError()
+Evaluating:  48%|████▊     | 215/450 [24:35<22:06,  5.64s/it]Evaluating:  48%|████▊     | 216/450 [24:37<17:53,  4.59s/it]Evaluating:  48%|████▊     | 217/450 [24:52<29:55,  7.71s/it]Evaluating:  48%|████▊     | 218/450 [24:56<25:58,  6.72s/it]Exception raised in Job[206]: TimeoutError()
+Evaluating:  49%|████▊     | 219/450 [24:57<19:16,  5.01s/it]Evaluating:  49%|████▉     | 220/450 [25:10<28:19,  7.39s/it]Evaluating:  49%|████▉     | 221/450 [25:11<21:14,  5.57s/it]Exception raised in Job[209]: TimeoutError()
+Evaluating:  49%|████▉     | 222/450 [25:21<25:36,  6.74s/it]Evaluating:  50%|████▉     | 223/450 [25:35<33:40,  8.90s/it]Evaluating:  50%|████▉     | 224/450 [25:38<27:10,  7.21s/it]Exception raised in Job[212]: TimeoutError()
+Evaluating:  50%|█████     | 225/450 [25:41<22:05,  5.89s/it]Evaluating:  50%|█████     | 226/450 [25:51<26:54,  7.21s/it]Exception raised in Job[215]: TimeoutError()
+Evaluating:  50%|█████     | 227/450 [26:00<28:33,  7.68s/it]Evaluating:  51%|█████     | 228/450 [26:18<39:30, 10.68s/it]Evaluating:  51%|█████     | 229/450 [26:20<30:25,  8.26s/it]Exception raised in Job[218]: TimeoutError()
+Evaluating:  51%|█████     | 230/450 [26:23<23:53,  6.51s/it]Evaluating:  51%|█████▏    | 231/450 [26:31<26:15,  7.20s/it]Evaluating:  52%|█████▏    | 232/450 [26:35<21:48,  6.00s/it]Exception raised in Job[221]: TimeoutError()
+Evaluating:  52%|█████▏    | 233/450 [26:42<23:13,  6.42s/it]Exception raised in Job[235]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input.
+The input is: {"response": "British."}
+Since the response is a single word ("British"), it's difficult to generate a specific question. However, we can try to make an educated guess based on common uses of this word.
+One possible question could be: "What nationality are you?"
+As for whether the answer is noncommittal, we can consider the following:
+* The response is short and concise.
+* It doesn't provide any additional information or context.
+* It's not a vague or evasive statement.
+
+Based on these observations, I would say that the answer is committal (0).
+Here is the output in JSON format:
+{
+  "question": "What nationality are you?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  52%|█████▏    | 234/450 [26:43<17:39,  4.91s/it]Evaluating:  52%|█████▏    | 235/450 [26:53<22:21,  6.24s/it]Exception raised in Job[224]: TimeoutError()
+Evaluating:  52%|█████▏    | 236/450 [27:00<22:57,  6.44s/it]Evaluating:  53%|█████▎    | 237/450 [27:01<17:12,  4.85s/it]Evaluating:  53%|█████▎    | 238/450 [27:09<21:01,  5.95s/it]Evaluating:  53%|█████▎    | 239/450 [27:16<22:05,  6.28s/it]Exception raised in Job[227]: TimeoutError()
+Evaluating:  53%|█████▎    | 240/450 [27:18<17:24,  4.97s/it]Exception raised in Job[230]: TimeoutError()
+Evaluating:  54%|█████▎    | 241/450 [27:35<29:06,  8.36s/it]Evaluating:  54%|█████▍    | 242/450 [27:42<27:49,  8.03s/it]Exception raised in Job[233]: TimeoutError()
+Evaluating:  54%|█████▍    | 243/450 [27:56<34:09,  9.90s/it]Evaluating:  54%|█████▍    | 244/450 [27:57<24:49,  7.23s/it]Evaluating:  54%|█████▍    | 245/450 [28:03<23:06,  6.77s/it]Exception raised in Job[236]: TimeoutError()
+Evaluating:  55%|█████▍    | 246/450 [28:11<24:51,  7.31s/it]Evaluating:  55%|█████▍    | 247/450 [28:13<19:06,  5.65s/it]Exception raised in Job[250]: OutputParserException(Invalid json output: To generate a question for the given answer, we can assume that the answer is about the company Mondelez International. A suitable question could be: "What company is this?"
+
+As for whether the answer is noncommittal or not, since it provides a specific and clear piece of information (the name of a company), we can conclude that it is committal.
+
+Here's the output in JSON format:
+
+{
+  "question": "What company is this?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  55%|█████▌    | 248/450 [28:20<20:04,  5.96s/it]Evaluating:  55%|█████▌    | 249/450 [28:21<15:07,  4.51s/it]Evaluating:  56%|█████▌    | 250/450 [28:32<21:16,  6.38s/it]Exception raised in Job[239]: TimeoutError()
+Evaluating:  56%|█████▌    | 251/450 [28:38<21:09,  6.38s/it]Evaluating:  56%|█████▌    | 252/450 [28:43<19:12,  5.82s/it]Exception raised in Job[255]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"text": {"title": "Text", "type": "string"}}, "required": ["text"], "title": "StringIO", "type": "object"}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  56%|█████▌    | 253/450 [28:50<20:25,  6.22s/it]Evaluating:  56%|█████▋    | 254/450 [28:58<21:51,  6.69s/it]Exception raised in Job[242]: TimeoutError()
+Evaluating:  57%|█████▋    | 255/450 [29:00<17:34,  5.41s/it]Evaluating:  57%|█████▋    | 256/450 [29:08<20:17,  6.28s/it]Evaluating:  57%|█████▋    | 257/450 [29:18<23:36,  7.34s/it]Exception raised in Job[245]: TimeoutError()
+Evaluating:  57%|█████▋    | 258/450 [29:23<20:51,  6.52s/it]Evaluating:  58%|█████▊    | 259/450 [29:31<22:03,  6.93s/it]Evaluating:  58%|█████▊    | 260/450 [29:38<22:48,  7.20s/it]Exception raised in Job[248]: TimeoutError()
+Evaluating:  58%|█████▊    | 261/450 [29:42<19:20,  6.14s/it]Evaluating:  58%|█████▊    | 262/450 [29:51<21:31,  6.87s/it]Evaluating:  58%|█████▊    | 263/450 [29:55<18:51,  6.05s/it]Exception raised in Job[251]: TimeoutError()
+Evaluating:  59%|█████▊    | 264/450 [30:00<17:42,  5.71s/it]Evaluating:  59%|█████▉    | 265/450 [30:04<16:03,  5.21s/it]Evaluating:  59%|█████▉    | 266/450 [30:08<15:31,  5.06s/it]Exception raised in Job[254]: TimeoutError()
+Evaluating:  59%|█████▉    | 267/450 [30:16<18:06,  5.93s/it]Evaluating:  60%|█████▉    | 268/450 [30:22<17:46,  5.86s/it]Evaluating:  60%|█████▉    | 269/450 [30:24<13:42,  4.54s/it]Evaluating:  60%|██████    | 270/450 [30:33<18:09,  6.05s/it]Evaluating:  60%|██████    | 271/450 [30:41<20:00,  6.71s/it]Exception raised in Job[257]: TimeoutError()
+Evaluating:  60%|██████    | 272/450 [30:42<14:19,  4.83s/it]Evaluating:  61%|██████    | 273/450 [30:56<22:24,  7.59s/it]Evaluating:  61%|██████    | 274/450 [31:00<19:00,  6.48s/it]Exception raised in Job[260]: TimeoutError()
+Evaluating:  61%|██████    | 275/450 [31:03<15:52,  5.45s/it]Evaluating:  61%|██████▏   | 276/450 [31:17<23:26,  8.08s/it]Evaluating:  62%|██████▏   | 277/450 [31:18<17:28,  6.06s/it]Exception raised in Job[263]: TimeoutError()
+Evaluating:  62%|██████▏   | 278/450 [31:20<13:25,  4.69s/it]Evaluating:  62%|██████▏   | 279/450 [31:35<22:04,  7.75s/it]Evaluating:  62%|██████▏   | 280/450 [31:36<16:23,  5.79s/it]Exception raised in Job[266]: TimeoutError()
+Evaluating:  62%|██████▏   | 281/450 [31:38<13:12,  4.69s/it]Evaluating:  63%|██████▎   | 282/450 [31:51<20:08,  7.19s/it]Evaluating:  63%|██████▎   | 283/450 [31:54<16:23,  5.89s/it]Exception raised in Job[269]: TimeoutError()
+Evaluating:  63%|██████▎   | 284/450 [31:58<15:05,  5.45s/it]Evaluating:  63%|██████▎   | 285/450 [32:10<19:47,  7.20s/it]Evaluating:  64%|██████▎   | 286/450 [32:17<20:01,  7.33s/it]Exception raised in Job[272]: TimeoutError()
+Evaluating:  64%|██████▍   | 287/450 [32:18<14:34,  5.37s/it]Evaluating:  64%|██████▍   | 288/450 [32:31<20:49,  7.71s/it]Evaluating:  64%|██████▍   | 289/450 [32:33<15:29,  5.78s/it]Exception raised in Job[275]: TimeoutError()
+Evaluating:  64%|██████▍   | 290/450 [32:38<15:29,  5.81s/it]Evaluating:  65%|██████▍   | 291/450 [32:48<18:36,  7.02s/it]Evaluating:  65%|██████▍   | 292/450 [32:50<14:30,  5.51s/it]Exception raised in Job[278]: TimeoutError()
+Evaluating:  65%|██████▌   | 293/450 [32:55<13:39,  5.22s/it]Evaluating:  65%|██████▌   | 294/450 [33:04<16:22,  6.30s/it]Evaluating:  66%|██████▌   | 295/450 [33:07<13:47,  5.34s/it]Exception raised in Job[281]: TimeoutError()
+Evaluating:  66%|██████▌   | 296/450 [33:08<10:57,  4.27s/it]Exception raised in Job[284]: TimeoutError()
+Evaluating:  66%|██████▌   | 297/450 [33:24<19:10,  7.52s/it]Evaluating:  66%|██████▌   | 298/450 [33:24<13:58,  5.52s/it]Evaluating:  66%|██████▋   | 299/450 [33:28<12:39,  5.03s/it]Exception raised in Job[287]: TimeoutError()
+Evaluating:  67%|██████▋   | 300/450 [33:42<18:57,  7.59s/it]Evaluating:  67%|██████▋   | 301/450 [33:43<13:49,  5.57s/it]Exception raised in Job[290]: TimeoutError()
+Evaluating:  67%|██████▋   | 302/450 [34:03<24:28,  9.92s/it]Evaluating:  67%|██████▋   | 303/450 [34:09<21:28,  8.76s/it]Evaluating:  68%|██████▊   | 304/450 [34:18<21:55,  9.01s/it]Exception raised in Job[293]: TimeoutError()
+Evaluating:  68%|██████▊   | 305/450 [34:20<16:15,  6.73s/it]Evaluating:  68%|██████▊   | 306/450 [34:30<18:37,  7.76s/it]Evaluating:  68%|██████▊   | 307/450 [34:36<17:34,  7.37s/it]Exception raised in Job[296]: TimeoutError()
+Evaluating:  68%|██████▊   | 308/450 [34:38<13:20,  5.64s/it]Exception raised in Job[310]: OutputParserException(Invalid json output: To generate a question for the given answer, we can use a simple approach: turn the answer into a question by adding a question word (e.g., "What", "Where") at the beginning.
+
+For the input:
+{
+    "response": "Atlanta, Georgia."
+}
+
+We can generate the following question:
+
+"Where is Atlanta located?"
+
+Since the answer is specific and not evasive or vague, we can conclude that it's committal. Therefore, the output will be:
+
+{
+  "question": "Where is Atlanta located?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  69%|██████▊   | 309/450 [34:41<11:00,  4.68s/it]Evaluating:  69%|██████▉   | 310/450 [34:54<16:59,  7.28s/it]Exception raised in Job[299]: TimeoutError()
+Evaluating:  69%|██████▉   | 311/450 [34:58<14:56,  6.45s/it]Evaluating:  69%|██████▉   | 312/450 [34:59<11:01,  4.79s/it]Evaluating:  70%|██████▉   | 313/450 [35:14<17:45,  7.78s/it]Evaluating:  70%|██████▉   | 314/450 [35:17<14:03,  6.20s/it]Exception raised in Job[302]: TimeoutError()
+Evaluating:  70%|███████   | 315/450 [35:18<10:47,  4.79s/it]Evaluating:  70%|███████   | 316/450 [35:26<12:41,  5.68s/it]Evaluating:  70%|███████   | 317/450 [35:33<13:28,  6.08s/it]Exception raised in Job[305]: TimeoutError()
+Evaluating:  71%|███████   | 318/450 [35:38<13:01,  5.92s/it]Evaluating:  71%|███████   | 319/450 [35:52<17:56,  8.22s/it]Evaluating:  71%|███████   | 320/450 [35:53<13:10,  6.08s/it]Exception raised in Job[308]: TimeoutError()
+Evaluating:  71%|███████▏  | 321/450 [35:55<10:15,  4.77s/it]Evaluating:  72%|███████▏  | 322/450 [36:06<14:30,  6.80s/it]Exception raised in Job[311]: TimeoutError()
+Evaluating:  72%|███████▏  | 323/450 [36:08<11:25,  5.40s/it]Evaluating:  72%|███████▏  | 324/450 [36:11<09:22,  4.46s/it]Evaluating:  72%|███████▏  | 325/450 [36:25<15:22,  7.38s/it]Exception raised in Job[314]: TimeoutError()
+Evaluating:  72%|███████▏  | 326/450 [36:28<12:46,  6.18s/it]Evaluating:  73%|███████▎  | 327/450 [36:29<09:09,  4.47s/it]Evaluating:  73%|███████▎  | 328/450 [36:40<13:04,  6.43s/it]Evaluating:  73%|███████▎  | 329/450 [36:42<10:40,  5.29s/it]Evaluating:  73%|███████▎  | 330/450 [36:59<17:26,  8.72s/it]Evaluating:  74%|███████▎  | 331/450 [37:00<12:48,  6.46s/it]Exception raised in Job[317]: TimeoutError()
+Evaluating:  74%|███████▍  | 332/450 [37:03<10:21,  5.26s/it]Evaluating:  74%|███████▍  | 333/450 [37:16<15:10,  7.78s/it]Evaluating:  74%|███████▍  | 334/450 [37:19<11:53,  6.15s/it]Exception raised in Job[320]: TimeoutError()
+Evaluating:  74%|███████▍  | 335/450 [37:20<08:51,  4.62s/it]Evaluating:  75%|███████▍  | 336/450 [37:28<10:31,  5.54s/it]Evaluating:  75%|███████▍  | 337/450 [37:36<12:13,  6.49s/it]Exception raised in Job[323]: TimeoutError()
+Evaluating:  75%|███████▌  | 338/450 [37:38<09:30,  5.10s/it]Evaluating:  75%|███████▌  | 339/450 [37:44<09:52,  5.34s/it]Evaluating:  76%|███████▌  | 340/450 [37:50<10:24,  5.67s/it]Exception raised in Job[326]: TimeoutError()
+Evaluating:  76%|███████▌  | 341/450 [37:58<11:33,  6.36s/it]Evaluating:  76%|███████▌  | 342/450 [38:05<11:22,  6.32s/it]Evaluating:  76%|███████▌  | 343/450 [38:06<08:38,  4.84s/it]Exception raised in Job[329]: TimeoutError()
+Evaluating:  76%|███████▋  | 344/450 [38:17<11:34,  6.55s/it]Evaluating:  77%|███████▋  | 345/450 [38:26<13:05,  7.48s/it]Evaluating:  77%|███████▋  | 346/450 [38:28<09:51,  5.69s/it]Exception raised in Job[332]: TimeoutError()
+Evaluating:  77%|███████▋  | 347/450 [38:33<09:28,  5.52s/it]Evaluating:  77%|███████▋  | 348/450 [38:38<09:23,  5.52s/it]Evaluating:  78%|███████▊  | 349/450 [38:45<09:52,  5.87s/it]Exception raised in Job[335]: TimeoutError()
+Evaluating:  78%|███████▊  | 350/450 [38:53<10:51,  6.52s/it]Evaluating:  78%|███████▊  | 351/450 [38:55<08:24,  5.10s/it]Evaluating:  78%|███████▊  | 352/450 [39:04<10:28,  6.41s/it]Exception raised in Job[338]: TimeoutError()
+Evaluating:  78%|███████▊  | 353/450 [39:08<09:15,  5.73s/it]Evaluating:  79%|███████▊  | 354/450 [39:19<11:18,  7.07s/it]Evaluating:  79%|███████▉  | 355/450 [39:21<09:01,  5.70s/it]Exception raised in Job[341]: TimeoutError()
+Evaluating:  79%|███████▉  | 356/450 [39:28<09:35,  6.13s/it]Evaluating:  79%|███████▉  | 357/450 [39:42<12:55,  8.34s/it]Exception raised in Job[344]: TimeoutError()
+Evaluating:  80%|███████▉  | 358/450 [39:42<09:13,  6.02s/it]Evaluating:  80%|███████▉  | 359/450 [39:43<06:39,  4.39s/it]Evaluating:  80%|████████  | 360/450 [39:55<09:49,  6.55s/it]Evaluating:  80%|████████  | 361/450 [40:00<09:15,  6.24s/it]Exception raised in Job[347]: TimeoutError()
+Evaluating:  80%|████████  | 362/450 [40:03<07:35,  5.17s/it]Evaluating:  81%|████████  | 363/450 [40:11<08:59,  6.20s/it]Evaluating:  81%|████████  | 364/450 [40:19<09:32,  6.65s/it]Exception raised in Job[350]: TimeoutError()
+Evaluating:  81%|████████  | 365/450 [40:20<06:54,  4.88s/it]Evaluating:  81%|████████▏ | 366/450 [40:36<11:27,  8.18s/it]Evaluating:  82%|████████▏ | 367/450 [40:37<08:21,  6.04s/it]Exception raised in Job[353]: TimeoutError()
+Evaluating:  82%|████████▏ | 368/450 [40:38<06:18,  4.62s/it]Evaluating:  82%|████████▏ | 369/450 [40:56<11:31,  8.53s/it]Exception raised in Job[356]: TimeoutError()
+Evaluating:  82%|████████▏ | 370/450 [40:58<09:01,  6.77s/it]Evaluating:  82%|████████▏ | 371/450 [41:13<12:01,  9.13s/it]Exception raised in Job[359]: TimeoutError()
+Evaluating:  83%|████████▎ | 372/450 [41:17<09:41,  7.45s/it]Evaluating:  83%|████████▎ | 373/450 [41:22<08:50,  6.89s/it]Exception raised in Job[362]: TimeoutError()
+Evaluating:  83%|████████▎ | 374/450 [41:33<10:10,  8.03s/it]Evaluating:  83%|████████▎ | 375/450 [41:35<07:46,  6.23s/it]Evaluating:  84%|████████▎ | 376/450 [41:40<07:23,  6.00s/it]Exception raised in Job[379]: OutputParserException(Invalid json output: The response does not seem to be noncommittal as it provides a specific name. Therefore, the question could be: Who is Owsley Stanley? The answer is committal.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  84%|████████▍ | 377/450 [41:43<06:13,  5.11s/it]Exception raised in Job[365]: TimeoutError()
+Evaluating:  84%|████████▍ | 378/450 [41:53<07:47,  6.49s/it]Evaluating:  84%|████████▍ | 379/450 [41:58<07:07,  6.02s/it]Evaluating:  84%|████████▍ | 380/450 [42:00<05:42,  4.89s/it]Exception raised in Job[368]: TimeoutError()
+Evaluating:  85%|████████▍ | 381/450 [42:08<06:46,  5.89s/it]Evaluating:  85%|████████▍ | 382/450 [42:16<07:07,  6.29s/it]Evaluating:  85%|████████▌ | 383/450 [42:18<05:35,  5.01s/it]Exception raised in Job[371]: TimeoutError()
+Evaluating:  85%|████████▌ | 384/450 [42:28<07:21,  6.68s/it]Evaluating:  86%|████████▌ | 385/450 [42:35<07:20,  6.78s/it]Evaluating:  86%|████████▌ | 386/450 [42:42<07:16,  6.81s/it]Exception raised in Job[374]: TimeoutError()
+Evaluating:  86%|████████▌ | 387/450 [42:43<05:15,  5.01s/it]Evaluating:  86%|████████▌ | 388/450 [42:55<07:15,  7.03s/it]Evaluating:  86%|████████▋ | 389/450 [42:57<05:33,  5.46s/it]Exception raised in Job[377]: TimeoutError()
+Evaluating:  87%|████████▋ | 390/450 [43:03<05:42,  5.70s/it]Evaluating:  87%|████████▋ | 391/450 [43:10<06:02,  6.15s/it]Evaluating:  87%|████████▋ | 392/450 [43:19<06:48,  7.05s/it]Exception raised in Job[380]: TimeoutError()
+Evaluating:  87%|████████▋ | 393/450 [43:20<04:53,  5.15s/it]Evaluating:  88%|████████▊ | 394/450 [43:36<08:00,  8.58s/it]Evaluating:  88%|████████▊ | 395/450 [43:38<05:54,  6.44s/it]Exception raised in Job[383]: TimeoutError()
+Evaluating:  88%|████████▊ | 396/450 [43:38<04:06,  4.57s/it]Evaluating:  88%|████████▊ | 397/450 [43:59<08:17,  9.39s/it]Evaluating:  88%|████████▊ | 398/450 [44:01<06:11,  7.14s/it]Exception raised in Job[386]: TimeoutError()
+Evaluating:  89%|████████▊ | 399/450 [44:15<07:58,  9.39s/it]Evaluating:  89%|████████▉ | 400/450 [44:25<08:01,  9.63s/it]Exception raised in Job[389]: TimeoutError()
+Evaluating:  89%|████████▉ | 401/450 [44:33<07:19,  8.96s/it]Exception raised in Job[392]: TimeoutError()
+Evaluating:  89%|████████▉ | 402/450 [44:43<07:32,  9.43s/it]Evaluating:  90%|████████▉ | 403/450 [44:58<08:35, 10.97s/it]Evaluating:  90%|████████▉ | 404/450 [45:00<06:17,  8.20s/it]Exception raised in Job[395]: TimeoutError()
+Evaluating:  90%|█████████ | 405/450 [45:00<04:26,  5.91s/it]Evaluating:  90%|█████████ | 406/450 [45:09<05:03,  6.89s/it]Exception raised in Job[398]: TimeoutError()
+Evaluating:  90%|█████████ | 407/450 [45:18<05:14,  7.32s/it]Evaluating:  91%|█████████ | 408/450 [45:20<03:57,  5.66s/it]Exception raised in Job[409]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input. 
+
+Since the input is "Texas Tech University", it seems like a specific piece of information about an institution. To generate a relevant question, we can ask what the institution is.
+
+The answer does not seem evasive or vague; therefore, it is committal.
+
+Here's the output in JSON format:
+
+{
+  "question": "What is Texas Tech University?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  91%|█████████ | 409/450 [45:26<04:01,  5.90s/it]Evaluating:  91%|█████████ | 410/450 [45:43<06:05,  9.14s/it]Exception raised in Job[401]: TimeoutError()
+Evaluating:  92%|█████████▏| 412/450 [45:46<03:36,  5.69s/it]Exception raised in Job[404]: TimeoutError()
+Evaluating:  92%|█████████▏| 413/450 [45:57<04:14,  6.89s/it]Evaluating:  92%|█████████▏| 414/450 [46:01<03:47,  6.31s/it]Exception raised in Job[414]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  92%|█████████▏| 415/450 [46:07<03:38,  6.24s/it]Evaluating:  92%|█████████▏| 416/450 [46:18<04:11,  7.39s/it]Exception raised in Job[407]: TimeoutError()
+Evaluating:  93%|█████████▎| 417/450 [46:19<03:08,  5.71s/it]Evaluating:  93%|█████████▎| 418/450 [46:27<03:21,  6.31s/it]Evaluating:  93%|█████████▎| 419/450 [46:34<03:24,  6.59s/it]Exception raised in Job[410]: TimeoutError()
+Evaluating:  93%|█████████▎| 420/450 [46:38<02:52,  5.74s/it]Evaluating:  94%|█████████▎| 421/450 [46:43<02:43,  5.64s/it]Evaluating:  94%|█████████▍| 422/450 [46:52<03:02,  6.53s/it]Evaluating:  94%|█████████▍| 423/450 [46:59<03:00,  6.68s/it]Exception raised in Job[413]: TimeoutError()
+Evaluating:  94%|█████████▍| 424/450 [47:01<02:14,  5.18s/it]Evaluating:  94%|█████████▍| 425/450 [47:11<02:47,  6.70s/it]Evaluating:  95%|█████████▍| 426/450 [47:19<02:49,  7.05s/it]Evaluating:  95%|█████████▍| 427/450 [47:31<03:20,  8.70s/it]Exception raised in Job[416]: TimeoutError()
+Evaluating:  95%|█████████▌| 428/450 [47:33<02:24,  6.56s/it]Evaluating:  95%|█████████▌| 429/450 [47:40<02:18,  6.60s/it]Evaluating:  96%|█████████▌| 430/450 [47:48<02:25,  7.25s/it]Evaluating:  96%|█████████▌| 431/450 [47:57<02:26,  7.72s/it]Exception raised in Job[419]: TimeoutError()
+Evaluating:  96%|█████████▌| 432/450 [48:00<01:50,  6.16s/it]Evaluating:  96%|█████████▌| 433/450 [48:11<02:12,  7.79s/it]Evaluating:  96%|█████████▋| 434/450 [48:13<01:33,  5.82s/it]Exception raised in Job[422]: TimeoutError()
+Evaluating:  97%|█████████▋| 435/450 [48:18<01:24,  5.65s/it]Evaluating:  97%|█████████▋| 436/450 [48:24<01:20,  5.75s/it]Evaluating:  97%|█████████▋| 437/450 [48:26<01:00,  4.63s/it]Evaluating:  97%|█████████▋| 438/450 [48:41<01:33,  7.81s/it]Exception raised in Job[425]: TimeoutError()
+Evaluating:  98%|█████████▊| 439/450 [48:43<01:05,  5.98s/it]Evaluating:  98%|█████████▊| 440/450 [48:45<00:48,  4.88s/it]Evaluating:  98%|█████████▊| 441/450 [48:54<00:54,  6.03s/it]Exception raised in Job[428]: TimeoutError()
+Evaluating:  98%|█████████▊| 442/450 [48:57<00:40,  5.07s/it]Evaluating:  98%|█████████▊| 443/450 [49:03<00:39,  5.58s/it]Exception raised in Job[431]: TimeoutError()
+Evaluating:  99%|█████████▊| 444/450 [49:18<00:49,  8.20s/it]Exception raised in Job[434]: TimeoutError()
+Evaluating:  99%|█████████▉| 445/450 [49:34<00:53, 10.70s/it]Exception raised in Job[437]: TimeoutError()
+Evaluating:  99%|█████████▉| 446/450 [49:52<00:51, 12.82s/it]Evaluating:  99%|█████████▉| 447/450 [49:54<00:29,  9.73s/it]Evaluating: 100%|█████████▉| 448/450 [49:57<00:15,  7.70s/it]Evaluating: 100%|█████████▉| 449/450 [49:59<00:05,  5.82s/it]Evaluating: 100%|██████████| 450/450 [50:00<00:00,  4.43s/it]Evaluating: 100%|██████████| 450/450 [50:00<00:00,  6.67s/it]
+  Partial results written → C:\Users\ANUJ\OneDrive\Desktop\CRAG RESEARCH PAPER\agentic-rag\results\results_main.csv
+
+Computing RAGAS metrics for condition: reranker…
+Evaluating:   0%|          | 0/450 [00:00<?, ?it/s]Evaluating:   0%|          | 1/450 [00:25<3:08:35, 25.20s/it]Evaluating:   0%|          | 2/450 [00:30<1:39:34, 13.34s/it]Evaluating:   1%|          | 3/450 [00:33<1:06:16,  8.90s/it]Evaluating:   1%|          | 4/450 [00:40<59:31,  8.01s/it]  Evaluating:   1%|          | 5/450 [00:53<1:12:06,  9.72s/it]Exception raised in Job[12]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}Do not use single quotes in your response but double quotes, properly escaped with a backslash.
+-------------------------------
+
+Now perform the same with the following input
+input: {
+    "question": \"The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?\",
+    "answer": \"I don't have enough information in the provided context to answer this question.\"
+}
+Output:
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:   1%|▏         | 6/450 [01:06<1:21:18, 10.99s/it]Evaluating:   2%|▏         | 7/450 [01:07<56:33,  7.66s/it]  Evaluating:   2%|▏         | 8/450 [01:11<48:36,  6.60s/it]Evaluating:   2%|▏         | 9/450 [01:19<50:02,  6.81s/it]Evaluating:   2%|▏         | 10/450 [01:33<1:06:59,  9.14s/it]Evaluating:   2%|▏         | 11/450 [01:34<49:16,  6.73s/it]  Evaluating:   3%|▎         | 12/450 [01:36<37:52,  5.19s/it]Evaluating:   3%|▎         | 13/450 [01:48<53:43,  7.38s/it]Evaluating:   3%|▎         | 14/450 [02:04<1:11:33,  9.85s/it]Evaluating:   3%|▎         | 15/450 [02:18<1:21:23, 11.23s/it]Evaluating:   4%|▎         | 16/450 [02:19<59:22,  8.21s/it]  Evaluating:   4%|▍         | 17/450 [02:25<53:39,  7.44s/it]Evaluating:   4%|▍         | 18/450 [02:39<1:08:19,  9.49s/it]Evaluating:   4%|▍         | 19/450 [02:49<1:08:08,  9.49s/it]Evaluating:   4%|▍         | 20/450 [02:57<1:04:56,  9.06s/it]Exception raised in Job[2]: TimeoutError()
+Exception raised in Job[5]: TimeoutError()
+Evaluating:   5%|▍         | 21/450 [03:00<50:50,  7.11s/it]  Exception raised in Job[8]: TimeoutError()
+Exception raised in Job[11]: TimeoutError()
+Exception raised in Job[14]: TimeoutError()
+Evaluating:   6%|▌         | 26/450 [03:05<21:10,  3.00s/it]Evaluating:   6%|▌         | 27/450 [03:17<31:43,  4.50s/it]Evaluating:   6%|▌         | 28/450 [03:24<34:14,  4.87s/it]Exception raised in Job[17]: TimeoutError()
+Evaluating:   6%|▋         | 29/450 [03:30<36:06,  5.15s/it]Evaluating:   7%|▋         | 30/450 [03:30<28:41,  4.10s/it]Evaluating:   7%|▋         | 31/450 [03:34<28:14,  4.04s/it]Exception raised in Job[20]: TimeoutError()
+Evaluating:   7%|▋         | 32/450 [03:53<54:38,  7.84s/it]Evaluating:   7%|▋         | 33/450 [03:57<46:44,  6.73s/it]Evaluating:   8%|▊         | 34/450 [04:06<52:44,  7.61s/it]Exception raised in Job[23]: TimeoutError()
+Evaluating:   8%|▊         | 35/450 [04:11<47:24,  6.85s/it]Evaluating:   8%|▊         | 36/450 [04:20<51:41,  7.49s/it]Evaluating:   8%|▊         | 37/450 [04:26<47:27,  6.89s/it]Evaluating:   8%|▊         | 38/450 [04:33<47:23,  6.90s/it]Exception raised in Job[26]: TimeoutError()
+Evaluating:   9%|▊         | 39/450 [04:34<36:15,  5.29s/it]Evaluating:   9%|▉         | 40/450 [04:53<1:03:50,  9.34s/it]Evaluating:   9%|▉         | 41/450 [04:55<47:33,  6.98s/it]  Exception raised in Job[29]: TimeoutError()
+Evaluating:   9%|▉         | 42/450 [05:04<52:09,  7.67s/it]Evaluating:  10%|▉         | 43/450 [05:05<38:36,  5.69s/it]Evaluating:  10%|▉         | 44/450 [05:19<55:52,  8.26s/it]Exception raised in Job[32]: TimeoutError()
+Evaluating:  10%|█         | 45/450 [05:25<51:04,  7.57s/it]Evaluating:  10%|█         | 46/450 [05:35<55:38,  8.26s/it]Evaluating:  10%|█         | 47/450 [05:37<43:02,  6.41s/it]Evaluating:  11%|█         | 48/450 [05:56<1:07:25, 10.06s/it]Exception raised in Job[35]: TimeoutError()
+Evaluating:  11%|█         | 49/450 [05:57<49:36,  7.42s/it]  Exception raised in Job[38]: TimeoutError()
+Evaluating:  11%|█         | 50/450 [06:00<39:47,  5.97s/it]Evaluating:  11%|█▏        | 51/450 [06:01<29:49,  4.49s/it]Exception raised in Job[41]: TimeoutError()
+Evaluating:  12%|█▏        | 52/450 [06:05<29:28,  4.44s/it]Evaluating:  12%|█▏        | 53/450 [06:11<32:52,  4.97s/it]Evaluating:  12%|█▏        | 54/450 [06:18<36:18,  5.50s/it]Evaluating:  12%|█▏        | 55/450 [06:28<45:01,  6.84s/it]Exception raised in Job[44]: TimeoutError()
+Evaluating:  12%|█▏        | 56/450 [06:30<35:16,  5.37s/it]Evaluating:  13%|█▎        | 57/450 [06:37<38:17,  5.85s/it]Evaluating:  13%|█▎        | 58/450 [06:47<47:31,  7.28s/it]Exception raised in Job[47]: TimeoutError()
+Evaluating:  13%|█▎        | 59/450 [06:53<43:52,  6.73s/it]Evaluating:  13%|█▎        | 60/450 [06:58<41:42,  6.42s/it]Exception raised in Job[50]: TimeoutError()
+Evaluating:  14%|█▎        | 61/450 [07:11<54:12,  8.36s/it]Evaluating:  14%|█▍        | 62/450 [07:13<41:44,  6.46s/it]Evaluating:  14%|█▍        | 63/450 [07:22<45:27,  7.05s/it]Evaluating:  14%|█▍        | 64/450 [07:31<50:10,  7.80s/it]Exception raised in Job[53]: TimeoutError()
+Evaluating:  14%|█▍        | 65/450 [07:33<37:48,  5.89s/it]Evaluating:  15%|█▍        | 66/450 [07:35<31:30,  4.92s/it]Evaluating:  15%|█▍        | 67/450 [07:48<45:05,  7.06s/it]Evaluating:  15%|█▌        | 68/450 [07:54<44:45,  7.03s/it]Exception raised in Job[56]: TimeoutError()
+Evaluating:  15%|█▌        | 69/450 [07:55<31:28,  4.96s/it]Evaluating:  16%|█▌        | 70/450 [08:04<39:15,  6.20s/it]Evaluating:  16%|█▌        | 71/450 [08:07<33:40,  5.33s/it]Exception raised in Job[59]: TimeoutError()
+Evaluating:  16%|█▌        | 72/450 [08:19<46:34,  7.39s/it]Evaluating:  16%|█▌        | 73/450 [08:21<36:19,  5.78s/it]Evaluating:  16%|█▋        | 74/450 [08:24<30:33,  4.88s/it]Exception raised in Job[62]: TimeoutError()
+Evaluating:  17%|█▋        | 75/450 [08:37<45:56,  7.35s/it]Evaluating:  17%|█▋        | 76/450 [08:39<35:57,  5.77s/it]Evaluating:  17%|█▋        | 77/450 [08:41<27:38,  4.45s/it]Evaluating:  17%|█▋        | 78/450 [08:50<36:17,  5.85s/it]Exception raised in Job[65]: TimeoutError()
+Evaluating:  18%|█▊        | 79/450 [09:00<43:37,  7.06s/it]Evaluating:  18%|█▊        | 80/450 [09:10<48:59,  7.94s/it]Exception raised in Job[68]: TimeoutError()
+Evaluating:  18%|█▊        | 81/450 [09:11<37:04,  6.03s/it]Evaluating:  18%|█▊        | 82/450 [09:17<36:49,  6.00s/it]Evaluating:  18%|█▊        | 83/450 [09:30<49:12,  8.04s/it]Exception raised in Job[71]: TimeoutError()
+Evaluating:  19%|█▉        | 85/450 [09:31<28:38,  4.71s/it]Exception raised in Job[88]: OutputParserException(Invalid json output: Given input:
+{
+  "response": "Arena of Khazan"
+}
+
+Since the response is a single word or phrase without any context or information that could be interpreted as evasive or vague, it can be considered committal.
+
+Generated question:
+"Where is Arena of Khazan?"
+
+Noncommittal: 0
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  19%|█▉        | 86/450 [09:36<28:10,  4.65s/it]Evaluating:  19%|█▉        | 87/450 [09:52<46:49,  7.74s/it]Exception raised in Job[74]: TimeoutError()
+Evaluating:  20%|█▉        | 88/450 [09:53<34:35,  5.73s/it]Evaluating:  20%|█▉        | 89/450 [09:54<26:41,  4.44s/it]Evaluating:  20%|██        | 90/450 [10:05<37:37,  6.27s/it]Evaluating:  20%|██        | 91/450 [10:11<37:33,  6.28s/it]Exception raised in Job[77]: TimeoutError()
+Evaluating:  20%|██        | 92/450 [10:13<30:33,  5.12s/it]Evaluating:  21%|██        | 93/450 [10:23<37:49,  6.36s/it]Exception raised in Job[80]: TimeoutError()
+Evaluating:  21%|██        | 94/450 [10:33<44:19,  7.47s/it]Evaluating:  21%|██        | 95/450 [10:33<31:23,  5.31s/it]Evaluating:  21%|██▏       | 96/450 [10:49<49:33,  8.40s/it]Evaluating:  22%|██▏       | 97/450 [10:50<36:29,  6.20s/it]Exception raised in Job[83]: TimeoutError()
+Evaluating:  22%|██▏       | 98/450 [10:55<34:11,  5.83s/it]Exception raised in Job[86]: TimeoutError()
+Evaluating:  22%|██▏       | 99/450 [11:07<45:28,  7.77s/it]Evaluating:  22%|██▏       | 100/450 [11:07<32:37,  5.59s/it]Evaluating:  22%|██▏       | 101/450 [11:11<28:20,  4.87s/it]Evaluating:  23%|██▎       | 102/450 [11:21<37:26,  6.46s/it]Exception raised in Job[89]: TimeoutError()
+Evaluating:  23%|██▎       | 103/450 [11:24<31:36,  5.46s/it]Evaluating:  23%|██▎       | 104/450 [11:30<33:13,  5.76s/it]Exception raised in Job[92]: TimeoutError()
+Evaluating:  23%|██▎       | 105/450 [11:41<40:37,  7.06s/it]Evaluating:  24%|██▎       | 106/450 [11:41<28:57,  5.05s/it]Evaluating:  24%|██▍       | 107/450 [11:45<26:50,  4.70s/it]Evaluating:  24%|██▍       | 108/450 [11:53<33:22,  5.85s/it]Exception raised in Job[111]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  24%|██▍       | 109/450 [12:02<38:10,  6.72s/it]Exception raised in Job[95]: TimeoutError()
+Evaluating:  24%|██▍       | 110/450 [12:10<39:24,  6.95s/it]Evaluating:  25%|██▍       | 111/450 [12:15<36:04,  6.38s/it]Evaluating:  25%|██▍       | 112/450 [12:22<37:26,  6.65s/it]Exception raised in Job[98]: TimeoutError()
+Evaluating:  25%|██▌       | 113/450 [12:30<39:37,  7.05s/it]Evaluating:  25%|██▌       | 114/450 [12:32<31:04,  5.55s/it]Exception raised in Job[101]: TimeoutError()
+Evaluating:  26%|██▌       | 115/450 [12:36<28:29,  5.10s/it]Evaluating:  26%|██▌       | 116/450 [12:36<20:38,  3.71s/it]Exception raised in Job[104]: TimeoutError()
+Evaluating:  26%|██▌       | 117/450 [12:54<43:30,  7.84s/it]Evaluating:  26%|██▌       | 118/450 [12:56<33:21,  6.03s/it]Evaluating:  26%|██▋       | 119/450 [13:00<30:10,  5.47s/it]Exception raised in Job[107]: TimeoutError()
+Evaluating:  27%|██▋       | 120/450 [13:13<43:21,  7.88s/it]Evaluating:  27%|██▋       | 121/450 [13:15<33:10,  6.05s/it]Evaluating:  27%|██▋       | 122/450 [13:18<27:01,  4.94s/it]Exception raised in Job[110]: TimeoutError()
+Evaluating:  27%|██▋       | 123/450 [13:33<44:09,  8.10s/it]Evaluating:  28%|██▊       | 124/450 [13:37<38:06,  7.01s/it]Evaluating:  28%|██▊       | 125/450 [13:53<51:06,  9.44s/it]Exception raised in Job[113]: TimeoutError()
+Evaluating:  28%|██▊       | 126/450 [13:55<39:06,  7.24s/it]Evaluating:  28%|██▊       | 127/450 [13:58<32:11,  5.98s/it]Evaluating:  28%|██▊       | 128/450 [14:08<39:27,  7.35s/it]Exception raised in Job[116]: TimeoutError()
+Evaluating:  29%|██▊       | 129/450 [14:11<31:24,  5.87s/it]Exception raised in Job[133]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input. Since the response is just "Nelson Rockefeller" without any context or information about what it refers to, we can't create a specific question.
+
+However, based on the fact that it's a single name, we can assume it might be referring to someone, and create a general question related to that person.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  29%|██▉       | 130/450 [14:13<26:08,  4.90s/it]Exception raised in Job[119]: TimeoutError()
+Evaluating:  29%|██▉       | 131/450 [14:31<46:18,  8.71s/it]Evaluating:  29%|██▉       | 132/450 [14:39<44:48,  8.45s/it]Evaluating:  30%|██▉       | 133/450 [14:40<33:37,  6.37s/it]Exception raised in Job[122]: TimeoutError()
+Evaluating:  30%|██▉       | 134/450 [14:45<31:02,  5.89s/it]Evaluating:  30%|███       | 135/450 [14:52<32:45,  6.24s/it]Evaluating:  30%|███       | 136/450 [15:00<35:33,  6.79s/it]Exception raised in Job[125]: TimeoutError()
+Evaluating:  30%|███       | 137/450 [15:10<39:27,  7.57s/it]Exception raised in Job[139]: OutputParserException(Invalid json output: Who wrote "To Know Him Is to Love Him," and what was its inspiration?
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  31%|███       | 138/450 [15:23<47:58,  9.23s/it]Exception raised in Job[128]: TimeoutError()
+Evaluating:  31%|███       | 139/450 [15:30<44:41,  8.62s/it]Exception raised in Job[131]: TimeoutError()
+Evaluating:  31%|███       | 140/450 [15:36<41:20,  8.00s/it]Evaluating:  31%|███▏      | 141/450 [15:38<30:35,  5.94s/it]Evaluating:  32%|███▏      | 142/450 [15:48<37:18,  7.27s/it]Evaluating:  32%|███▏      | 143/450 [15:57<39:37,  7.75s/it]Exception raised in Job[134]: TimeoutError()
+Evaluating:  32%|███▏      | 144/450 [16:00<32:22,  6.35s/it]Evaluating:  32%|███▏      | 145/450 [16:00<23:17,  4.58s/it]Evaluating:  32%|███▏      | 146/450 [16:11<32:05,  6.33s/it]Exception raised in Job[137]: TimeoutError()
+Evaluating:  33%|███▎      | 147/450 [16:18<32:39,  6.47s/it]Evaluating:  33%|███▎      | 148/450 [16:23<30:25,  6.04s/it]Evaluating:  33%|███▎      | 149/450 [16:25<24:42,  4.93s/it]Evaluating:  33%|███▎      | 150/450 [16:38<36:25,  7.29s/it]Evaluating:  34%|███▎      | 151/450 [16:42<31:56,  6.41s/it]Evaluating:  34%|███▍      | 152/450 [16:51<34:57,  7.04s/it]Exception raised in Job[140]: TimeoutError()
+Evaluating:  34%|███▍      | 153/450 [16:53<27:20,  5.52s/it]Evaluating:  34%|███▍      | 154/450 [17:01<31:39,  6.42s/it]Evaluating:  34%|███▍      | 155/450 [17:06<29:42,  6.04s/it]Exception raised in Job[143]: TimeoutError()
+Evaluating:  35%|███▍      | 156/450 [17:08<23:43,  4.84s/it]Evaluating:  35%|███▍      | 157/450 [17:18<30:37,  6.27s/it]Evaluating:  35%|███▌      | 158/450 [17:19<23:34,  4.85s/it]Exception raised in Job[146]: TimeoutError()
+Evaluating:  35%|███▌      | 159/450 [17:31<33:13,  6.85s/it]Evaluating:  36%|███▌      | 160/450 [17:35<29:09,  6.03s/it]Evaluating:  36%|███▌      | 161/450 [17:43<31:57,  6.63s/it]Exception raised in Job[149]: TimeoutError()
+Evaluating:  36%|███▌      | 162/450 [17:45<25:08,  5.24s/it]Evaluating:  36%|███▌      | 163/450 [18:07<48:32, 10.15s/it]Evaluating:  36%|███▋      | 164/450 [18:09<37:16,  7.82s/it]Exception raised in Job[152]: TimeoutError()
+Evaluating:  37%|███▋      | 165/450 [18:10<26:42,  5.62s/it]Evaluating:  37%|███▋      | 166/450 [18:20<33:10,  7.01s/it]Evaluating:  37%|███▋      | 167/450 [18:31<38:42,  8.21s/it]Exception raised in Job[155]: TimeoutError()
+Evaluating:  37%|███▋      | 168/450 [18:36<34:56,  7.44s/it]Evaluating:  38%|███▊      | 169/450 [18:50<44:00,  9.40s/it]Evaluating:  38%|███▊      | 170/450 [18:53<34:44,  7.45s/it]Exception raised in Job[158]: TimeoutError()
+Evaluating:  38%|███▊      | 171/450 [18:57<29:06,  6.26s/it]Evaluating:  38%|███▊      | 172/450 [19:05<31:40,  6.83s/it]Exception raised in Job[161]: TimeoutError()
+Evaluating:  38%|███▊      | 173/450 [19:11<30:05,  6.52s/it]Evaluating:  39%|███▊      | 174/450 [19:15<27:11,  5.91s/it]Exception raised in Job[164]: TimeoutError()
+Evaluating:  39%|███▉      | 175/450 [19:25<32:14,  7.04s/it]Evaluating:  39%|███▉      | 176/450 [19:33<33:39,  7.37s/it]Evaluating:  39%|███▉      | 177/450 [19:35<25:31,  5.61s/it]Evaluating:  40%|███▉      | 178/450 [19:45<32:22,  7.14s/it]Evaluating:  40%|███▉      | 179/450 [19:51<29:50,  6.61s/it]Exception raised in Job[167]: TimeoutError()
+Exception raised in Job[170]: TimeoutError()
+Evaluating:  40%|████      | 181/450 [20:06<32:05,  7.16s/it]Evaluating:  40%|████      | 182/450 [20:13<31:18,  7.01s/it]Evaluating:  41%|████      | 183/450 [20:15<25:02,  5.63s/it]Exception raised in Job[173]: TimeoutError()
+Evaluating:  41%|████      | 184/450 [20:19<24:03,  5.43s/it]Evaluating:  41%|████      | 185/450 [20:26<25:13,  5.71s/it]Evaluating:  41%|████▏     | 186/450 [20:27<19:54,  4.52s/it]Evaluating:  42%|████▏     | 187/450 [20:39<29:25,  6.71s/it]Exception raised in Job[176]: TimeoutError()
+Evaluating:  42%|████▏     | 188/450 [20:43<25:20,  5.80s/it]Evaluating:  42%|████▏     | 189/450 [20:44<19:10,  4.41s/it]Evaluating:  42%|████▏     | 190/450 [21:03<37:23,  8.63s/it]Evaluating:  42%|████▏     | 191/450 [21:06<30:16,  7.01s/it]Exception raised in Job[179]: TimeoutError()
+Evaluating:  43%|████▎     | 192/450 [21:09<25:04,  5.83s/it]Evaluating:  43%|████▎     | 193/450 [21:24<36:20,  8.49s/it]Evaluating:  43%|████▎     | 194/450 [21:29<31:47,  7.45s/it]Exception raised in Job[182]: TimeoutError()
+Evaluating:  43%|████▎     | 195/450 [21:31<24:44,  5.82s/it]Evaluating:  44%|████▎     | 196/450 [21:45<35:50,  8.47s/it]Evaluating:  44%|████▍     | 197/450 [21:48<28:08,  6.67s/it]Exception raised in Job[185]: TimeoutError()
+Evaluating:  44%|████▍     | 198/450 [21:53<26:22,  6.28s/it]Evaluating:  44%|████▍     | 199/450 [22:10<38:48,  9.27s/it]Exception raised in Job[188]: TimeoutError()
+Evaluating:  44%|████▍     | 200/450 [22:11<28:32,  6.85s/it]Evaluating:  45%|████▍     | 201/450 [22:13<22:44,  5.48s/it]Exception raised in Job[204]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}Do not use single quotes in your response but double quotes, properly escaped with a backslash.
+
+-------------------------------
+Now perform the same with the following input
+input: {
+    "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+    "answer": "I don't have enough information in the provided context to answer this question."
+}
+Output:
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  45%|████▍     | 202/450 [22:30<36:58,  8.94s/it]Exception raised in Job[191]: TimeoutError()
+Evaluating:  45%|████▌     | 203/450 [22:33<29:28,  7.16s/it]Evaluating:  45%|████▌     | 204/450 [22:33<20:51,  5.09s/it]Evaluating:  46%|████▌     | 205/450 [22:50<34:23,  8.42s/it]Exception raised in Job[194]: TimeoutError()
+Evaluating:  46%|████▌     | 206/450 [22:51<25:20,  6.23s/it]Evaluating:  46%|████▌     | 207/450 [22:52<19:40,  4.86s/it]Evaluating:  46%|████▌     | 208/450 [23:12<37:40,  9.34s/it]Exception raised in Job[197]: TimeoutError()
+Evaluating:  46%|████▋     | 209/450 [23:13<27:06,  6.75s/it]Evaluating:  47%|████▋     | 210/450 [23:15<21:55,  5.48s/it]Exception raised in Job[200]: TimeoutError()
+Evaluating:  47%|████▋     | 211/450 [23:26<27:52,  7.00s/it]Evaluating:  47%|████▋     | 212/450 [23:34<28:53,  7.28s/it]Evaluating:  47%|████▋     | 213/450 [23:35<21:45,  5.51s/it]Exception raised in Job[203]: TimeoutError()
+Evaluating:  48%|████▊     | 214/450 [23:43<24:31,  6.23s/it]Evaluating:  48%|████▊     | 215/450 [23:55<31:11,  7.96s/it]Evaluating:  48%|████▊     | 216/450 [24:07<35:16,  9.05s/it]Exception raised in Job[206]: TimeoutError()
+Evaluating:  48%|████▊     | 218/450 [24:24<34:32,  8.93s/it]Exception raised in Job[209]: TimeoutError()
+Evaluating:  49%|████▊     | 219/450 [24:29<30:11,  7.84s/it]Evaluating:  49%|████▉     | 220/450 [24:33<26:32,  6.92s/it]Evaluating:  49%|████▉     | 221/450 [24:48<34:10,  8.95s/it]Exception raised in Job[212]: TimeoutError()
+Evaluating:  49%|████▉     | 222/450 [24:48<24:57,  6.57s/it]Evaluating:  50%|████▉     | 223/450 [24:54<23:58,  6.34s/it]Evaluating:  50%|████▉     | 224/450 [25:01<24:58,  6.63s/it]Exception raised in Job[215]: TimeoutError()
+Evaluating:  50%|█████     | 225/450 [25:11<28:14,  7.53s/it]Evaluating:  50%|█████     | 226/450 [25:28<38:18, 10.26s/it]Exception raised in Job[218]: TimeoutError()
+Evaluating:  50%|█████     | 227/450 [25:33<32:55,  8.86s/it]Exception raised in Job[221]: TimeoutError()
+Evaluating:  51%|█████     | 228/450 [25:51<42:22, 11.45s/it]Evaluating:  51%|█████     | 229/450 [26:02<41:48, 11.35s/it]Evaluating:  51%|█████     | 230/450 [26:13<41:32, 11.33s/it]Exception raised in Job[224]: TimeoutError()
+Evaluating:  52%|█████▏    | 232/450 [26:34<39:19, 10.82s/it]Exception raised in Job[227]: TimeoutError()
+Evaluating:  52%|█████▏    | 233/450 [26:34<29:44,  8.22s/it]Evaluating:  52%|█████▏    | 234/450 [26:36<24:20,  6.76s/it]Evaluating:  52%|█████▏    | 235/450 [26:45<26:02,  7.27s/it]Exception raised in Job[230]: TimeoutError()
+Evaluating:  52%|█████▏    | 236/450 [26:55<28:53,  8.10s/it]Exception raised in Job[235]: OutputParserException(Invalid json output: The response is a single word 'British.' which can be considered as an adjective or an adverb. It does not provide enough context to form a specific question. However, based on the given examples and the nature of the response, we can assume that it might be related to nationality.
+
+Let's generate a possible question: 'What is Albert Einstein's nationality?' 
+
+However, this question is not directly related to the input response. A more suitable approach would be to ask a general question about the nationality mentioned in the response.
+
+Generated question: 'From which country are you?'
+
+Analysis of noncommittal:
+
+The answer 'British.' does not provide any context or information that can be used to form a specific question. It is a short and direct answer, but it lacks detail. Therefore, we can consider this answer as noncommittal.
+
+Noncommittal value: 1
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  53%|█████▎    | 237/450 [27:09<34:47,  9.80s/it]Evaluating:  53%|█████▎    | 238/450 [27:13<28:47,  8.15s/it]Evaluating:  53%|█████▎    | 239/450 [27:22<28:48,  8.19s/it]Exception raised in Job[233]: TimeoutError()
+Evaluating:  53%|█████▎    | 240/450 [27:24<22:46,  6.51s/it]Evaluating:  54%|█████▎    | 241/450 [27:36<28:15,  8.11s/it]Evaluating:  54%|█████▍    | 242/450 [27:40<23:15,  6.71s/it]Exception raised in Job[236]: TimeoutError()
+Evaluating:  54%|█████▍    | 243/450 [27:48<24:25,  7.08s/it]Exception raised in Job[239]: TimeoutError()
+Evaluating:  54%|█████▍    | 244/450 [28:01<30:56,  9.01s/it]Evaluating:  54%|█████▍    | 245/450 [28:17<37:49, 11.07s/it]Evaluating:  55%|█████▍    | 246/450 [28:31<40:58, 12.05s/it]Exception raised in Job[242]: TimeoutError()
+Evaluating:  55%|█████▍    | 247/450 [28:33<30:35,  9.04s/it]Evaluating:  55%|█████▌    | 248/450 [28:46<34:21, 10.21s/it]Evaluating:  55%|█████▌    | 249/450 [28:49<26:48,  8.00s/it]Evaluating:  56%|█████▌    | 250/450 [29:13<42:13, 12.67s/it]Exception raised in Job[245]: TimeoutError()
+Evaluating:  56%|█████▌    | 251/450 [29:13<29:47,  8.98s/it]Evaluating:  56%|█████▌    | 252/450 [29:15<23:08,  7.01s/it]Exception raised in Job[250]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input.
+The input is: {
+    "response": "Mondelez International."
+}
+Since the response is a company name, it's likely that the person being asked is being asked to identify a company. A possible question could be:
+
+"Which company is Mondelez International?"
+However, this answer is not noncommittal because it provides specific information about the company.
+Therefore, the output in JSON format would be: {
+  "question": "Which company is Mondelez International?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  56%|█████▌    | 253/450 [29:24<24:20,  7.42s/it]Exception raised in Job[248]: TimeoutError()
+Evaluating:  56%|█████▋    | 254/450 [29:34<26:45,  8.19s/it]Evaluating:  57%|█████▋    | 255/450 [29:38<22:57,  7.06s/it]Evaluating:  57%|█████▋    | 256/450 [29:52<29:10,  9.02s/it]Exception raised in Job[251]: TimeoutError()
+Evaluating:  57%|█████▋    | 257/450 [29:55<23:41,  7.37s/it]Exception raised in Job[255]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"text": {"title": "Text", "type": "string"}}, "required": ["text"], "title": "StringIO", "type": "object"}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  57%|█████▋    | 258/450 [29:55<16:37,  5.19s/it]Exception raised in Job[254]: TimeoutError()
+Evaluating:  58%|█████▊    | 259/450 [30:22<36:41, 11.53s/it]Evaluating:  58%|█████▊    | 260/450 [30:25<28:27,  8.99s/it]Evaluating:  58%|█████▊    | 261/450 [30:31<25:59,  8.25s/it]Exception raised in Job[257]: TimeoutError()
+Evaluating:  58%|█████▊    | 262/450 [30:40<25:49,  8.24s/it]Evaluating:  58%|█████▊    | 263/450 [30:47<24:28,  7.85s/it]Evaluating:  59%|█████▊    | 264/450 [31:14<42:56, 13.85s/it]Exception raised in Job[260]: TimeoutError()
+Evaluating:  59%|█████▉    | 265/450 [31:17<32:17, 10.47s/it]Evaluating:  59%|█████▉    | 266/450 [31:17<22:55,  7.47s/it]Evaluating:  59%|█████▉    | 267/450 [31:35<32:19, 10.60s/it]Evaluating:  60%|█████▉    | 268/450 [31:39<25:32,  8.42s/it]Exception raised in Job[263]: TimeoutError()
+Evaluating:  60%|█████▉    | 269/450 [31:46<24:38,  8.17s/it]Evaluating:  60%|██████    | 270/450 [32:00<29:24,  9.80s/it]Evaluating:  60%|██████    | 271/450 [32:06<25:58,  8.71s/it]Exception raised in Job[266]: TimeoutError()
+Evaluating:  60%|██████    | 272/450 [32:13<24:20,  8.20s/it]Evaluating:  61%|██████    | 273/450 [32:17<20:23,  6.91s/it]Evaluating:  61%|██████    | 274/450 [32:29<24:45,  8.44s/it]Exception raised in Job[269]: TimeoutError()
+Evaluating:  61%|██████    | 275/450 [32:34<21:29,  7.37s/it]Evaluating:  61%|██████▏   | 276/450 [32:39<19:26,  6.70s/it]Evaluating:  62%|██████▏   | 277/450 [32:46<19:55,  6.91s/it]Exception raised in Job[272]: TimeoutError()
+Evaluating:  62%|██████▏   | 278/450 [32:55<21:35,  7.53s/it]Exception raised in Job[276]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}Do not use single quotes in your response but double quotes, properly escaped with a backslash.
+
+--------EXAMPLES-----------
+Example 1
+Input: {
+    "question": \"Who was Albert Einstein and what is he best known for?\",
+    "answer": \"He was a German-born theoretical physicist, widely acknowledged to be one of the greatest and most influential physicists of all time. He was best known for developing the theory of relativity, he also made important contributions to the development of the theory of quantum mechanics.\"
+}
+Output: {
+    "statements": [
+        \"Albert Einstein was a German-born theoretical physicist.\",
+        \"Albert Einstein is recognized as one of the greatest and most influential physicists of all time.\",
+        \"Albert Einstein was best known for developing the theory of relativity.\",
+        \"Albert Einstein also made important contributions to the development of the theory of quantum mechanics.\"
+    ]
+}
+-----------------------------
+
+Now perform the same with the following input
+input: {
+    "question": \"Where does the hotel and casino located in which Bill Cosby's third album was recorded?\",
+    "answer": \"The Flamingo Hotel in Las Vegas, Nevada. \\n\\nAccording to the context, \\"Why Is There Air?  (1965) is Bill Cosby's third album.  It was recorded at the Flamingo Hotel in Las Vegas, Nevada.\\\"\"
+}
+Output: {
+    "statements": [
+        \"The Flamingo Hotel is located in Las Vegas.\",
+        \"Nevada is a state where The Flamingo Hotel is located.\",
+        \"Why Is There Air? (1965) is Bill Cosby's third album.\",
+        \"Bill Cosby's third album, Why Is There Air? (1965), was recorded at the Flamingo Hotel in Las Vegas.\"
+    ]
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  62%|██████▏   | 279/450 [33:10<27:12,  9.55s/it]Evaluating:  62%|██████▏   | 280/450 [33:16<24:04,  8.50s/it]Exception raised in Job[275]: TimeoutError()
+Evaluating:  62%|██████▏   | 281/450 [33:25<24:31,  8.71s/it]Exception raised in Job[279]: OutputParserException(Invalid json output: The analysis of the complexity of each sentence in the answer is as follows:
+
+Input:
+{
+    "question": "Do the drinks Gibson and Zurracapote both contain gin?",
+    "answer": "No. The Gibson is a mixed drink made with gin and vermouth, but there is no mention of gin in the description of Zurracapote."
+}
+
+Output:
+{
+    "statements": [
+        "The answer to the question is No.",
+        "The Gibson is a mixed drink made with gin and vermouth.",
+        "There is no mention of gin in the description of Zurracapote."
+    ]
+}
+
+Here's how I broke down each sentence into one or more fully understandable statements:
+
+1. "No." -> "The answer to the question is No."
+2. "The Gibson is a mixed drink made with gin and vermouth" -> 
+   - "The Gibson is a mixed drink made with gin and vermouth."
+3. "but there is no mention of gin in the description of Zurracapote" -> 
+   - "There is no mention of gin in the description of Zurracapote."
+
+Note that I used double quotes and properly escaped them with a backslash as per your request.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  63%|██████▎   | 282/450 [33:45<34:08, 12.20s/it]Exception raised in Job[278]: TimeoutError()
+Evaluating:  63%|██████▎   | 283/450 [33:47<24:53,  8.94s/it]Evaluating:  63%|██████▎   | 284/450 [33:48<18:23,  6.65s/it]Evaluating:  63%|██████▎   | 285/450 [34:18<37:35, 13.67s/it]Exception raised in Job[281]: TimeoutError()
+Evaluating:  64%|██████▍   | 287/450 [34:21<21:45,  8.01s/it]Evaluating:  64%|██████▍   | 288/450 [34:46<32:56, 12.20s/it]Exception raised in Job[284]: TimeoutError()
+Evaluating:  64%|██████▍   | 289/450 [34:46<24:37,  9.18s/it]Evaluating:  64%|██████▍   | 290/450 [34:49<20:01,  7.51s/it]Evaluating:  65%|██████▍   | 291/450 [35:07<27:21, 10.33s/it]Exception raised in Job[287]: TimeoutError()
+Evaluating:  65%|██████▍   | 292/450 [35:13<24:04,  9.14s/it]Evaluating:  65%|██████▌   | 293/450 [35:20<22:05,  8.44s/it]Evaluating:  65%|██████▌   | 294/450 [35:34<26:19, 10.13s/it]Exception raised in Job[290]: TimeoutError()
+Evaluating:  66%|██████▌   | 296/450 [35:38<16:37,  6.48s/it]Exception raised in Job[293]: TimeoutError()
+Evaluating:  66%|██████▌   | 297/450 [35:55<23:11,  9.10s/it]Evaluating:  66%|██████▌   | 298/450 [35:56<17:27,  6.89s/it]Evaluating:  66%|██████▋   | 299/450 [36:04<18:26,  7.33s/it]Evaluating:  67%|██████▋   | 300/450 [36:20<24:06,  9.64s/it]Exception raised in Job[296]: TimeoutError()
+Evaluating:  67%|██████▋   | 301/450 [36:25<20:29,  8.25s/it]Evaluating:  67%|██████▋   | 302/450 [36:29<17:24,  7.06s/it]Evaluating:  67%|██████▋   | 303/450 [36:41<20:30,  8.37s/it]Exception raised in Job[299]: TimeoutError()
+Evaluating:  68%|██████▊   | 304/450 [36:48<19:36,  8.06s/it]Evaluating:  68%|██████▊   | 305/450 [36:58<21:09,  8.76s/it]Evaluating:  68%|██████▊   | 306/450 [37:15<26:45, 11.15s/it]Exception raised in Job[302]: TimeoutError()
+Evaluating:  68%|██████▊   | 307/450 [37:21<22:39,  9.51s/it]Evaluating:  68%|██████▊   | 308/450 [37:23<17:40,  7.47s/it]Evaluating:  69%|██████▊   | 309/450 [37:39<22:59,  9.79s/it]Evaluating:  69%|██████▉   | 310/450 [37:48<22:47,  9.77s/it]Exception raised in Job[305]: TimeoutError()
+Evaluating:  69%|██████▉   | 311/450 [37:49<16:32,  7.14s/it]Evaluating:  69%|██████▉   | 312/450 [38:00<19:01,  8.27s/it]Evaluating:  70%|██████▉   | 313/450 [38:10<19:34,  8.57s/it]Exception raised in Job[308]: TimeoutError()
+Evaluating:  70%|██████▉   | 314/450 [38:20<20:35,  9.09s/it]Evaluating:  70%|███████   | 315/450 [38:23<16:25,  7.30s/it]Evaluating:  70%|███████   | 316/450 [38:35<19:30,  8.74s/it]Exception raised in Job[311]: TimeoutError()
+Evaluating:  70%|███████   | 317/450 [38:38<15:41,  7.08s/it]Evaluating:  71%|███████   | 318/450 [39:04<28:11, 12.81s/it]Exception raised in Job[314]: TimeoutError()
+Evaluating:  71%|███████   | 320/450 [39:07<16:23,  7.57s/it]Evaluating:  71%|███████▏  | 321/450 [39:26<22:22, 10.40s/it]Exception raised in Job[317]: TimeoutError()
+Evaluating:  72%|███████▏  | 322/450 [39:29<17:53,  8.38s/it]Evaluating:  72%|███████▏  | 323/450 [39:31<13:50,  6.54s/it]Evaluating:  72%|███████▏  | 324/450 [39:52<22:28, 10.70s/it]Exception raised in Job[320]: TimeoutError()
+Evaluating:  72%|███████▏  | 325/450 [39:58<19:38,  9.43s/it]Evaluating:  72%|███████▏  | 326/450 [40:12<21:49, 10.56s/it]Evaluating:  73%|███████▎  | 327/450 [40:19<19:57,  9.73s/it]Exception raised in Job[323]: TimeoutError()
+Evaluating:  73%|███████▎  | 328/450 [40:23<16:22,  8.06s/it]Evaluating:  73%|███████▎  | 329/450 [40:34<17:45,  8.80s/it]Evaluating:  73%|███████▎  | 330/450 [40:41<16:21,  8.18s/it]Exception raised in Job[326]: TimeoutError()
+Evaluating:  74%|███████▎  | 331/450 [40:49<16:30,  8.32s/it]Evaluating:  74%|███████▍  | 332/450 [40:52<12:56,  6.58s/it]Evaluating:  74%|███████▍  | 333/450 [41:02<15:04,  7.73s/it]Exception raised in Job[329]: TimeoutError()
+Evaluating:  74%|███████▍  | 334/450 [41:20<20:37, 10.67s/it]Evaluating:  74%|███████▍  | 335/450 [41:28<19:04,  9.95s/it]Exception raised in Job[331]: TimeoutError()
+Evaluating:  75%|███████▍  | 336/450 [41:35<17:16,  9.09s/it]Exception raised in Job[332]: TimeoutError()
+Evaluating:  75%|███████▍  | 337/450 [41:38<13:43,  7.29s/it]Evaluating:  75%|███████▌  | 338/450 [41:41<10:56,  5.86s/it]Evaluating:  75%|███████▌  | 339/450 [41:52<13:58,  7.55s/it]Evaluating:  76%|███████▌  | 340/450 [42:04<16:21,  8.92s/it]Exception raised in Job[335]: TimeoutError()
+Evaluating:  76%|███████▌  | 341/450 [42:07<12:56,  7.13s/it]Evaluating:  76%|███████▌  | 342/450 [42:17<14:01,  7.79s/it]Exception raised in Job[338]: TimeoutError()
+Evaluating:  76%|███████▌  | 343/450 [42:31<17:11,  9.64s/it]Evaluating:  76%|███████▋  | 344/450 [42:34<13:36,  7.70s/it]Evaluating:  77%|███████▋  | 345/450 [42:43<14:20,  8.20s/it]Evaluating:  77%|███████▋  | 346/450 [42:56<16:40,  9.62s/it]Exception raised in Job[341]: TimeoutError()
+Evaluating:  77%|███████▋  | 347/450 [43:12<19:33, 11.40s/it]Evaluating:  77%|███████▋  | 348/450 [43:15<15:30,  9.12s/it]Evaluating:  78%|███████▊  | 349/450 [43:18<12:04,  7.18s/it]Exception raised in Job[344]: TimeoutError()
+Evaluating:  78%|███████▊  | 350/450 [43:34<16:19,  9.80s/it]Evaluating:  78%|███████▊  | 351/450 [43:38<13:28,  8.17s/it]Evaluating:  78%|███████▊  | 352/450 [43:41<10:48,  6.62s/it]Exception raised in Job[347]: TimeoutError()
+Evaluating:  78%|███████▊  | 353/450 [43:52<12:34,  7.78s/it]Evaluating:  79%|███████▊  | 354/450 [44:08<16:33, 10.35s/it]Evaluating:  79%|███████▉  | 355/450 [44:12<13:10,  8.32s/it]Evaluating:  79%|███████▉  | 356/450 [44:21<13:28,  8.60s/it]Exception raised in Job[350]: TimeoutError()
+Evaluating:  79%|███████▉  | 357/450 [44:28<12:37,  8.14s/it]Evaluating:  80%|███████▉  | 358/450 [44:30<09:48,  6.39s/it]Evaluating:  80%|███████▉  | 359/450 [44:39<10:31,  6.94s/it]Exception raised in Job[353]: TimeoutError()
+Evaluating:  80%|████████  | 360/450 [44:41<08:15,  5.50s/it]Evaluating:  80%|████████  | 361/450 [44:52<10:53,  7.34s/it]Evaluating:  80%|████████  | 362/450 [45:08<14:25,  9.83s/it]Exception raised in Job[356]: TimeoutError()
+Evaluating:  81%|████████  | 364/450 [45:14<09:33,  6.67s/it]Evaluating:  81%|████████  | 365/450 [45:26<11:19,  8.00s/it]Exception raised in Job[359]: TimeoutError()
+Evaluating:  81%|████████▏ | 366/450 [45:34<11:06,  7.94s/it]Evaluating:  82%|████████▏ | 367/450 [45:37<09:23,  6.78s/it]Evaluating:  82%|████████▏ | 368/450 [45:59<14:52, 10.88s/it]Evaluating:  82%|████████▏ | 369/450 [46:02<11:35,  8.58s/it]Exception raised in Job[362]: TimeoutError()
+Evaluating:  82%|████████▏ | 370/450 [46:12<11:56,  8.96s/it]Evaluating:  82%|████████▏ | 371/450 [46:30<15:24, 11.70s/it]Exception raised in Job[365]: TimeoutError()
+Evaluating:  83%|████████▎ | 372/450 [46:34<12:16,  9.44s/it]Exception raised in Job[368]: TimeoutError()
+Evaluating:  83%|████████▎ | 373/450 [46:52<15:19, 11.94s/it]Evaluating:  83%|████████▎ | 374/450 [47:11<17:53, 14.12s/it]Evaluating:  83%|████████▎ | 375/450 [47:14<13:30, 10.80s/it]Exception raised in Job[371]: TimeoutError()
+Evaluating:  84%|████████▎ | 376/450 [47:21<11:53,  9.64s/it]Evaluating:  84%|████████▍ | 377/450 [47:26<09:56,  8.17s/it]Exception raised in Job[374]: TimeoutError()
+Evaluating:  84%|████████▍ | 378/450 [47:39<11:29,  9.58s/it]Evaluating:  84%|████████▍ | 379/450 [47:51<12:29, 10.55s/it]Evaluating:  84%|████████▍ | 380/450 [48:01<12:03, 10.34s/it]Exception raised in Job[377]: TimeoutError()
+Evaluating:  85%|████████▍ | 381/450 [48:08<10:39,  9.26s/it]Exception raised in Job[379]: TimeoutError()
+Evaluating:  85%|████████▍ | 382/450 [48:14<09:22,  8.28s/it]Evaluating:  85%|████████▌ | 383/450 [48:27<10:53,  9.76s/it]Exception raised in Job[380]: TimeoutError()
+Evaluating:  86%|████████▌ | 385/450 [48:30<06:21,  5.88s/it]Evaluating:  86%|████████▌ | 386/450 [48:45<08:44,  8.19s/it]Exception raised in Job[383]: TimeoutError()
+Evaluating:  86%|████████▌ | 387/450 [48:59<10:08,  9.66s/it]Exception raised in Job[384]: TimeoutError()
+Evaluating:  86%|████████▌ | 388/450 [49:02<08:03,  7.80s/it]Evaluating:  86%|████████▋ | 389/450 [49:06<06:49,  6.71s/it]Exception raised in Job[386]: TimeoutError()
+Evaluating:  87%|████████▋ | 390/450 [49:30<11:43, 11.73s/it]Evaluating:  87%|████████▋ | 391/450 [49:33<08:55,  9.08s/it]Evaluating:  87%|████████▋ | 392/450 [49:36<07:16,  7.52s/it]Evaluating:  87%|████████▋ | 393/450 [49:45<07:27,  7.86s/it]Evaluating:  88%|████████▊ | 394/450 [49:58<08:38,  9.27s/it]Exception raised in Job[389]: TimeoutError()
+Evaluating:  88%|████████▊ | 395/450 [50:11<09:39, 10.54s/it]Evaluating:  88%|████████▊ | 396/450 [50:20<09:03, 10.06s/it]Evaluating:  88%|████████▊ | 397/450 [50:24<07:09,  8.10s/it]Exception raised in Job[392]: TimeoutError()
+Evaluating:  88%|████████▊ | 398/450 [50:26<05:29,  6.33s/it]Evaluating:  89%|████████▊ | 399/450 [50:37<06:34,  7.74s/it]Evaluating:  89%|████████▉ | 400/450 [50:48<07:13,  8.67s/it]Exception raised in Job[395]: TimeoutError()
+Evaluating:  89%|████████▉ | 401/450 [51:01<08:18, 10.17s/it]Evaluating:  89%|████████▉ | 402/450 [51:03<05:59,  7.49s/it]Evaluating:  90%|████████▉ | 403/450 [51:25<09:29, 12.13s/it]Exception raised in Job[398]: TimeoutError()
+Evaluating:  90%|████████▉ | 404/450 [51:27<06:54,  9.02s/it]Exception raised in Job[401]: TimeoutError()
+Evaluating:  90%|█████████ | 405/450 [51:45<08:45, 11.69s/it]Evaluating:  90%|█████████ | 406/450 [51:46<06:11,  8.45s/it]Evaluating:  90%|█████████ | 407/450 [52:02<07:44, 10.81s/it]Exception raised in Job[404]: TimeoutError()
+Evaluating:  91%|█████████ | 408/450 [52:06<05:59,  8.56s/it]Evaluating:  91%|█████████ | 409/450 [52:25<08:03, 11.80s/it]Evaluating:  91%|█████████ | 410/450 [52:28<06:10,  9.26s/it]Exception raised in Job[407]: TimeoutError()
+Evaluating:  91%|█████████▏| 411/450 [52:36<05:45,  8.86s/it]Exception raised in Job[408]: TimeoutError()
+Evaluating:  92%|█████████▏| 412/450 [52:45<05:34,  8.81s/it]Evaluating:  92%|█████████▏| 413/450 [52:49<04:36,  7.47s/it]Evaluating:  92%|█████████▏| 414/450 [52:57<04:35,  7.65s/it]Evaluating:  92%|█████████▏| 415/450 [53:10<05:22,  9.21s/it]Exception raised in Job[410]: TimeoutError()
+Evaluating:  92%|█████████▏| 416/450 [53:11<03:48,  6.71s/it]Exception raised in Job[413]: TimeoutError()
+Evaluating:  93%|█████████▎| 417/450 [53:26<04:59,  9.08s/it]Exception raised in Job[414]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}Do not use single quotes in your response but double quotes, properly escaped with a backslash.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  93%|█████████▎| 418/450 [53:38<05:18,  9.94s/it]Evaluating:  93%|█████████▎| 419/450 [53:41<04:06,  7.96s/it]Evaluating:  93%|█████████▎| 420/450 [53:59<05:26, 10.89s/it]Exception raised in Job[416]: TimeoutError()
+Evaluating:  94%|█████████▎| 421/450 [54:01<04:03,  8.39s/it]Evaluating:  94%|█████████▍| 422/450 [54:02<02:48,  6.03s/it]Evaluating:  94%|█████████▍| 423/450 [54:18<04:08,  9.21s/it]Evaluating:  94%|█████████▍| 424/450 [54:27<03:54,  9.00s/it]Exception raised in Job[419]: TimeoutError()
+Evaluating:  94%|█████████▍| 425/450 [54:27<02:39,  6.38s/it]Evaluating:  95%|█████████▍| 426/450 [54:42<03:33,  8.89s/it]Evaluating:  95%|█████████▍| 427/450 [54:59<04:20, 11.33s/it]Exception raised in Job[422]: TimeoutError()
+Evaluating:  95%|█████████▌| 428/450 [55:02<03:16,  8.94s/it]Evaluating:  95%|█████████▌| 429/450 [55:12<03:14,  9.24s/it]Evaluating:  96%|█████████▌| 430/450 [55:20<02:56,  8.83s/it]Exception raised in Job[425]: TimeoutError()
+Evaluating:  96%|█████████▌| 431/450 [55:28<02:44,  8.63s/it]Evaluating:  96%|█████████▌| 432/450 [55:45<03:20, 11.15s/it]Exception raised in Job[428]: TimeoutError()
+Evaluating:  96%|█████████▌| 433/450 [55:49<02:32,  8.99s/it]Evaluating:  96%|█████████▋| 434/450 [55:51<01:47,  6.71s/it]Evaluating:  97%|█████████▋| 435/450 [56:09<02:33, 10.26s/it]Exception raised in Job[431]: TimeoutError()
+Evaluating:  97%|█████████▋| 436/450 [56:11<01:48,  7.74s/it]Evaluating:  97%|█████████▋| 437/450 [56:36<02:49, 13.02s/it]Exception raised in Job[434]: TimeoutError()
+Evaluating:  97%|█████████▋| 438/450 [56:41<02:05, 10.48s/it]Evaluating:  98%|█████████▊| 439/450 [56:43<01:28,  8.05s/it]Evaluating:  98%|█████████▊| 440/450 [56:54<01:26,  8.68s/it]Exception raised in Job[437]: TimeoutError()
+Evaluating:  98%|█████████▊| 441/450 [57:02<01:17,  8.56s/it]Evaluating:  98%|█████████▊| 442/450 [57:03<00:51,  6.39s/it]Evaluating:  98%|█████████▊| 443/450 [57:16<00:58,  8.29s/it]Exception raised in Job[442]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input response.
+
+Input: {
+    "response": "The Kingdom of the Isles."
+}
+
+We can assume that the question related to this answer could be "What is the name of the place?" or more specifically "What is the name of the kingdom mentioned?"
+
+However, since the answer is a single word and does not provide any context, it's difficult to generate a specific question. But we can still identify if the answer is noncommittal.
+
+The answer "The Kingdom of the Isles." is not evasive, vague, or ambiguous. It provides a clear and direct response.
+
+Therefore, the output would be:
+
+{
+  "question": "What is the name of the kingdom mentioned?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  99%|█████████▊| 444/450 [57:26<00:52,  8.70s/it]Exception raised in Job[440]: TimeoutError()
+Evaluating:  99%|█████████▉| 445/450 [57:27<00:33,  6.61s/it]Evaluating:  99%|█████████▉| 446/450 [57:35<00:27,  6.87s/it]Evaluating:  99%|█████████▉| 447/450 [57:43<00:21,  7.32s/it]Exception raised in Job[443]: TimeoutError()
+Evaluating: 100%|█████████▉| 448/450 [58:02<00:21, 10.90s/it]Exception raised in Job[446]: TimeoutError()
+Evaluating: 100%|█████████▉| 449/450 [58:28<00:15, 15.43s/it]Evaluating: 100%|██████████| 450/450 [58:32<00:00, 12.00s/it]Evaluating: 100%|██████████| 450/450 [58:32<00:00,  7.81s/it]
+  Partial results written → C:\Users\ANUJ\OneDrive\Desktop\CRAG RESEARCH PAPER\agentic-rag\results\results_main.csv
+
+Computing RAGAS metrics for condition: agentic…
+Evaluating:   0%|          | 0/450 [00:00<?, ?it/s]Evaluating:   0%|          | 1/450 [00:58<7:15:05, 58.14s/it]Evaluating:   0%|          | 2/450 [01:10<3:54:14, 31.37s/it]Evaluating:   1%|          | 3/450 [01:10<2:07:32, 17.12s/it]Evaluating:   1%|          | 4/450 [01:13<1:23:30, 11.23s/it]Evaluating:   1%|          | 5/450 [01:23<1:22:06, 11.07s/it]Evaluating:   1%|▏         | 6/450 [01:33<1:18:26, 10.60s/it]Evaluating:   2%|▏         | 7/450 [01:39<1:06:47,  9.05s/it]Evaluating:   2%|▏         | 8/450 [01:52<1:16:13, 10.35s/it]Evaluating:   2%|▏         | 9/450 [02:16<1:47:31, 14.63s/it]Evaluating:   2%|▏         | 10/450 [02:31<1:47:44, 14.69s/it]Evaluating:   2%|▏         | 11/450 [02:38<1:30:00, 12.30s/it]Evaluating:   3%|▎         | 12/450 [02:43<1:14:17, 10.18s/it]Exception raised in Job[2]: TimeoutError()
+Evaluating:   3%|▎         | 13/450 [03:00<1:27:44, 12.05s/it]Exception raised in Job[5]: TimeoutError()
+Exception raised in Job[8]: TimeoutError()
+Exception raised in Job[11]: TimeoutError()
+Exception raised in Job[14]: TimeoutError()
+Evaluating:   4%|▎         | 16/450 [03:01<39:33,  5.47s/it]  Exception raised in Job[16]: OutputParserException(Invalid json output: The response seems to be a name of an entertainment company. To generate a question, we can ask what YG Entertainment is.
+
+Question: "What is YG Entertainment?"
+
+Since the answer is a specific name and not evasive or vague, it's considered committal.
+
+Output:
+{
+  "question": "What is YG Entertainment?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:   4%|▍         | 18/450 [03:20<49:48,  6.92s/it]Evaluating:   4%|▍         | 19/450 [03:28<51:12,  7.13s/it]Evaluating:   4%|▍         | 20/450 [03:33<47:51,  6.68s/it]Evaluating:   5%|▍         | 21/450 [03:46<58:44,  8.21s/it]Evaluating:   5%|▍         | 22/450 [03:51<52:30,  7.36s/it]Evaluating:   5%|▌         | 23/450 [04:05<1:04:54,  9.12s/it]Exception raised in Job[17]: TimeoutError()
+Evaluating:   5%|▌         | 24/450 [04:10<57:25,  8.09s/it]  Exception raised in Job[22]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input.
+The input is: {"response": "3,677"}
+Since the response is a number, it's likely that the question being asked is about the value of something. A possible question could be:
+
+"Question": "What is 3677?"
+
+As for whether the answer is noncommittal, we can consider the fact that the response is a specific number, which implies that the speaker has some knowledge or information about it. Therefore, the answer is likely committal.
+
+Output: {
+  "question": "What is 3677?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:   6%|▌         | 25/450 [04:15<50:26,  7.12s/it]Exception raised in Job[20]: TimeoutError()
+Evaluating:   6%|▌         | 26/450 [04:23<53:05,  7.51s/it]Evaluating:   6%|▌         | 27/450 [04:29<49:13,  6.98s/it]Exception raised in Job[23]: TimeoutError()
+Evaluating:   6%|▌         | 28/450 [04:52<1:22:10, 11.68s/it]Evaluating:   6%|▋         | 29/450 [05:01<1:16:17, 10.87s/it]Evaluating:   7%|▋         | 30/450 [05:14<1:19:52, 11.41s/it]Evaluating:   7%|▋         | 31/450 [05:35<1:40:48, 14.44s/it]Exception raised in Job[26]: TimeoutError()
+Evaluating:   7%|▋         | 32/450 [05:38<1:15:55, 10.90s/it]Exception raised in Job[29]: TimeoutError()
+Evaluating:   7%|▋         | 33/450 [06:00<1:38:10, 14.13s/it]Exception raised in Job[32]: TimeoutError()
+Evaluating:   8%|▊         | 34/450 [06:01<1:11:09, 10.26s/it]Exception raised in Job[33]: TimeoutError()
+Evaluating:   8%|▊         | 35/450 [06:20<1:29:25, 12.93s/it]Exception raised in Job[34]: TimeoutError()
+Evaluating:   8%|▊         | 36/450 [06:28<1:19:00, 11.45s/it]Exception raised in Job[35]: TimeoutError()
+Evaluating:   8%|▊         | 37/450 [06:33<1:05:44,  9.55s/it]Exception raised in Job[36]: TimeoutError()
+Evaluating:   8%|▊         | 38/450 [06:46<1:12:48, 10.60s/it]Evaluating:   9%|▊         | 39/450 [06:53<1:05:11,  9.52s/it]Exception raised in Job[38]: TimeoutError()
+Evaluating:   9%|▉         | 40/450 [07:05<1:09:42, 10.20s/it]Exception raised in Job[39]: TimeoutError()
+Evaluating:   9%|▉         | 41/450 [07:10<59:41,  8.76s/it]  Exception raised in Job[40]: TimeoutError()
+Evaluating:   9%|▉         | 42/450 [07:15<51:13,  7.53s/it]Exception raised in Job[41]: TimeoutError()
+Evaluating:  10%|▉         | 43/450 [07:23<53:01,  7.82s/it]Exception raised in Job[42]: TimeoutError()
+Evaluating:  10%|▉         | 44/450 [07:29<48:34,  7.18s/it]Evaluating:  10%|█         | 45/450 [07:36<46:54,  6.95s/it]Exception raised in Job[44]: TimeoutError()
+Evaluating:  10%|█         | 46/450 [08:02<1:26:06, 12.79s/it]Evaluating:  10%|█         | 47/450 [08:16<1:27:55, 13.09s/it]Exception raised in Job[45]: TimeoutError()
+Evaluating:  11%|█         | 49/450 [08:39<1:23:35, 12.51s/it]Exception raised in Job[47]: TimeoutError()
+Exception raised in Job[48]: TimeoutError()
+Evaluating:  11%|█▏        | 51/450 [09:00<1:17:25, 11.64s/it]Exception raised in Job[49]: TimeoutError()
+Evaluating:  12%|█▏        | 52/450 [09:01<1:01:09,  9.22s/it]Evaluating:  12%|█▏        | 53/450 [09:14<1:07:27, 10.20s/it]Exception raised in Job[50]: TimeoutError()
+Evaluating:  12%|█▏        | 54/450 [09:20<1:00:07,  9.11s/it]Evaluating:  12%|█▏        | 55/450 [09:23<48:37,  7.39s/it]  Exception raised in Job[53]: TimeoutError()
+Evaluating:  12%|█▏        | 56/450 [09:46<1:17:40, 11.83s/it]Exception raised in Job[54]: TimeoutError()
+Evaluating:  13%|█▎        | 57/450 [09:53<1:08:34, 10.47s/it]Evaluating:  13%|█▎        | 58/450 [09:59<59:59,  9.18s/it]  Exception raised in Job[56]: TimeoutError()
+Evaluating:  13%|█▎        | 59/450 [10:10<1:03:36,  9.76s/it]Evaluating:  13%|█▎        | 60/450 [10:13<50:00,  7.69s/it]  Exception raised in Job[58]: TimeoutError()
+Evaluating:  14%|█▎        | 61/450 [10:23<55:06,  8.50s/it]Exception raised in Job[59]: TimeoutError()
+Evaluating:  14%|█▍        | 62/450 [10:29<49:35,  7.67s/it]Evaluating:  14%|█▍        | 63/450 [10:35<46:44,  7.25s/it]Exception raised in Job[60]: TimeoutError()
+Evaluating:  14%|█▍        | 64/450 [10:36<32:59,  5.13s/it]Evaluating:  14%|█▍        | 65/450 [10:50<51:03,  7.96s/it]Evaluating:  15%|█▍        | 66/450 [10:57<48:43,  7.61s/it]Evaluating:  15%|█▍        | 67/450 [11:05<50:15,  7.87s/it]Evaluating:  15%|█▌        | 68/450 [11:15<52:39,  8.27s/it]Exception raised in Job[62]: TimeoutError()
+Evaluating:  15%|█▌        | 69/450 [11:16<38:56,  6.13s/it]Evaluating:  16%|█▌        | 70/450 [11:20<34:17,  5.42s/it]Exception raised in Job[65]: TimeoutError()
+Evaluating:  16%|█▌        | 71/450 [11:39<1:01:41,  9.77s/it]Evaluating:  16%|█▌        | 72/450 [11:43<49:47,  7.90s/it]  Evaluating:  16%|█▌        | 73/450 [11:53<53:42,  8.55s/it]Evaluating:  16%|█▋        | 74/450 [12:01<53:06,  8.48s/it]Evaluating:  17%|█▋        | 75/450 [12:07<48:34,  7.77s/it]Exception raised in Job[68]: TimeoutError()
+Evaluating:  17%|█▋        | 76/450 [12:14<46:12,  7.41s/it]Evaluating:  17%|█▋        | 77/450 [12:16<35:07,  5.65s/it]Exception raised in Job[79]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the response. If the response is a specific date or number, it's likely that the answer is committal.
+
+Given input:
+{
+    "response": "1838"
+}
+
+We can assume that the answer is committal because it's a specific year. Therefore, the question would be something like "What year was this?" and noncommittal would be 0.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  17%|█▋        | 78/450 [12:21<35:21,  5.70s/it]Evaluating:  18%|█▊        | 79/450 [12:32<44:24,  7.18s/it]Exception raised in Job[71]: TimeoutError()
+Evaluating:  18%|█▊        | 80/450 [12:46<57:00,  9.24s/it]Evaluating:  18%|█▊        | 81/450 [12:51<48:31,  7.89s/it]Evaluating:  18%|█▊        | 82/450 [12:59<48:53,  7.97s/it]Evaluating:  18%|█▊        | 83/450 [13:04<42:47,  7.00s/it]Exception raised in Job[74]: TimeoutError()
+Evaluating:  19%|█▊        | 84/450 [13:10<41:56,  6.87s/it]Evaluating:  19%|█▉        | 85/450 [13:14<36:09,  5.94s/it]Evaluating:  19%|█▉        | 86/450 [13:18<32:22,  5.34s/it]Exception raised in Job[88]: OutputParserException(Failed to parse ResponseRelevanceOutput from completion {"properties": {"question": {}}}. Got: 2 validation errors for ResponseRelevanceOutput
+question
+  Field required [type=missing, input_value={'properties': {'question': {}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+noncommittal
+  Field required [type=missing, input_value={'properties': {'question': {}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  19%|█▉        | 87/450 [13:23<31:37,  5.23s/it]Exception raised in Job[77]: TimeoutError()
+Evaluating:  20%|█▉        | 88/450 [13:29<33:15,  5.51s/it]Evaluating:  20%|█▉        | 89/450 [13:33<29:49,  4.96s/it]Evaluating:  20%|██        | 90/450 [13:39<31:40,  5.28s/it]Evaluating:  20%|██        | 91/450 [13:46<34:07,  5.70s/it]Exception raised in Job[80]: TimeoutError()
+Evaluating:  20%|██        | 92/450 [13:50<32:03,  5.37s/it]Evaluating:  21%|██        | 93/450 [13:51<23:42,  3.99s/it]Evaluating:  21%|██        | 94/450 [14:02<36:48,  6.20s/it]Evaluating:  21%|██        | 95/450 [14:05<30:53,  5.22s/it]Exception raised in Job[83]: TimeoutError()
+Evaluating:  21%|██▏       | 96/450 [14:15<38:16,  6.49s/it]Evaluating:  22%|██▏       | 97/450 [14:29<52:30,  8.92s/it]Exception raised in Job[86]: TimeoutError()
+Evaluating:  22%|██▏       | 98/450 [14:39<54:35,  9.30s/it]Evaluating:  22%|██▏       | 99/450 [14:43<44:29,  7.60s/it]Exception raised in Job[89]: TimeoutError()
+Evaluating:  22%|██▏       | 100/450 [15:01<1:03:02, 10.81s/it]Evaluating:  22%|██▏       | 101/450 [15:09<56:58,  9.79s/it]  Exception raised in Job[92]: TimeoutError()
+Evaluating:  23%|██▎       | 102/450 [15:16<51:36,  8.90s/it]Exception raised in Job[106]: OutputParserException(Invalid json output: 
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  23%|██▎       | 103/450 [15:20<43:10,  7.47s/it]Evaluating:  23%|██▎       | 104/450 [15:21<33:11,  5.76s/it]Evaluating:  23%|██▎       | 105/450 [15:28<34:03,  5.92s/it]Exception raised in Job[109]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input.
+The input is: {"response": "2000"}
+Since the response is a number, it's likely an answer to a specific question. We can create a question that corresponds to this answer.
+Here's a possible question: "What year was it?"
+However, since the answer "2000" is a direct and clear response, we can conclude that it's not noncommittal.
+Therefore, the output should be:
+{
+  "question": "What year was it?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  24%|██▎       | 106/450 [15:41<45:52,  8.00s/it]Evaluating:  24%|██▍       | 107/450 [15:44<37:17,  6.52s/it]Exception raised in Job[95]: TimeoutError()
+Evaluating:  24%|██▍       | 108/450 [15:46<30:05,  5.28s/it]Evaluating:  24%|██▍       | 109/450 [15:53<31:57,  5.62s/it]Evaluating:  24%|██▍       | 110/450 [16:03<40:08,  7.08s/it]Exception raised in Job[98]: TimeoutError()
+Evaluating:  25%|██▍       | 111/450 [16:04<29:11,  5.17s/it]Exception raised in Job[101]: TimeoutError()
+Evaluating:  25%|██▍       | 112/450 [16:18<44:32,  7.91s/it]Evaluating:  25%|██▌       | 113/450 [16:19<32:45,  5.83s/it]Evaluating:  25%|██▌       | 114/450 [16:20<24:58,  4.46s/it]Exception raised in Job[104]: TimeoutError()
+Evaluating:  26%|██▌       | 115/450 [16:33<38:28,  6.89s/it]Evaluating:  26%|██▌       | 116/450 [16:39<36:34,  6.57s/it]Exception raised in Job[107]: TimeoutError()
+Evaluating:  26%|██▌       | 117/450 [16:50<44:39,  8.05s/it]Evaluating:  26%|██▌       | 118/450 [16:55<39:36,  7.16s/it]Evaluating:  26%|██▋       | 119/450 [16:58<33:02,  5.99s/it]Exception raised in Job[110]: TimeoutError()
+Evaluating:  27%|██▋       | 120/450 [17:05<34:07,  6.20s/it]Evaluating:  27%|██▋       | 121/450 [17:10<32:21,  5.90s/it]Evaluating:  27%|██▋       | 122/450 [17:13<27:21,  5.00s/it]Exception raised in Job[124]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input. The input is "Mumbai, Maharashtra." which seems to be an address.
+
+We can assume that the question would be "Where is Mumbai located?" or simply "What is Mumbai?"
+
+As for whether the answer is noncommittal, it's not evasive or vague, so it's likely committal.
+
+Here's the output in JSON format:
+
+{
+  "question": "What is Mumbai?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  27%|██▋       | 123/450 [17:19<27:36,  5.07s/it]Exception raised in Job[126]: OutputParserException(Invalid json output: The answer seems to be incomplete or incorrect. It appears to be a list of manga series titles rather than an answer to the question.
+
+However, assuming that the correct answer is 1962 (the birth year of the creator), here's the analysis:
+
+{
+    "statements": [
+        "Someone born in 1962 wrote and illustrated the manga series.",
+        "The manga series is based on a 16-year-old high school student named Ichitaka Seto."
+    ]
+}
+
+Note that I've broken down each sentence into two statements, as required. The first statement assumes that the creator's birth year is indeed 1962.
+
+If you'd like to provide a correct answer or clarify the input, I'll be happy to assist further!
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  28%|██▊       | 124/450 [17:29<35:33,  6.54s/it]Evaluating:  28%|██▊       | 125/450 [17:36<36:20,  6.71s/it]Exception raised in Job[113]: TimeoutError()
+Evaluating:  28%|██▊       | 126/450 [17:39<31:35,  5.85s/it]Evaluating:  28%|██▊       | 127/450 [17:47<34:53,  6.48s/it]Exception raised in Job[116]: TimeoutError()
+Evaluating:  28%|██▊       | 128/450 [18:09<59:20, 11.06s/it]Exception raised in Job[119]: TimeoutError()
+Evaluating:  29%|██▊       | 129/450 [18:21<1:01:15, 11.45s/it]Evaluating:  29%|██▉       | 130/450 [18:26<50:33,  9.48s/it]  Evaluating:  29%|██▉       | 131/450 [18:36<50:29,  9.50s/it]Evaluating:  29%|██▉       | 132/450 [18:39<40:34,  7.66s/it]Exception raised in Job[122]: TimeoutError()
+Evaluating:  30%|██▉       | 133/450 [18:44<35:22,  6.69s/it]Exception raised in Job[136]: OutputParserException(Invalid json output: To generate a question for the given answer, we can assume that the response is referring to a location. Therefore, a suitable question could be:
+
+What is Yellowcraigs?
+Noncommittal: 0
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  30%|██▉       | 134/450 [18:45<27:03,  5.14s/it]Evaluating:  30%|███       | 135/450 [18:53<31:34,  6.01s/it]Exception raised in Job[125]: TimeoutError()
+Evaluating:  30%|███       | 136/450 [19:03<37:19,  7.13s/it]Evaluating:  30%|███       | 137/450 [19:05<29:46,  5.71s/it]Evaluating:  31%|███       | 138/450 [19:20<43:21,  8.34s/it]Exception raised in Job[128]: TimeoutError()
+Evaluating:  31%|███       | 140/450 [19:26<30:01,  5.81s/it]Exception raised in Job[131]: TimeoutError()
+Evaluating:  31%|███▏      | 141/450 [19:39<39:09,  7.60s/it]Evaluating:  32%|███▏      | 142/450 [19:50<43:54,  8.55s/it]Evaluating:  32%|███▏      | 143/450 [19:53<36:06,  7.06s/it]Exception raised in Job[134]: TimeoutError()
+Evaluating:  32%|███▏      | 144/450 [19:58<33:50,  6.64s/it]Evaluating:  32%|███▏      | 145/450 [20:04<31:38,  6.23s/it]Evaluating:  32%|███▏      | 146/450 [20:10<31:35,  6.24s/it]Exception raised in Job[137]: TimeoutError()
+Evaluating:  33%|███▎      | 147/450 [20:13<27:14,  5.39s/it]Evaluating:  33%|███▎      | 148/450 [20:18<25:32,  5.08s/it]Exception raised in Job[139]: TimeoutError()
+Evaluating:  33%|███▎      | 149/450 [20:29<34:05,  6.79s/it]Evaluating:  33%|███▎      | 150/450 [20:30<26:35,  5.32s/it]Exception raised in Job[140]: TimeoutError()
+Evaluating:  34%|███▎      | 151/450 [20:36<26:25,  5.30s/it]Exception raised in Job[153]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}Do not use single quotes in your response but double quotes,properly escaped with a backslash.
+
+-------------------------------
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  34%|███▍      | 152/450 [20:50<40:01,  8.06s/it]Evaluating:  34%|███▍      | 153/450 [20:51<29:26,  5.95s/it]Exception raised in Job[143]: TimeoutError()
+Evaluating:  34%|███▍      | 154/450 [21:09<47:09,  9.56s/it]Evaluating:  34%|███▍      | 155/450 [21:14<40:18,  8.20s/it]Evaluating:  35%|███▍      | 156/450 [21:19<35:29,  7.24s/it]Evaluating:  35%|███▍      | 157/450 [21:27<36:22,  7.45s/it]Evaluating:  35%|███▌      | 158/450 [21:34<35:43,  7.34s/it]Exception raised in Job[146]: TimeoutError()
+Evaluating:  35%|███▌      | 159/450 [21:36<27:26,  5.66s/it]Evaluating:  36%|███▌      | 160/450 [21:44<30:42,  6.35s/it]Exception raised in Job[149]: TimeoutError()
+Evaluating:  36%|███▌      | 161/450 [21:45<23:21,  4.85s/it]Evaluating:  36%|███▌      | 162/450 [21:59<35:27,  7.39s/it]Exception raised in Job[152]: TimeoutError()
+Evaluating:  36%|███▌      | 163/450 [22:05<34:36,  7.23s/it]Evaluating:  36%|███▋      | 164/450 [22:12<33:49,  7.10s/it]Evaluating:  37%|███▋      | 165/450 [22:16<28:23,  5.98s/it]Exception raised in Job[155]: TimeoutError()
+Evaluating:  37%|███▋      | 166/450 [22:26<34:05,  7.20s/it]Exception raised in Job[168]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"text": {"title": "Text", "type": "string"}}, "required": ["text"], "title": "StringIO", "type": "object"}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  37%|███▋      | 167/450 [22:40<43:32,  9.23s/it]Evaluating:  37%|███▋      | 168/450 [22:43<35:06,  7.47s/it]Evaluating:  38%|███▊      | 169/450 [22:51<36:04,  7.70s/it]Exception raised in Job[158]: TimeoutError()
+Evaluating:  38%|███▊      | 170/450 [22:53<27:37,  5.92s/it]Exception raised in Job[171]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}Do not use single quotes in your response but double quotes, properly escaped with a backslash.
+
+--------EXAMPLES-----------
+Example 1
+Input: {
+    "question": \"Who was Albert Einstein and what is he best known for?\",
+    "answer": \"He was a German-born theoretical physicist, widely acknowledged to be one of the greatest and most influential physicists of all time. He was best known for developing the theory of relativity, he also made important contributions to the development of the theory of quantum mechanics.\"
+}
+Output: {
+    "statements": [
+        \"Albert Einstein was a German-born theoretical physicist.\",
+        \"Albert Einstein is recognized as one of the greatest and most influential physicists of all time.\",
+        \"Albert Einstein was best known for developing the theory of relativity.\",
+        \"Albert Einstein also made important contributions to the development of the theory of quantum mechanics.\"
+    ]
+}
+-----------------------------
+
+Now perform the same with the following input
+input: {
+    "question": \"who is younger Keith Bostic or Jerry Glanville ?\",
+    "answer": \"Jerry Glanville - October 14, 1941\\nKeith Bostic - January 17, 1961\"
+}
+Output:
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  38%|███▊      | 171/450 [23:02<32:05,  6.90s/it]Exception raised in Job[161]: TimeoutError()
+Evaluating:  38%|███▊      | 172/450 [23:10<33:14,  7.17s/it]Exception raised in Job[164]: TimeoutError()
+Evaluating:  38%|███▊      | 173/450 [23:29<48:52, 10.59s/it]Evaluating:  39%|███▊      | 174/450 [23:44<55:03, 11.97s/it]Exception raised in Job[167]: TimeoutError()
+Evaluating:  39%|███▉      | 175/450 [23:51<47:54, 10.45s/it]Evaluating:  39%|███▉      | 176/450 [23:55<40:04,  8.78s/it]Evaluating:  39%|███▉      | 177/450 [23:59<32:09,  7.07s/it]Evaluating:  40%|███▉      | 178/450 [24:08<35:50,  7.91s/it]Exception raised in Job[170]: TimeoutError()
+Evaluating:  40%|███▉      | 179/450 [24:14<32:46,  7.26s/it]Evaluating:  40%|████      | 180/450 [24:15<23:45,  5.28s/it]Exception raised in Job[173]: TimeoutError()
+Evaluating:  40%|████      | 181/450 [24:34<42:37,  9.51s/it]Exception raised in Job[174]: TimeoutError()
+Evaluating:  40%|████      | 182/450 [24:36<32:02,  7.17s/it]Exception raised in Job[176]: TimeoutError()
+Evaluating:  41%|████      | 183/450 [24:45<34:46,  7.81s/it]Exception raised in Job[183]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}Do not use single quotes in your response but double quotes, properly escaped with a backslash.
+
+-----------------------------
+Now perform the same with the following input
+input: {
+    "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+    "answer": "I don't have enough information."
+}
+Output:
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  41%|████      | 184/450 [24:53<34:46,  7.84s/it]Evaluating:  41%|████      | 185/450 [24:54<25:53,  5.86s/it]Evaluating:  41%|████▏     | 186/450 [25:10<38:32,  8.76s/it]Exception raised in Job[179]: TimeoutError()
+Evaluating:  42%|████▏     | 187/450 [25:12<29:52,  6.82s/it]Evaluating:  42%|████▏     | 188/450 [25:14<22:41,  5.20s/it]Evaluating:  42%|████▏     | 189/450 [25:28<35:12,  8.09s/it]Evaluating:  42%|████▏     | 190/450 [25:32<29:25,  6.79s/it]Exception raised in Job[182]: TimeoutError()
+Evaluating:  42%|████▏     | 191/450 [25:40<30:05,  6.97s/it]Evaluating:  43%|████▎     | 192/450 [25:42<24:08,  5.61s/it]Evaluating:  43%|████▎     | 193/450 [25:51<28:11,  6.58s/it]Exception raised in Job[185]: TimeoutError()
+Evaluating:  43%|████▎     | 194/450 [25:53<22:18,  5.23s/it]Evaluating:  43%|████▎     | 195/450 [25:56<18:51,  4.44s/it]Evaluating:  44%|████▎     | 196/450 [26:03<23:00,  5.43s/it]Evaluating:  44%|████▍     | 197/450 [26:10<25:04,  5.94s/it]Evaluating:  44%|████▍     | 198/450 [26:21<30:39,  7.30s/it]Evaluating:  44%|████▍     | 199/450 [26:27<29:35,  7.07s/it]Exception raised in Job[188]: TimeoutError()
+Evaluating:  44%|████▍     | 200/450 [26:29<21:58,  5.27s/it]Evaluating:  45%|████▍     | 201/450 [26:34<22:22,  5.39s/it]Evaluating:  45%|████▍     | 202/450 [26:41<23:45,  5.75s/it]Exception raised in Job[191]: TimeoutError()
+Evaluating:  45%|████▌     | 203/450 [26:55<34:44,  8.44s/it]Evaluating:  45%|████▌     | 204/450 [27:14<46:41, 11.39s/it]Exception raised in Job[194]: TimeoutError()
+Evaluating:  46%|████▌     | 205/450 [27:14<33:02,  8.09s/it]Evaluating:  46%|████▌     | 206/450 [27:18<27:40,  6.81s/it]Evaluating:  46%|████▌     | 207/450 [27:27<30:51,  7.62s/it]Evaluating:  46%|████▌     | 208/450 [27:31<25:55,  6.43s/it]Exception raised in Job[197]: TimeoutError()
+Evaluating:  46%|████▋     | 209/450 [27:36<23:51,  5.94s/it]Exception raised in Job[200]: TimeoutError()
+Evaluating:  47%|████▋     | 210/450 [27:54<38:47,  9.70s/it]Exception raised in Job[213]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}Do not use single quotes in your response but double quotes, properly escaped with a backslash.
+
+-------------------------------
+Now perform the same with the following input
+input: {
+    "question": "What is the inhabitant of the city where 122nd SS-Standarte was formed in2014",
+    "answer": "I don't have enough information."
+}
+Output:
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  47%|████▋     | 211/450 [28:02<36:08,  9.07s/it]Evaluating:  47%|████▋     | 212/450 [28:05<29:06,  7.34s/it]Exception raised in Job[203]: TimeoutError()
+Evaluating:  47%|████▋     | 213/450 [28:14<30:08,  7.63s/it]Evaluating:  48%|████▊     | 214/450 [28:16<23:54,  6.08s/it]Evaluating:  48%|████▊     | 215/450 [28:23<25:05,  6.40s/it]Exception raised in Job[204]: TimeoutError()
+Evaluating:  48%|████▊     | 216/450 [28:28<23:36,  6.05s/it]Exception raised in Job[206]: TimeoutError()
+Evaluating:  48%|████▊     | 217/450 [28:40<29:26,  7.58s/it]Evaluating:  48%|████▊     | 218/450 [28:46<28:06,  7.27s/it]Exception raised in Job[209]: TimeoutError()
+Evaluating:  49%|████▊     | 219/450 [28:53<27:26,  7.13s/it]Evaluating:  49%|████▉     | 220/450 [29:01<28:16,  7.38s/it]Exception raised in Job[212]: TimeoutError()
+Evaluating:  49%|████▉     | 221/450 [29:10<30:38,  8.03s/it]Evaluating:  49%|████▉     | 222/450 [29:16<27:16,  7.18s/it]Exception raised in Job[226]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input. 
+The input is: {
+    "response": "John John Florence."
+}
+Since the response does not provide any information that can be used to form a specific question, we will assume it as a name or a phrase without any context.
+
+We can generate a generic question related to the person mentioned in the response:
+
+"Who is John John Florence?"
+
+As for identifying if the answer is noncommittal, the response "John John Florence." does not contain any evasive, vague, or ambiguous language. Therefore, it is committal.
+
+The output will be: {
+  "question": "Who is John John Florence?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  50%|████▉     | 223/450 [29:25<29:51,  7.89s/it]Exception raised in Job[215]: TimeoutError()
+Evaluating:  50%|████▉     | 224/450 [29:29<24:33,  6.52s/it]Evaluating:  50%|█████     | 225/450 [29:34<23:12,  6.19s/it]Exception raised in Job[218]: TimeoutError()
+Evaluating:  50%|█████     | 226/450 [29:55<40:18, 10.80s/it]Evaluating:  50%|█████     | 227/450 [30:07<40:33, 10.91s/it]Exception raised in Job[221]: TimeoutError()
+Evaluating:  51%|█████     | 228/450 [30:18<40:48, 11.03s/it]Exception raised in Job[232]: OutputParserException(Invalid json output: The input response is very short and does not provide any specific information, it can be considered as noncommittal.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  51%|█████     | 229/450 [30:29<40:39, 11.04s/it]Evaluating:  51%|█████     | 230/450 [30:30<29:40,  8.09s/it]Exception raised in Job[224]: TimeoutError()
+Evaluating:  51%|█████▏    | 231/450 [30:36<26:54,  7.37s/it]Evaluating:  52%|█████▏    | 232/450 [30:41<24:19,  6.69s/it]Exception raised in Job[235]: OutputParserException(Invalid json output: Given the response "British.", it's difficult to create a direct question. However, based on the context, we can assume that the response is referring to nationality or ethnicity. A possible question could be: "From which country are you?" The answer "British." is not evasive, vague, or ambiguous in this context. It provides a clear and direct answer. Therefore, the output will be: {
+  "question": "From which country are you?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  52%|█████▏    | 233/450 [31:02<39:56, 11.05s/it]Exception raised in Job[227]: TimeoutError()
+Evaluating:  52%|█████▏    | 234/450 [31:05<31:07,  8.65s/it]Evaluating:  52%|█████▏    | 235/450 [31:09<26:08,  7.30s/it]Exception raised in Job[229]: TimeoutError()
+Evaluating:  52%|█████▏    | 236/450 [31:17<25:59,  7.29s/it]Evaluating:  53%|█████▎    | 237/450 [31:18<19:09,  5.40s/it]Exception raised in Job[230]: TimeoutError()
+Evaluating:  53%|█████▎    | 238/450 [31:23<19:13,  5.44s/it]Evaluating:  53%|█████▎    | 239/450 [31:33<23:44,  6.75s/it]Evaluating:  53%|█████▎    | 240/450 [31:36<19:27,  5.56s/it]Exception raised in Job[241]: OutputParserException(Invalid json output: The response is a simple location name, so it's likely committal.
+
+Generated question:
+"Where is Newport?"
+
+Noncommittal answer: 0
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  54%|█████▎    | 241/450 [31:37<14:30,  4.17s/it]Exception raised in Job[233]: TimeoutError()
+Evaluating:  54%|█████▍    | 242/450 [31:46<19:53,  5.74s/it]Evaluating:  54%|█████▍    | 243/450 [31:57<25:18,  7.34s/it]Evaluating:  54%|█████▍    | 244/450 [32:02<22:25,  6.53s/it]Exception raised in Job[236]: TimeoutError()
+Evaluating:  54%|█████▍    | 245/450 [32:10<24:25,  7.15s/it]Evaluating:  55%|█████▍    | 246/450 [32:17<23:35,  6.94s/it]Evaluating:  55%|█████▍    | 247/450 [32:22<21:48,  6.45s/it]Exception raised in Job[239]: TimeoutError()
+Evaluating:  55%|█████▌    | 248/450 [32:29<21:35,  6.41s/it]Evaluating:  55%|█████▌    | 249/450 [32:32<18:21,  5.48s/it]Evaluating:  56%|█████▌    | 250/450 [32:41<21:40,  6.50s/it]Evaluating:  56%|█████▌    | 251/450 [32:56<30:08,  9.09s/it]Evaluating:  56%|█████▌    | 252/450 [33:01<26:07,  7.92s/it]Exception raised in Job[242]: TimeoutError()
+Evaluating:  56%|█████▌    | 253/450 [33:07<23:44,  7.23s/it]Evaluating:  56%|█████▋    | 254/450 [33:13<22:33,  6.90s/it]Evaluating:  57%|█████▋    | 255/450 [33:25<27:51,  8.57s/it]Evaluating:  57%|█████▋    | 256/450 [33:28<22:03,  6.82s/it]Exception raised in Job[245]: TimeoutError()
+Evaluating:  57%|█████▋    | 257/450 [33:30<17:31,  5.45s/it]Exception raised in Job[259]: OutputParserException(Invalid json output: The question could be: What year is 1866? Since the answer is a specific year, it's not noncommittal. So, the output in JSON format would be:
+
+{
+  "question": "What year is 1866?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  57%|█████▋    | 258/450 [33:33<14:22,  4.49s/it]Evaluating:  58%|█████▊    | 259/450 [33:45<22:12,  6.98s/it]Evaluating:  58%|█████▊    | 260/450 [33:52<21:32,  6.80s/it]Evaluating:  58%|█████▊    | 261/450 [33:57<19:37,  6.23s/it]Exception raised in Job[248]: TimeoutError()
+Evaluating:  58%|█████▊    | 262/450 [34:02<18:59,  6.06s/it]Exception raised in Job[251]: TimeoutError()
+Evaluating:  58%|█████▊    | 263/450 [34:17<26:44,  8.58s/it]Evaluating:  59%|█████▊    | 264/450 [34:29<29:36,  9.55s/it]Exception raised in Job[254]: TimeoutError()
+Evaluating:  59%|█████▉    | 265/450 [34:33<24:48,  8.04s/it]Exception raised in Job[257]: TimeoutError()
+Evaluating:  59%|█████▉    | 266/450 [34:46<29:19,  9.56s/it]Evaluating:  59%|█████▉    | 267/450 [34:53<27:01,  8.86s/it]Exception raised in Job[271]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we can follow these steps:
+
+1. Identify the main topic or subject of the response.
+2. Formulate a question that seeks more information about this topic.
+3. Determine if the response is noncommittal by checking for evasive, vague, or ambiguous language.
+
+For the given input:
+{
+    "response": "The Conversation."
+}
+
+The main topic or subject of the response is "The Conversation".
+
+Formulated question: What is The Conversation?
+
+To determine if the answer is noncommittal, we can analyze the response. In this case, the response is a proper noun and does not contain any evasive, vague, or ambiguous language.
+
+Therefore, the output will be:
+
+{
+  "question": "What is The Conversation?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  60%|█████▉    | 268/450 [35:01<25:35,  8.44s/it]Evaluating:  60%|█████▉    | 269/450 [35:06<22:38,  7.50s/it]Exception raised in Job[260]: TimeoutError()
+Evaluating:  60%|██████    | 270/450 [35:11<20:06,  6.70s/it]Exception raised in Job[274]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input.
+
+Input: {
+    "response": "John Waters."
+}
+
+Since the response is a single name without any context or information about what it refers to (e.g., a person, a movie, etc.), it's difficult to generate a specific question. However, based on the fact that John Waters is a well-known American filmmaker, we can assume that the answer is referring to him.
+
+A possible question could be: "Who is John Waters?"
+
+As for whether the answer is noncommittal or not, we would say 0 (committal) because the response provides a specific name, which implies some level of knowledge or certainty about the subject. However, without more context, it's hard to say for sure.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  60%|██████    | 271/450 [35:17<19:40,  6.59s/it]Exception raised in Job[263]: TimeoutError()
+Evaluating:  60%|██████    | 272/450 [35:29<23:40,  7.98s/it]Evaluating:  61%|██████    | 273/450 [35:35<21:45,  7.38s/it]Exception raised in Job[270]: OutputParserException(Invalid json output: The output string has been corrected to satisfy the constraints given in the prompt.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  61%|██████    | 274/450 [35:49<27:35,  9.40s/it]Exception raised in Job[266]: TimeoutError()
+Evaluating:  61%|██████    | 275/450 [35:56<25:30,  8.74s/it]Exception raised in Job[269]: TimeoutError()
+Evaluating:  61%|██████▏   | 276/450 [36:13<32:30, 11.21s/it]Evaluating:  62%|██████▏   | 277/450 [36:18<27:12,  9.43s/it]Exception raised in Job[280]: OutputParserException(Invalid json output: The response 'No.' is a simple affirmative word. Therefore, we can generate a question based on this response.
+
+Here's the output in JSON format:
+
+{
+  "question": "Is it true that something is not the case?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  62%|██████▏   | 278/450 [36:25<25:06,  8.76s/it]Evaluating:  62%|██████▏   | 279/450 [36:30<21:31,  7.55s/it]Exception raised in Job[272]: TimeoutError()
+Evaluating:  62%|██████▏   | 280/450 [36:30<15:11,  5.36s/it]Evaluating:  62%|██████▏   | 281/450 [36:37<15:59,  5.68s/it]Exception raised in Job[283]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input response. 
+The input response is: "March and April every year." 
+We can generate a question based on this response by making it more specific and asking about the months mentioned.
+
+Generated Question: What months are included in the specified period?
+
+To determine if the answer is noncommittal, we need to check if the response is evasive, vague, or ambiguous. In this case, the response clearly states two months (March and April) every year, which is a specific and direct answer. Therefore, it is not noncommittal.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  63%|██████▎   | 282/450 [36:44<16:57,  6.06s/it]Exception raised in Job[285]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}Do not use single quotes in your response but double quotes, properly escaped with a backslash.
+
+-------------------------------
+Now perform the same with the following input
+input: {
+    "question": "Tysons Galleria is located in what county?",
+    "answer": "Fairfax County."
+}
+Output:
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  63%|██████▎   | 283/450 [36:52<18:52,  6.78s/it]Exception raised in Job[275]: TimeoutError()
+Exception raised in Job[286]: OutputParserException(Invalid json output: Based on the analysis, here's the output in JSON format:
+{
+  "question": "What is Fairfax County?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  63%|██████▎   | 285/450 [36:57<13:05,  4.76s/it]Exception raised in Job[278]: TimeoutError()
+Evaluating:  64%|██████▎   | 286/450 [37:17<23:12,  8.49s/it]Evaluating:  64%|██████▍   | 287/450 [37:21<20:07,  7.41s/it]Evaluating:  64%|██████▍   | 288/450 [37:31<21:30,  7.97s/it]Evaluating:  64%|██████▍   | 289/450 [37:43<24:25,  9.10s/it]Exception raised in Job[281]: TimeoutError()
+Evaluating:  64%|██████▍   | 290/450 [37:46<20:05,  7.53s/it]Evaluating:  65%|██████▍   | 291/450 [37:50<17:11,  6.49s/it]Exception raised in Job[284]: TimeoutError()
+Evaluating:  65%|██████▍   | 292/450 [38:06<24:28,  9.29s/it]Exception raised in Job[287]: TimeoutError()
+Evaluating:  65%|██████▌   | 293/450 [38:29<34:25, 13.15s/it]Exception raised in Job[290]: TimeoutError()
+Evaluating:  65%|██████▌   | 294/450 [38:56<45:06, 17.35s/it]Exception raised in Job[292]: TimeoutError()
+Evaluating:  66%|██████▌   | 295/450 [39:18<48:35, 18.81s/it]Evaluating:  66%|██████▌   | 296/450 [39:22<36:59, 14.41s/it]Exception raised in Job[293]: TimeoutError()
+Evaluating:  66%|██████▌   | 297/450 [39:25<28:08, 11.04s/it]Exception raised in Job[294]: TimeoutError()
+Evaluating:  66%|██████▌   | 298/450 [39:30<23:11,  9.15s/it]Exception raised in Job[296]: TimeoutError()
+Evaluating:  66%|██████▋   | 299/450 [39:37<21:09,  8.41s/it]Evaluating:  67%|██████▋   | 300/450 [39:37<15:03,  6.02s/it]Evaluating:  67%|██████▋   | 301/450 [39:41<13:06,  5.28s/it]Exception raised in Job[299]: TimeoutError()
+Evaluating:  67%|██████▋   | 302/450 [39:52<17:34,  7.12s/it]Evaluating:  67%|██████▋   | 303/450 [39:56<14:57,  6.11s/it]Evaluating:  68%|██████▊   | 304/450 [39:57<11:22,  4.67s/it]Exception raised in Job[302]: TimeoutError()
+Evaluating:  68%|██████▊   | 305/450 [40:21<25:13, 10.44s/it]Exception raised in Job[303]: TimeoutError()
+Evaluating:  68%|██████▊   | 306/450 [40:31<24:21, 10.15s/it]Exception raised in Job[305]: TimeoutError()
+Evaluating:  68%|██████▊   | 307/450 [40:46<28:06, 11.79s/it]Exception raised in Job[306]: TimeoutError()
+Evaluating:  68%|██████▊   | 308/450 [40:50<22:19,  9.43s/it]Evaluating:  69%|██████▊   | 309/450 [40:56<19:41,  8.38s/it]Evaluating:  69%|██████▉   | 310/450 [41:02<17:39,  7.57s/it]Evaluating:  69%|██████▉   | 311/450 [41:07<16:16,  7.02s/it]Exception raised in Job[310]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the response. In this case, the response is "Atlanta, Georgia." which provides specific information about a location.
+
+Here's how you can achieve this:
+
+1. Identify the main entity in the response: The main entity in the response is "Atlanta, Georgia."
+2. Generate a question based on the entity: A suitable question for the given answer would be "Where is Atlanta located?"
+3. Determine if the answer is noncommittal: Since the answer provides specific information about a location, it is not evasive or vague. Therefore, the answer is committal.
+
+Here's the output in JSON format:
+
+{
+  "question": "Where is Atlanta located?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  69%|██████▉   | 312/450 [41:16<17:01,  7.40s/it]Exception raised in Job[308]: TimeoutError()
+Evaluating:  70%|██████▉   | 313/450 [41:29<20:37,  9.03s/it]Evaluating:  70%|██████▉   | 314/450 [41:29<14:43,  6.50s/it]Evaluating:  70%|███████   | 315/450 [41:31<11:35,  5.15s/it]Evaluating:  70%|███████   | 316/450 [41:46<18:05,  8.10s/it]Evaluating:  70%|███████   | 317/450 [41:55<18:13,  8.22s/it]Evaluating:  71%|███████   | 318/450 [41:56<13:22,  6.08s/it]Evaluating:  71%|███████   | 319/450 [42:08<17:28,  8.01s/it]Evaluating:  71%|███████   | 320/450 [42:10<13:00,  6.00s/it]Exception raised in Job[311]: TimeoutError()
+Evaluating:  71%|███████▏  | 321/450 [42:22<17:10,  7.99s/it]Evaluating:  72%|███████▏  | 322/450 [42:23<12:32,  5.88s/it]Evaluating:  72%|███████▏  | 323/450 [42:28<11:53,  5.61s/it]Exception raised in Job[313]: TimeoutError()
+Evaluating:  72%|███████▏  | 324/450 [42:30<09:27,  4.50s/it]Exception raised in Job[314]: TimeoutError()
+Evaluating:  72%|███████▏  | 325/450 [42:37<10:44,  5.15s/it]Evaluating:  72%|███████▏  | 326/450 [42:42<10:58,  5.31s/it]Evaluating:  73%|███████▎  | 327/450 [42:44<08:31,  4.16s/it]Evaluating:  73%|███████▎  | 328/450 [42:52<10:35,  5.21s/it]Exception raised in Job[317]: TimeoutError()
+Evaluating:  73%|███████▎  | 329/450 [42:52<07:42,  3.83s/it]Evaluating:  73%|███████▎  | 330/450 [42:57<08:14,  4.12s/it]Evaluating:  74%|███████▎  | 331/450 [43:09<12:52,  6.49s/it]Evaluating:  74%|███████▍  | 332/450 [43:15<12:14,  6.22s/it]Exception raised in Job[320]: TimeoutError()
+Evaluating:  74%|███████▍  | 333/450 [43:21<12:18,  6.31s/it]Evaluating:  74%|███████▍  | 334/450 [43:33<15:17,  7.91s/it]Evaluating:  74%|███████▍  | 335/450 [43:42<15:49,  8.26s/it]Evaluating:  75%|███████▍  | 336/450 [43:45<12:46,  6.72s/it]Exception raised in Job[323]: TimeoutError()
+Evaluating:  75%|███████▍  | 337/450 [43:50<11:47,  6.26s/it]Evaluating:  75%|███████▌  | 338/450 [43:54<10:29,  5.62s/it]Exception raised in Job[326]: TimeoutError()
+Evaluating:  75%|███████▌  | 339/450 [44:07<14:36,  7.90s/it]Evaluating:  76%|███████▌  | 340/450 [44:09<11:05,  6.05s/it]Evaluating:  76%|███████▌  | 341/450 [44:15<10:41,  5.89s/it]Evaluating:  76%|███████▌  | 342/450 [44:26<13:22,  7.43s/it]Exception raised in Job[329]: TimeoutError()
+Evaluating:  76%|███████▌  | 343/450 [44:29<11:06,  6.23s/it]Evaluating:  76%|███████▋  | 344/450 [44:35<11:00,  6.23s/it]Exception raised in Job[343]: OutputParserException(Failed to parse StringIO from completion {"question": "What is Picric acid?", "noncommittal": 0}. Got: 1 validation error for StringIO
+text
+  Field required [type=missing, input_value={'question': 'What is Pic...id?', 'noncommittal': 0}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  77%|███████▋  | 345/450 [44:40<10:04,  5.76s/it]Evaluating:  77%|███████▋  | 346/450 [44:48<11:22,  6.56s/it]Evaluating:  77%|███████▋  | 347/450 [44:54<10:35,  6.17s/it]Evaluating:  77%|███████▋  | 348/450 [44:58<09:29,  5.58s/it]Evaluating:  78%|███████▊  | 349/450 [45:07<10:55,  6.49s/it]Exception raised in Job[338]: TimeoutError()
+Evaluating:  78%|███████▊  | 350/450 [45:28<18:21, 11.02s/it]Exception raised in Job[354]: OutputParserException(Invalid json output: The output string did not satisfy the constraints given in the prompt. Fix the output string and return it.
+Please return the output in a JSON format that complies with the following schema as specified in JSON Schema:
+{"properties": {"statements": {"description": "The generated statements", "items": {"type": "string"}, "title": "Statements", "type": "array"}}, "required": ["statements"], "title": "StatementGeneratorOutput", "type": "object"}Do not use single quotes in your response but double quotes, properly escaped with a backslash.
+
+-------------------------------
+Now perform the same with the following input
+input: {
+    "question": "Were the bands Skin Yard and Ostava from the U.S.?",
+    "answer": "No (Skin Yard was from the U.S., but Ostava is from Bulgaria)."
+}
+Output:
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  78%|███████▊  | 351/450 [45:36<16:26,  9.96s/it]Evaluating:  78%|███████▊  | 352/450 [45:37<11:51,  7.26s/it]Exception raised in Job[341]: TimeoutError()
+Evaluating:  78%|███████▊  | 353/450 [45:42<11:02,  6.83s/it]Evaluating:  79%|███████▊  | 354/450 [45:50<11:11,  7.00s/it]Exception raised in Job[344]: TimeoutError()
+Evaluating:  79%|███████▉  | 355/450 [45:52<09:00,  5.68s/it]Evaluating:  79%|███████▉  | 356/450 [45:54<06:44,  4.30s/it]Exception raised in Job[358]: OutputParserException(Invalid json output: The response 'Yes.' is not evasive, vague, or ambiguous. It's a direct and clear answer. Therefore, it's committal.
+
+We can generate a question for the given answer by making it more specific. For example:
+
+"Is the statement true?"
+
+So, the output would be:
+{
+  "question": "Is the statement true?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  79%|███████▉  | 357/450 [45:59<07:23,  4.77s/it]Evaluating:  80%|███████▉  | 358/450 [46:06<07:59,  5.21s/it]Exception raised in Job[347]: TimeoutError()
+Evaluating:  80%|███████▉  | 359/450 [46:15<09:36,  6.34s/it]Evaluating:  80%|████████  | 360/450 [46:26<11:43,  7.82s/it]Evaluating:  80%|████████  | 361/450 [46:36<12:46,  8.61s/it]Exception raised in Job[350]: TimeoutError()
+Evaluating:  80%|████████  | 362/450 [46:42<11:15,  7.67s/it]Evaluating:  81%|████████  | 363/450 [46:47<09:55,  6.85s/it]Evaluating:  81%|████████  | 364/450 [46:55<10:18,  7.19s/it]Exception raised in Job[353]: TimeoutError()
+Exception raised in Job[367]: OutputParserException(Invalid json output: To generate a question for the given answer, we can assume that the answer is a book title. Therefore, a suitable question could be:
+
+What is the title of this book?
+
+The answer is committal.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  81%|████████▏ | 366/450 [47:01<07:32,  5.39s/it]Evaluating:  82%|████████▏ | 367/450 [47:12<09:19,  6.74s/it]Exception raised in Job[356]: TimeoutError()
+Evaluating:  82%|████████▏ | 368/450 [47:15<07:43,  5.65s/it]Evaluating:  82%|████████▏ | 369/450 [47:26<09:47,  7.26s/it]Exception raised in Job[359]: TimeoutError()
+Evaluating:  82%|████████▏ | 370/450 [47:35<10:23,  7.79s/it]Exception raised in Job[362]: TimeoutError()
+Evaluating:  82%|████████▏ | 371/450 [47:54<14:13, 10.80s/it]Evaluating:  83%|████████▎ | 372/450 [47:57<11:07,  8.56s/it]Evaluating:  83%|████████▎ | 373/450 [47:58<08:17,  6.47s/it]Exception raised in Job[376]: OutputParserException(Invalid json output: The response 'Richmond River' is not evasive or vague, so it's committal. We can assume that the speaker is referring to a specific river, possibly in Australia (there are several rivers named Richmond River).
+
+Here's a possible question: 'What river are you referring to?'
+
+And since the answer is committal, we'll set noncommittal to 0.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  83%|████████▎ | 374/450 [48:05<08:23,  6.63s/it]Evaluating:  83%|████████▎ | 375/450 [48:18<10:22,  8.31s/it]Exception raised in Job[365]: TimeoutError()
+Evaluating:  84%|████████▎ | 376/450 [48:28<11:05,  9.00s/it]Evaluating:  84%|████████▍ | 377/450 [48:41<12:20, 10.15s/it]Exception raised in Job[368]: TimeoutError()
+Evaluating:  84%|████████▍ | 378/450 [48:42<09:02,  7.54s/it]Evaluating:  84%|████████▍ | 379/450 [48:51<09:09,  7.74s/it]Exception raised in Job[371]: TimeoutError()
+Evaluating:  84%|████████▍ | 380/450 [48:54<07:19,  6.28s/it]Evaluating:  85%|████████▍ | 381/450 [48:58<06:32,  5.69s/it]Evaluating:  85%|████████▍ | 382/450 [49:08<07:55,  7.00s/it]Evaluating:  85%|████████▌ | 383/450 [49:13<07:12,  6.45s/it]Exception raised in Job[374]: TimeoutError()
+Evaluating:  85%|████████▌ | 384/450 [49:15<05:28,  4.98s/it]Exception raised in Job[385]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input. 
+The input is: {
+    "response": "San Luis Obispo."
+}
+
+Since the response is a location, we can generate a question that asks where something or someone is located.
+
+Here's a possible question:
+"Where is San Luis Obispo?"
+
+To determine if the answer is noncommittal, we need to check if it provides specific information. In this case, "San Luis Obispo" is a specific location, so the answer is committal.
+
+Therefore, the output will be:
+
+{
+  "question": "Where is San Luis Obispo?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  86%|████████▌ | 385/450 [49:20<05:26,  5.02s/it]Evaluating:  86%|████████▌ | 386/450 [49:27<05:57,  5.59s/it]Evaluating:  86%|████████▌ | 387/450 [49:35<06:50,  6.51s/it]Exception raised in Job[377]: TimeoutError()
+Evaluating:  86%|████████▌ | 388/450 [49:43<06:57,  6.73s/it]Evaluating:  86%|████████▋ | 389/450 [49:44<05:22,  5.29s/it]Evaluating:  87%|████████▋ | 390/450 [49:50<05:28,  5.48s/it]Exception raised in Job[380]: TimeoutError()
+Evaluating:  87%|████████▋ | 391/450 [49:55<05:03,  5.14s/it]Evaluating:  87%|████████▋ | 392/450 [49:55<03:40,  3.80s/it]Evaluating:  87%|████████▋ | 393/450 [50:04<04:50,  5.10s/it]Exception raised in Job[383]: TimeoutError()
+Evaluating:  88%|████████▊ | 394/450 [50:15<06:27,  6.93s/it]Evaluating:  88%|████████▊ | 395/450 [50:17<05:05,  5.56s/it]Evaluating:  88%|████████▊ | 396/450 [50:36<08:34,  9.52s/it]Evaluating:  88%|████████▊ | 397/450 [50:38<06:20,  7.18s/it]Exception raised in Job[386]: TimeoutError()
+Evaluating:  88%|████████▊ | 398/450 [50:54<08:33,  9.88s/it]Evaluating:  89%|████████▊ | 399/450 [51:02<08:01,  9.44s/it]Exception raised in Job[389]: TimeoutError()
+Evaluating:  89%|████████▉ | 400/450 [51:05<06:16,  7.53s/it]Exception raised in Job[403]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the input.
+The input is: {"response": "Harsh Times."}
+Since the response does not provide enough information to generate a specific question, we can assume that it might be a title of a book or a movie. However, without more context, it's difficult to create a meaningful question.
+As for identifying if the answer is noncommittal, the answer "Harsh Times" is quite specific and provides some information about the topic. Therefore, I would say that this answer is not noncommittal.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  89%|████████▉ | 401/450 [51:18<07:28,  9.15s/it]Evaluating:  89%|████████▉ | 402/450 [51:23<06:10,  7.72s/it]Exception raised in Job[392]: TimeoutError()
+Evaluating:  90%|████████▉ | 403/450 [51:41<08:34, 10.95s/it]Evaluating:  90%|████████▉ | 404/450 [51:52<08:29, 11.08s/it]Exception raised in Job[395]: TimeoutError()
+Evaluating:  90%|█████████ | 405/450 [51:54<06:03,  8.08s/it]Evaluating:  90%|█████████ | 406/450 [51:59<05:19,  7.27s/it]Evaluating:  90%|█████████ | 407/450 [52:13<06:37,  9.25s/it]Exception raised in Job[398]: TimeoutError()
+Evaluating:  91%|█████████ | 408/450 [52:13<04:35,  6.56s/it]Evaluating:  91%|█████████ | 409/450 [52:15<03:32,  5.19s/it]Exception raised in Job[412]: OutputParserException(Invalid json output: To generate a question for the given answer and identify if the answer is noncommittal, we need to analyze the response. The input is:
+{
+    "response": "Lord Combermere."
+}
+The response is a proper noun (a person's name), it implies that the question being asked is likely about who Lord Combermere is or something related to him.
+To generate a question, we can use the following format: "Who is/are [answer]?"
+So the question would be:
+"Who is Lord Combermere?"
+Now, let's determine if the answer is noncommittal. The response is a specific name, which implies that the speaker has some knowledge about who Lord Combermere is or was. Therefore, we can consider this answer to be committal.
+Here is the output in JSON format:
+{
+  "question": "Who is Lord Combermere?",
+  "noncommittal": 0
+}
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  91%|█████████ | 410/450 [52:23<03:56,  5.91s/it]Exception raised in Job[401]: TimeoutError()
+Evaluating:  91%|█████████▏| 411/450 [52:27<03:27,  5.33s/it]Evaluating:  92%|█████████▏| 412/450 [52:32<03:27,  5.46s/it]Evaluating:  92%|█████████▏| 413/450 [52:35<02:45,  4.46s/it]Exception raised in Job[409]: OutputParserException(Invalid json output: Which university is Texas Tech University?
+noncommittal: 0
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE )
+Evaluating:  92%|█████████▏| 414/450 [52:37<02:16,  3.80s/it]Exception raised in Job[404]: TimeoutError()
+Evaluating:  92%|█████████▏| 415/450 [52:44<02:53,  4.97s/it]Evaluating:  92%|█████████▏| 416/450 [52:47<02:26,  4.31s/it]Evaluating:  93%|█████████▎| 417/450 [52:54<02:47,  5.09s/it]Exception raised in Job[407]: TimeoutError()
+Evaluating:  93%|█████████▎| 418/450 [52:55<02:05,  3.93s/it]Evaluating:  93%|█████████▎| 419/450 [53:03<02:38,  5.10s/it]Evaluating:  93%|█████████▎| 420/450 [53:07<02:20,  4.67s/it]Exception raised in Job[410]: TimeoutError()
+Evaluating:  94%|█████████▎| 421/450 [53:17<03:03,  6.33s/it]Evaluating:  94%|█████████▍| 422/450 [53:17<02:06,  4.53s/it]

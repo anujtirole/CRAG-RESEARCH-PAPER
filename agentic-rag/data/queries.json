@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Replace this with your first real question based on your corpus documents.",
+    "ground_truth": "Replace this with the correct, complete answer a domain expert would give."
+  },
+  {
+    "question": "Replace this with your second real question.",
+    "ground_truth": "Replace this with the second correct answer."
+  },
+  {
+    "question": "Replace this with your third real question.",
+    "ground_truth": "Replace this with the third correct answer."
+  }
+]
