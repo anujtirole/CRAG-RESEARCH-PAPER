@@ -1,0 +1,3 @@
+Kudlik
+
+The qulliq (seal-oil, blubber or soapstone lamp, Inuktitut: ᖁᓪᓕᖅ , ‘"kudlik"’ ] ; Inupiaq: "naniq" ), is the traditional oil lamp used by Arctic peoples, including the Inuit, the Chukchi and the Yupik peoples.

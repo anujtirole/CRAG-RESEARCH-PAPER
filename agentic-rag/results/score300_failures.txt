@@ -1,0 +1,18 @@
+score300 failure accounting  (generated 2026-06-12 13:20:43)
+covers ONLY the 150 new rows (queries 150-299)
+============================================================
+
+[baseline]
+  faithfulness           scored=   0  failed=   0
+  answer_relevancy       scored=   0  failed=   0
+  context_precision      scored=   0  failed=   0
+
+[reranker]
+  faithfulness           scored=   0  failed=   0
+  answer_relevancy       scored=   0  failed=   0
+  context_precision      scored=   0  failed=   0
+
+[agentic]
+  faithfulness           scored= 104  failed=   1
+  answer_relevancy       scored= 104  failed=   1
+  context_precision      scored= 105  failed=   0

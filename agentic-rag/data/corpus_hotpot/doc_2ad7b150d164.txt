@@ -1,0 +1,3 @@
+Sethi–Ullman algorithm
+
+In computer science, the Sethi–Ullman algorithm is an algorithm named after Ravi Sethi and Jeffrey D. Ullman, its inventors, for translating abstract syntax trees into machine code that uses as few registers as possible.

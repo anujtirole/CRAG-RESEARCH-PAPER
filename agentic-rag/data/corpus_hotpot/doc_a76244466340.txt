@@ -1,0 +1,3 @@
+2008 Kansas City Wizards season
+
+The 2008 Kansas City Wizards season was the first season played at the temporary home Community America Ballpark in Kansas City, Kansas.

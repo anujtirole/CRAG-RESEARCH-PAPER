@@ -1,0 +1,3 @@
+Ziri ibn Atiyya
+
+Ziri ibn Atiyya (Berber language: Ziri n Ɛaṭiyya Ameɣraw) also known as Ziri ibn Atiyya ibn Abd Allah ibn Tabādalt ibn Muhammad ibn Khazar az-Zanātī al-Maghrāwī al-Khazarī (died 1001) was the first tribal leader of the Berber Maghrawa tribal confederacy and kingdom.

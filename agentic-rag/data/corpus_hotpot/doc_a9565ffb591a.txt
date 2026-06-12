@@ -1,0 +1,3 @@
+Freaky Eaters (TLC series)
+
+Freaky Eaters is an American documentary television series based on the BBC series of the same name that aired on TLC.

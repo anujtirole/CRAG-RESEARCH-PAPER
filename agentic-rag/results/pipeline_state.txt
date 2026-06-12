@@ -3,3 +3,21 @@ STAGE_0 resilience DONE 2026-06-11 22:09:16
 STAGE_1 github STARTED 2026-06-11 22:09:16
 STAGE_1 github LOCAL_DONE_BLOCKED_ON_AUTH 2026-06-11 22:19:04
 STAGE_2 analysis STARTED 2026-06-11 22:19:04
+STAGE_1 github DONE 2026-06-11 22:31:58 (parent repo committed; user publishes via GitHub Desktop)
+STAGE_2 analysis DONE 2026-06-12 02:56:39
+STAGE_3 expand300 STARTED 2026-06-12 02:56:39
+STAGE_3 ingest300 DONE 2026-06-12 03:13:03
+STAGE_3 extend300 LAUNCHED pid=19364 2026-06-12 03:13:23
+STAGE_3 extend300 RELAUNCHED pid=11820 2026-06-12 04:19:34
+STAGE_3 extend300 DONE 300/300 2026-06-12 05:25:43
+STAGE_3 score300 LAUNCHED pid=14092 2026-06-12 05:25:59
+NOTE stage4 ON_HOLD per user - do not auto-launch hetero judge after stage3 completes 2026-06-12 06:00:32
+STAGE_3 score300 INTERRUPTED_BY_SHUTDOWN ~19/30 batches checkpointed (285 rows in score300_scores.csv) - relaunch score300.py to resume - 2026-06-12 10:17:39
+STAGE_3 score300 SURVIVED_SLEEP still running pid=14092, agentic batch 3/10, 330 rows checkpointed 2026-06-12 11:33:29
+NOTE stage4 HOLD LIFTED - user authorized auto-launch of hetero judge immediately after stage3 2026-06-12 11:35:37
+STAGE_3 score300 DIED(window-close) at 345 rows; RELAUNCHED pid=24492 2026-06-12 12:10:32
+STAGE_3 score300 DIED(~12:14, no python proc) at 345 rows; RELAUNCHED pid=20412 by claude 2026-06-12 12:26:39
+STAGE_3 score300 COMPLETE 450/450 scored, results_main.csv merged to 300 rows + aggregate 2026-06-12 13:22:08
+STAGE_3 sig tests DONE (significance_300.csv, significance_holm_300.csv); STAGE_4 hetero_judge LAUNCHED pid=16096 judge=qwen2.5:7b 2026-06-12 13:24:38
+STAGE_4 hetero_judge COMPLETE 150/150 rows in 83.5 min (judge=qwen2.5:7b) 2026-06-12 14:49:16
+STAGE_5 consolidated report delivered (n=300 table, n150-vs-n300, holm_300, hetero verdict HELD on faithfulness, stage2 analysis, repo url) 2026-06-12 14:49:56
