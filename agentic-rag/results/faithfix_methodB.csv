@@ -1,0 +1,7 @@
+question,condition,n_statements,n_supported,faith_B,recovered,note
+"Who is the paternal grandfather of James Fitzgerald, 8Th Earl Of Desmond?",baseline,3,3,1.0,True,used3of3
+"Which film has the director who was born later, Aloha, Bobby And Rose or The Elusive Avengers?",baseline,4,2,0.5,True,used4of4
+"Which film has the director who was born later, Aloha, Bobby And Rose or The Elusive Avengers?",reranker,4,3,0.75,True,used4of4
+"Who is the paternal grandmother of Renaud Iii, Count Of Soissons?",agentic,3,2,0.666667,True,used3of3
+"When did Thomas Knox, 3Rd Earl Of Ranfurly's father die?",agentic,4,4,1.0,True,used4of4
+Who is the paternal grandfather of Uskhal Khan Tögüs Temür?,agentic,3,2,0.666667,True,used3of3

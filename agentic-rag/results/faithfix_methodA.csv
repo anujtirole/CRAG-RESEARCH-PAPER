@@ -1,0 +1,301 @@
+question,condition,faith_orig,refusal,faith_A,status
+"Are the movies About A Wife, A Dream And Another... and The Doolins Of Oklahoma, from the same country?",baseline,0.0,True,0.0,scored
+Who is Wisigard's father-in-law?,baseline,1.0,False,1.0,scored
+"Which film has the director who died later, The Death Kiss or Her Luck In London?",baseline,0.6666666666666666,True,0.6666666666666666,scored
+"Which film has the director who was born first, Hanuman Patal Vijay or Young And Dangerous: The Prequel?",baseline,0.6666666666666666,True,0.6666666666666666,scored
+Where was the director of film Aylwin (Film) born?,baseline,0.5,True,0.5,scored
+What nationality is Prince Napoléon Bonaparte's father?,baseline,0.75,False,0.75,scored
+"Who is the paternal grandmother of Renaud Iii, Count Of Soissons?",baseline,1.0,False,1.0,scored
+Where did the director of film Carbon (Film) study?,baseline,0.5,True,0.5,scored
+Are both Alex Bregman and Francesca Sterlacci from the same country?,baseline,1.0,False,1.0,scored
+Where did M. K. Muthu's father die?,baseline,1.0,True,1.0,scored
+"Which film was released more recently, Sacred Silence or Ek Haseena Thi Ek Deewana Tha?",baseline,0.5,False,0.5,scored
+"Which film whose director is younger, A Night'S Adventure or Insaciable?",baseline,,True,1.0,imputed
+Who is the father of the director of film The Thousand Faces Of Dunjia?,baseline,,True,1.0,imputed
+Were Gotthilf Heinrich Ernst Muhlenberg and Todd Williams of the same nationality?,baseline,0.3333333333333333,True,0.3333333333333333,scored
+"Which film came out first, Stella'S Oorlog or Sampathige Savaal?",baseline,0.6666666666666666,False,0.6666666666666666,scored
+"Do the bands The Gordons (Duo) and Sacred Rite (Band), originate from the same country?",baseline,0.5,True,0.5,scored
+What is the place of birth of the director of film The Return Of Swamp Thing?,baseline,,True,1.0,imputed
+"Where did the director of film Nalini By Day, Nancy By Night graduate from?",baseline,0.5,True,0.5,scored
+Are director of film Susanna Whipped Cream and director of film Le Salamandre both from the same country?,baseline,0.3333333333333333,True,0.3333333333333333,scored
+"Which film has the director born later, Occhio, Malocchio, Prezzemolo E Finocchio or Jailhouse Rock (Film)?",baseline,0.3333333333333333,True,0.3333333333333333,scored
+"Which film has the director died later, The Life And Loves Of Tschaikovsky or Dokuz Dağın Efesi?",baseline,0.3333333333333333,True,0.3333333333333333,scored
+"Which film whose director is younger, Outlaw King or Gunman'S Walk?",baseline,0.75,False,0.75,scored
+Was Ausaf Ali or Steven Perry born first?,baseline,1.0,False,1.0,scored
+"Who is younger, Zhang Lifang or Lalengzama Vangchhia?",baseline,0.8,False,0.8,scored
+Who is the maternal grandmother of Flavia Julia Constantia?,baseline,,True,1.0,imputed
+Are the directors of both films Captain Calamity (Film) and Heaven Only Knows (Film) from the same country?,baseline,0.3333333333333333,True,0.3333333333333333,scored
+What is the place of birth of the director of film Pages Of Life (Film)?,baseline,0.0,True,0.0,scored
+"Which film whose director is younger, Hell To Pay (2014 Film) or Darwin'S Nightmare?",baseline,1.0,False,1.0,scored
+What is the date of death of the founder of Suez Canal Company?,baseline,,True,1.0,imputed
+"Which film was released more recently, Scandal At The Girls' School or One Dangerous Night?",baseline,1.0,False,1.0,scored
+What is the date of death of Peter Dale Scott's mother?,baseline,,True,1.0,imputed
+Which award the composer of film Howrah Bridge (Film) earned?,baseline,0.25,False,0.25,scored
+Who is Ieuan Ab Owain Glyndŵr's paternal grandfather?,baseline,0.5,True,0.5,scored
+"What is the place of birth of Geoffrey Plantagenet, Count Of Anjou's wife?",baseline,1.0,True,1.0,scored
+Where did the founder of Ford Australia die?,baseline,0.0,True,0.0,scored
+"When did Thomas Knox, 3Rd Earl Of Ranfurly's father die?",baseline,0.0,True,0.0,scored
+"Which film has the director died earlier, Crime Against Joe or Vagabonderne På Bakkegården?",baseline,0.3333333333333333,True,0.3333333333333333,scored
+"Which film has the director born later, The Fighting Demon or Blood Of The Losers?",baseline,0.8,False,0.8,scored
+What is the place of birth of the composer of song Bullet (Misfits Song)?,baseline,,True,1.0,imputed
+"Who is younger, Empress Xiaoshurui or Goran Veselinovski?",baseline,1.0,False,1.0,scored
+"Who lived longer, Friedrich Paschen or Ernst Bessey?",baseline,0.5,False,0.5,scored
+Who is Amalie Adlerberg's stepfather?,baseline,0.6666666666666666,False,0.6666666666666666,scored
+Do both films Masters Of The Sea (Film) and The Auction Mart have the directors from the same country?,baseline,0.3333333333333333,True,0.3333333333333333,scored
+Where did the director of film Things Behind The Sun study?,baseline,0.5,True,0.5,scored
+Where was the director of film War Of The Buttons (1994 Film) born?,baseline,0.5,True,0.5,scored
+"Which film has the director who was born later, Attack Of Life: The Bang Tango Movie or King Kong (2005 Film)?",baseline,1.0,False,1.0,scored
+Where was the place of death of the director of film Romulus And The Sabines?,baseline,0.0,True,0.0,scored
+Where did Crow Foot's father die?,baseline,1.0,False,1.0,scored
+Where did the director of film Journal Of A Crime die?,baseline,0.5,True,0.5,scored
+"Which film whose director is younger, A Social Celebrity or A Sound Of Trumpets?",baseline,0.6666666666666666,False,0.6666666666666666,scored
+"Who was born later, Jean-Jacques Rousseau or Richard Cawley?",baseline,0.5,False,0.5,scored
+Who is the paternal grandfather of Diarmait Ua Briain?,baseline,0.5,False,0.5,scored
+"Where was the wife of Otto I, Count Of Guelders born?",baseline,1.0,False,1.0,scored
+Where was the place of death of Thomas Sheridan (Soldier)'s father?,baseline,0.0,True,0.0,scored
+What is the place of birth of Henrik Selberg's father?,baseline,0.6666666666666666,False,0.6666666666666666,scored
+"Which film has the director who is older, Aardram or Land And Freedom?",baseline,,True,1.0,imputed
+Who is Antoine-Charles Taschereau's paternal grandfather?,baseline,0.5,True,0.5,scored
+"Which film has the director died first, Köpekler Adası or Twisted Mistress?",baseline,0.0,True,0.0,scored
+"Which film has the director born later, Battle Of Memories or The Wedding Of Lilli Marlene?",baseline,0.6,True,0.6,scored
+Where was the founder of magazine Amazing Stories born?,baseline,0.0,True,0.0,scored
+"Which film came out earlier, Der Wixxer or The Butterfly Room?",baseline,1.0,False,1.0,scored
+"Who is the spouse of the composer of film Kalle Stropp, Grodan Boll Och Deras Vänner?",baseline,,True,1.0,imputed
+"What is the date of death of Charles Mills, 1St Baron Hillingdon's father?",baseline,0.5,False,0.5,scored
+Who is the paternal grandmother of Princess Feodora Of Hohenlohe-Langenburg?,baseline,,True,1.0,imputed
+"Which film has the director who is older than the other, Rolling In Money or A Fine, Windy Day? ",baseline,,True,1.0,imputed
+"Which film has the director died later, The Man From Lost River or Mcveagh Of The South Seas?",baseline,0.0,True,0.0,scored
+"Do the movies Seven Sinners (1936 Film) and Everyday (Film), originate from the same country?",baseline,0.5,True,0.5,scored
+Where was the director of film He'S A Cockeyed Wonder born?,baseline,1.0,True,1.0,scored
+"Which film has the director born later, Life Hits or It'S In The Air?",baseline,1.0,False,1.0,scored
+"Who is the paternal grandfather of James Fitzgerald, 8Th Earl Of Desmond?",baseline,,False,,pending
+"When did Joanna Of Aragon, Countess Of Foix's mother die?",baseline,1.0,False,1.0,scored
+Where did the director of film Search And Destroy (1995 Film) study?,baseline,0.5,True,0.5,scored
+"Where was the husband of Wilhelmine Of Prussia, Margravine Of Brandenburg-Bayreuth born?",baseline,0.0,True,0.0,scored
+What is the place of birth of the composer of film Men With Brooms?,baseline,,True,1.0,imputed
+"Which film has the director born later, Best Of The Best 3: No Turning Back or Ven Mi Corazón Te Llama?",baseline,0.5,False,0.5,scored
+What is the place of birth of the director of film Growing Up Smith?,baseline,,True,1.0,imputed
+"Which film has the director who was born later, Aloha, Bobby And Rose or The Elusive Avengers?",baseline,,False,,pending
+Who is Mary Of Bourbon's paternal grandfather?,baseline,0.5,True,0.5,scored
+Where did Niklas Frank's father die?,baseline,1.0,False,1.0,scored
+What nationality is the performer of song Pareho Tayo?,baseline,1.0,False,1.0,scored
+Do both directors of films The Curse Of Iku and Cops And Robbers (1973 Film) have the same nationality?,baseline,0.5,True,0.5,scored
+Where does the founder of Les Films Du Losange work at?,baseline,0.3333333333333333,False,0.3333333333333333,scored
+Who is the maternal grandfather of Princess Alexandra Of Hanover (Born 1999)?,baseline,,True,1.0,imputed
+"What is the date of death of Philibert I, Duke Of Savoy's mother?",baseline,0.5,False,0.5,scored
+Who is Sultan Hatun's mother-in-law?,baseline,0.0,True,0.0,scored
+"Which film came out first, João Da Mata or Beautiful Girls (Film)?",baseline,1.0,False,1.0,scored
+"Which film has the director born later, Brutti Di Notte or Bir Türk'E Gönül Verdim?",baseline,0.8333333333333334,False,0.8333333333333334,scored
+Where was the director of film Mark (Film) born?,baseline,0.5,True,0.5,scored
+What is the place of birth of Aurelio De Laurentiis's father?,baseline,1.0,False,1.0,scored
+Which country Count Of St. Germain's father is from?,baseline,,True,1.0,imputed
+"Which film has the director who was born later, Budak Nafsu or The Bilingual Lover?",baseline,0.3333333333333333,False,0.3333333333333333,scored
+Who is the paternal grandfather of Uskhal Khan Tögüs Temür?,baseline,0.25,False,0.25,scored
+"Which film has the director who was born later, Así En El Cielo Como En La Tierra or Buck And The Preacher?",baseline,0.6666666666666666,False,0.6666666666666666,scored
+"Which film whose director is younger, Return Of The Hero or Home In Indiana?",baseline,,True,1.0,imputed
+Where was the place of death of the director of film Sensational Janine?,baseline,1.0,True,1.0,scored
+What is the date of birth of Frederick Of Liege's father?,baseline,0.0,True,0.0,scored
+Who is Rostislav I Of Kiev's paternal grandfather?,baseline,1.0,False,1.0,scored
+Which country the director of film Hotel By The Hour is from?,baseline,,True,1.0,imputed
+"Which film was released first, My Friend Pinto or Vindhyarani?",baseline,0.5,False,0.5,scored
+Which country Ronald Dewolf's father is from?,baseline,,True,1.0,imputed
+"Are the movies About A Wife, A Dream And Another... and The Doolins Of Oklahoma, from the same country?",reranker,0.0,True,0.0,scored
+Who is Wisigard's father-in-law?,reranker,1.0,False,1.0,scored
+"Which film has the director who died later, The Death Kiss or Her Luck In London?",reranker,0.0,True,0.0,scored
+"Which film has the director who was born first, Hanuman Patal Vijay or Young And Dangerous: The Prequel?",reranker,0.3333333333333333,True,0.3333333333333333,scored
+Where was the director of film Aylwin (Film) born?,reranker,1.0,True,1.0,scored
+What nationality is Prince Napoléon Bonaparte's father?,reranker,0.75,False,0.75,scored
+"Who is the paternal grandmother of Renaud Iii, Count Of Soissons?",reranker,1.0,False,1.0,scored
+Where did the director of film Carbon (Film) study?,reranker,0.5,True,0.5,scored
+Are both Alex Bregman and Francesca Sterlacci from the same country?,reranker,0.5,True,0.5,scored
+Where did M. K. Muthu's father die?,reranker,1.0,True,1.0,scored
+"Which film was released more recently, Sacred Silence or Ek Haseena Thi Ek Deewana Tha?",reranker,1.0,False,1.0,scored
+"Which film whose director is younger, A Night'S Adventure or Insaciable?",reranker,,True,1.0,imputed
+Who is the father of the director of film The Thousand Faces Of Dunjia?,reranker,,True,1.0,imputed
+Were Gotthilf Heinrich Ernst Muhlenberg and Todd Williams of the same nationality?,reranker,0.3333333333333333,True,0.3333333333333333,scored
+"Which film came out first, Stella'S Oorlog or Sampathige Savaal?",reranker,1.0,False,1.0,scored
+"Do the bands The Gordons (Duo) and Sacred Rite (Band), originate from the same country?",reranker,0.0,True,0.0,scored
+What is the place of birth of the director of film The Return Of Swamp Thing?,reranker,,True,1.0,imputed
+"Where did the director of film Nalini By Day, Nancy By Night graduate from?",reranker,1.0,True,1.0,scored
+Are director of film Susanna Whipped Cream and director of film Le Salamandre both from the same country?,reranker,0.3333333333333333,True,0.3333333333333333,scored
+"Which film has the director born later, Occhio, Malocchio, Prezzemolo E Finocchio or Jailhouse Rock (Film)?",reranker,0.0,False,0.0,scored
+"Which film has the director died later, The Life And Loves Of Tschaikovsky or Dokuz Dağın Efesi?",reranker,0.3333333333333333,True,0.3333333333333333,scored
+"Which film whose director is younger, Outlaw King or Gunman'S Walk?",reranker,0.5,False,0.5,scored
+Was Ausaf Ali or Steven Perry born first?,reranker,0.5,False,0.5,scored
+"Who is younger, Zhang Lifang or Lalengzama Vangchhia?",reranker,0.8,False,0.8,scored
+Who is the maternal grandmother of Flavia Julia Constantia?,reranker,,True,1.0,imputed
+Are the directors of both films Captain Calamity (Film) and Heaven Only Knows (Film) from the same country?,reranker,0.3333333333333333,True,0.3333333333333333,scored
+What is the place of birth of the director of film Pages Of Life (Film)?,reranker,0.5,True,0.5,scored
+"Which film whose director is younger, Hell To Pay (2014 Film) or Darwin'S Nightmare?",reranker,1.0,False,1.0,scored
+What is the date of death of the founder of Suez Canal Company?,reranker,1.0,True,1.0,scored
+"Which film was released more recently, Scandal At The Girls' School or One Dangerous Night?",reranker,1.0,False,1.0,scored
+What is the date of death of Peter Dale Scott's mother?,reranker,,True,1.0,imputed
+Which award the composer of film Howrah Bridge (Film) earned?,reranker,0.75,False,0.75,scored
+Who is Ieuan Ab Owain Glyndŵr's paternal grandfather?,reranker,1.0,True,1.0,scored
+"What is the place of birth of Geoffrey Plantagenet, Count Of Anjou's wife?",reranker,1.0,True,1.0,scored
+Where did the founder of Ford Australia die?,reranker,1.0,True,1.0,scored
+"When did Thomas Knox, 3Rd Earl Of Ranfurly's father die?",reranker,0.6666666666666666,False,0.6666666666666666,scored
+"Which film has the director died earlier, Crime Against Joe or Vagabonderne På Bakkegården?",reranker,0.3333333333333333,True,0.3333333333333333,scored
+"Which film has the director born later, The Fighting Demon or Blood Of The Losers?",reranker,0.0,False,0.0,scored
+What is the place of birth of the composer of song Bullet (Misfits Song)?,reranker,,True,1.0,imputed
+"Who is younger, Empress Xiaoshurui or Goran Veselinovski?",reranker,0.0,False,0.0,scored
+"Who lived longer, Friedrich Paschen or Ernst Bessey?",reranker,0.5,False,0.5,scored
+Who is Amalie Adlerberg's stepfather?,reranker,1.0,False,1.0,scored
+Do both films Masters Of The Sea (Film) and The Auction Mart have the directors from the same country?,reranker,0.3333333333333333,True,0.3333333333333333,scored
+Where did the director of film Things Behind The Sun study?,reranker,0.5,True,0.5,scored
+Where was the director of film War Of The Buttons (1994 Film) born?,reranker,0.5,True,0.5,scored
+"Which film has the director who was born later, Attack Of Life: The Bang Tango Movie or King Kong (2005 Film)?",reranker,1.0,False,1.0,scored
+Where was the place of death of the director of film Romulus And The Sabines?,reranker,0.5,True,0.5,scored
+Where did Crow Foot's father die?,reranker,1.0,False,1.0,scored
+Where did the director of film Journal Of A Crime die?,reranker,0.5,True,0.5,scored
+"Which film whose director is younger, A Social Celebrity or A Sound Of Trumpets?",reranker,0.75,False,0.75,scored
+"Who was born later, Jean-Jacques Rousseau or Richard Cawley?",reranker,0.5,False,0.5,scored
+Who is the paternal grandfather of Diarmait Ua Briain?,reranker,1.0,False,1.0,scored
+"Where was the wife of Otto I, Count Of Guelders born?",reranker,1.0,False,1.0,scored
+Where was the place of death of Thomas Sheridan (Soldier)'s father?,reranker,0.5,True,0.5,scored
+What is the place of birth of Henrik Selberg's father?,reranker,0.5,False,0.5,scored
+"Which film has the director who is older, Aardram or Land And Freedom?",reranker,,True,1.0,imputed
+Who is Antoine-Charles Taschereau's paternal grandfather?,reranker,0.5,True,0.5,scored
+"Which film has the director died first, Köpekler Adası or Twisted Mistress?",reranker,0.3333333333333333,True,0.3333333333333333,scored
+"Which film has the director born later, Battle Of Memories or The Wedding Of Lilli Marlene?",reranker,0.0,True,0.0,scored
+Where was the founder of magazine Amazing Stories born?,reranker,0.5,True,0.5,scored
+"Which film came out earlier, Der Wixxer or The Butterfly Room?",reranker,1.0,False,1.0,scored
+"Who is the spouse of the composer of film Kalle Stropp, Grodan Boll Och Deras Vänner?",reranker,,True,1.0,imputed
+"What is the date of death of Charles Mills, 1St Baron Hillingdon's father?",reranker,0.5,False,0.5,scored
+Who is the paternal grandmother of Princess Feodora Of Hohenlohe-Langenburg?,reranker,,True,1.0,imputed
+"Which film has the director who is older than the other, Rolling In Money or A Fine, Windy Day? ",reranker,,True,1.0,imputed
+"Which film has the director died later, The Man From Lost River or Mcveagh Of The South Seas?",reranker,1.0,True,1.0,scored
+"Do the movies Seven Sinners (1936 Film) and Everyday (Film), originate from the same country?",reranker,0.5,True,0.5,scored
+Where was the director of film He'S A Cockeyed Wonder born?,reranker,1.0,True,1.0,scored
+"Which film has the director born later, Life Hits or It'S In The Air?",reranker,0.7142857142857143,False,0.7142857142857143,scored
+"Who is the paternal grandfather of James Fitzgerald, 8Th Earl Of Desmond?",reranker,0.5,False,0.5,scored
+"When did Joanna Of Aragon, Countess Of Foix's mother die?",reranker,1.0,False,1.0,scored
+Where did the director of film Search And Destroy (1995 Film) study?,reranker,0.5,True,0.5,scored
+"Where was the husband of Wilhelmine Of Prussia, Margravine Of Brandenburg-Bayreuth born?",reranker,0.0,True,0.0,scored
+What is the place of birth of the composer of film Men With Brooms?,reranker,,True,1.0,imputed
+"Which film has the director born later, Best Of The Best 3: No Turning Back or Ven Mi Corazón Te Llama?",reranker,1.0,False,1.0,scored
+What is the place of birth of the director of film Growing Up Smith?,reranker,,True,1.0,imputed
+"Which film has the director who was born later, Aloha, Bobby And Rose or The Elusive Avengers?",reranker,,False,,pending
+Who is Mary Of Bourbon's paternal grandfather?,reranker,1.0,True,1.0,scored
+Where did Niklas Frank's father die?,reranker,0.5,True,0.5,scored
+What nationality is the performer of song Pareho Tayo?,reranker,1.0,False,1.0,scored
+Do both directors of films The Curse Of Iku and Cops And Robbers (1973 Film) have the same nationality?,reranker,0.0,True,0.0,scored
+Where does the founder of Les Films Du Losange work at?,reranker,0.5,False,0.5,scored
+Who is the maternal grandfather of Princess Alexandra Of Hanover (Born 1999)?,reranker,0.75,False,0.75,scored
+"What is the date of death of Philibert I, Duke Of Savoy's mother?",reranker,1.0,False,1.0,scored
+Who is Sultan Hatun's mother-in-law?,reranker,1.0,True,1.0,scored
+"Which film came out first, João Da Mata or Beautiful Girls (Film)?",reranker,1.0,False,1.0,scored
+"Which film has the director born later, Brutti Di Notte or Bir Türk'E Gönül Verdim?",reranker,0.0,True,0.0,scored
+Where was the director of film Mark (Film) born?,reranker,0.5,True,0.5,scored
+What is the place of birth of Aurelio De Laurentiis's father?,reranker,1.0,False,1.0,scored
+Which country Count Of St. Germain's father is from?,reranker,,True,1.0,imputed
+"Which film has the director who was born later, Budak Nafsu or The Bilingual Lover?",reranker,0.3333333333333333,False,0.3333333333333333,scored
+Who is the paternal grandfather of Uskhal Khan Tögüs Temür?,reranker,0.5,False,0.5,scored
+"Which film has the director who was born later, Así En El Cielo Como En La Tierra or Buck And The Preacher?",reranker,0.6,False,0.6,scored
+"Which film whose director is younger, Return Of The Hero or Home In Indiana?",reranker,,True,1.0,imputed
+Where was the place of death of the director of film Sensational Janine?,reranker,0.0,True,0.0,scored
+What is the date of birth of Frederick Of Liege's father?,reranker,0.0,True,0.0,scored
+Who is Rostislav I Of Kiev's paternal grandfather?,reranker,1.0,True,1.0,scored
+Which country the director of film Hotel By The Hour is from?,reranker,0.5,False,0.5,scored
+"Which film was released first, My Friend Pinto or Vindhyarani?",reranker,0.6666666666666666,False,0.6666666666666666,scored
+Which country Ronald Dewolf's father is from?,reranker,,True,1.0,imputed
+"Are the movies About A Wife, A Dream And Another... and The Doolins Of Oklahoma, from the same country?",agentic,1.0,False,1.0,scored
+Who is Wisigard's father-in-law?,agentic,1.0,False,1.0,scored
+"Which film has the director who died later, The Death Kiss or Her Luck In London?",agentic,0.0,True,0.0,scored
+"Which film has the director who was born first, Hanuman Patal Vijay or Young And Dangerous: The Prequel?",agentic,0.3333333333333333,True,0.3333333333333333,scored
+Where was the director of film Aylwin (Film) born?,agentic,0.5,True,0.5,scored
+What nationality is Prince Napoléon Bonaparte's father?,agentic,1.0,False,1.0,scored
+"Who is the paternal grandmother of Renaud Iii, Count Of Soissons?",agentic,,False,,pending
+Where did the director of film Carbon (Film) study?,agentic,,True,1.0,imputed
+Are both Alex Bregman and Francesca Sterlacci from the same country?,agentic,1.0,False,1.0,scored
+Where did M. K. Muthu's father die?,agentic,1.0,True,1.0,scored
+"Which film was released more recently, Sacred Silence or Ek Haseena Thi Ek Deewana Tha?",agentic,1.0,False,1.0,scored
+"Which film whose director is younger, A Night'S Adventure or Insaciable?",agentic,1.0,False,1.0,scored
+Who is the father of the director of film The Thousand Faces Of Dunjia?,agentic,0.75,True,0.75,scored
+Were Gotthilf Heinrich Ernst Muhlenberg and Todd Williams of the same nationality?,agentic,1.0,True,1.0,scored
+"Which film came out first, Stella'S Oorlog or Sampathige Savaal?",agentic,1.0,False,1.0,scored
+"Do the bands The Gordons (Duo) and Sacred Rite (Band), originate from the same country?",agentic,1.0,False,1.0,scored
+What is the place of birth of the director of film The Return Of Swamp Thing?,agentic,0.0,False,0.0,scored
+"Where did the director of film Nalini By Day, Nancy By Night graduate from?",agentic,0.75,False,0.75,scored
+Are director of film Susanna Whipped Cream and director of film Le Salamandre both from the same country?,agentic,0.3333333333333333,True,0.3333333333333333,scored
+"Which film has the director born later, Occhio, Malocchio, Prezzemolo E Finocchio or Jailhouse Rock (Film)?",agentic,0.5,False,0.5,scored
+"Which film has the director died later, The Life And Loves Of Tschaikovsky or Dokuz Dağın Efesi?",agentic,0.8,False,0.8,scored
+"Which film whose director is younger, Outlaw King or Gunman'S Walk?",agentic,1.0,False,1.0,scored
+Was Ausaf Ali or Steven Perry born first?,agentic,0.6666666666666666,False,0.6666666666666666,scored
+"Who is younger, Zhang Lifang or Lalengzama Vangchhia?",agentic,1.0,False,1.0,scored
+Who is the maternal grandmother of Flavia Julia Constantia?,agentic,0.0,False,0.0,scored
+Are the directors of both films Captain Calamity (Film) and Heaven Only Knows (Film) from the same country?,agentic,0.25,False,0.25,scored
+What is the place of birth of the director of film Pages Of Life (Film)?,agentic,0.0,True,0.0,scored
+"Which film whose director is younger, Hell To Pay (2014 Film) or Darwin'S Nightmare?",agentic,1.0,False,1.0,scored
+What is the date of death of the founder of Suez Canal Company?,agentic,,True,1.0,imputed
+"Which film was released more recently, Scandal At The Girls' School or One Dangerous Night?",agentic,1.0,False,1.0,scored
+What is the date of death of Peter Dale Scott's mother?,agentic,1.0,False,1.0,scored
+Which award the composer of film Howrah Bridge (Film) earned?,agentic,1.0,False,1.0,scored
+Who is Ieuan Ab Owain Glyndŵr's paternal grandfather?,agentic,0.3333333333333333,False,0.3333333333333333,scored
+"What is the place of birth of Geoffrey Plantagenet, Count Of Anjou's wife?",agentic,0.6666666666666666,False,0.6666666666666666,scored
+Where did the founder of Ford Australia die?,agentic,0.0,True,0.0,scored
+"When did Thomas Knox, 3Rd Earl Of Ranfurly's father die?",agentic,,False,,pending
+"Which film has the director died earlier, Crime Against Joe or Vagabonderne På Bakkegården?",agentic,0.6666666666666666,False,0.6666666666666666,scored
+"Which film has the director born later, The Fighting Demon or Blood Of The Losers?",agentic,1.0,False,1.0,scored
+What is the place of birth of the composer of song Bullet (Misfits Song)?,agentic,0.6666666666666666,False,0.6666666666666666,scored
+"Who is younger, Empress Xiaoshurui or Goran Veselinovski?",agentic,1.0,False,1.0,scored
+"Who lived longer, Friedrich Paschen or Ernst Bessey?",agentic,1.0,False,1.0,scored
+Who is Amalie Adlerberg's stepfather?,agentic,0.5,False,0.5,scored
+Do both films Masters Of The Sea (Film) and The Auction Mart have the directors from the same country?,agentic,1.0,False,1.0,scored
+Where did the director of film Things Behind The Sun study?,agentic,0.4,False,0.4,scored
+Where was the director of film War Of The Buttons (1994 Film) born?,agentic,0.0,True,0.0,scored
+"Which film has the director who was born later, Attack Of Life: The Bang Tango Movie or King Kong (2005 Film)?",agentic,0.5,False,0.5,scored
+Where was the place of death of the director of film Romulus And The Sabines?,agentic,0.2,True,0.2,scored
+Where did Crow Foot's father die?,agentic,1.0,False,1.0,scored
+Where did the director of film Journal Of A Crime die?,agentic,0.0,False,0.0,scored
+"Which film whose director is younger, A Social Celebrity or A Sound Of Trumpets?",agentic,0.5,False,0.5,scored
+"Who was born later, Jean-Jacques Rousseau or Richard Cawley?",agentic,1.0,False,1.0,scored
+Who is the paternal grandfather of Diarmait Ua Briain?,agentic,0.25,False,0.25,scored
+"Where was the wife of Otto I, Count Of Guelders born?",agentic,1.0,False,1.0,scored
+Where was the place of death of Thomas Sheridan (Soldier)'s father?,agentic,1.0,False,1.0,scored
+What is the place of birth of Henrik Selberg's father?,agentic,0.6666666666666666,False,0.6666666666666666,scored
+"Which film has the director who is older, Aardram or Land And Freedom?",agentic,,True,1.0,imputed
+Who is Antoine-Charles Taschereau's paternal grandfather?,agentic,0.6666666666666666,False,0.6666666666666666,scored
+"Which film has the director died first, Köpekler Adası or Twisted Mistress?",agentic,0.6666666666666666,True,0.6666666666666666,scored
+"Which film has the director born later, Battle Of Memories or The Wedding Of Lilli Marlene?",agentic,1.0,False,1.0,scored
+Where was the founder of magazine Amazing Stories born?,agentic,0.6666666666666666,False,0.6666666666666666,scored
+"Which film came out earlier, Der Wixxer or The Butterfly Room?",agentic,1.0,False,1.0,scored
+"Who is the spouse of the composer of film Kalle Stropp, Grodan Boll Och Deras Vänner?",agentic,0.0,True,0.0,scored
+"What is the date of death of Charles Mills, 1St Baron Hillingdon's father?",agentic,0.5,False,0.5,scored
+Who is the paternal grandmother of Princess Feodora Of Hohenlohe-Langenburg?,agentic,0.0,True,0.0,scored
+"Which film has the director who is older than the other, Rolling In Money or A Fine, Windy Day? ",agentic,0.6666666666666666,False,0.6666666666666666,scored
+"Which film has the director died later, The Man From Lost River or Mcveagh Of The South Seas?",agentic,0.3333333333333333,True,0.3333333333333333,scored
+"Do the movies Seven Sinners (1936 Film) and Everyday (Film), originate from the same country?",agentic,0.0,True,0.0,scored
+Where was the director of film He'S A Cockeyed Wonder born?,agentic,1.0,True,1.0,scored
+"Which film has the director born later, Life Hits or It'S In The Air?",agentic,0.0,True,0.0,scored
+"Who is the paternal grandfather of James Fitzgerald, 8Th Earl Of Desmond?",agentic,0.5,False,0.5,scored
+"When did Joanna Of Aragon, Countess Of Foix's mother die?",agentic,0.6666666666666666,False,0.6666666666666666,scored
+Where did the director of film Search And Destroy (1995 Film) study?,agentic,1.0,False,1.0,scored
+"Where was the husband of Wilhelmine Of Prussia, Margravine Of Brandenburg-Bayreuth born?",agentic,0.6,False,0.6,scored
+What is the place of birth of the composer of film Men With Brooms?,agentic,,True,1.0,imputed
+"Which film has the director born later, Best Of The Best 3: No Turning Back or Ven Mi Corazón Te Llama?",agentic,0.5,False,0.5,scored
+What is the place of birth of the director of film Growing Up Smith?,agentic,,True,1.0,imputed
+"Which film has the director who was born later, Aloha, Bobby And Rose or The Elusive Avengers?",agentic,0.75,False,0.75,scored
+Who is Mary Of Bourbon's paternal grandfather?,agentic,0.0,False,0.0,scored
+Where did Niklas Frank's father die?,agentic,1.0,False,1.0,scored
+What nationality is the performer of song Pareho Tayo?,agentic,0.3333333333333333,False,0.3333333333333333,scored
+Do both directors of films The Curse Of Iku and Cops And Robbers (1973 Film) have the same nationality?,agentic,0.3333333333333333,True,0.3333333333333333,scored
+Where does the founder of Les Films Du Losange work at?,agentic,1.0,False,1.0,scored
+Who is the maternal grandfather of Princess Alexandra Of Hanover (Born 1999)?,agentic,0.5,True,0.5,scored
+"What is the date of death of Philibert I, Duke Of Savoy's mother?",agentic,1.0,False,1.0,scored
+Who is Sultan Hatun's mother-in-law?,agentic,1.0,False,1.0,scored
+"Which film came out first, João Da Mata or Beautiful Girls (Film)?",agentic,1.0,False,1.0,scored
+"Which film has the director born later, Brutti Di Notte or Bir Türk'E Gönül Verdim?",agentic,0.0,True,0.0,scored
+Where was the director of film Mark (Film) born?,agentic,0.6666666666666666,False,0.6666666666666666,scored
+What is the place of birth of Aurelio De Laurentiis's father?,agentic,0.5,True,0.5,scored
+Which country Count Of St. Germain's father is from?,agentic,0.5,False,0.5,scored
+"Which film has the director who was born later, Budak Nafsu or The Bilingual Lover?",agentic,1.0,False,1.0,scored
+Who is the paternal grandfather of Uskhal Khan Tögüs Temür?,agentic,,False,,pending
+"Which film has the director who was born later, Así En El Cielo Como En La Tierra or Buck And The Preacher?",agentic,0.5,False,0.5,scored
+"Which film whose director is younger, Return Of The Hero or Home In Indiana?",agentic,0.5,False,0.5,scored
+Where was the place of death of the director of film Sensational Janine?,agentic,0.0,True,0.0,scored
+What is the date of birth of Frederick Of Liege's father?,agentic,0.6666666666666666,False,0.6666666666666666,scored
+Who is Rostislav I Of Kiev's paternal grandfather?,agentic,0.5,True,0.5,scored
+Which country the director of film Hotel By The Hour is from?,agentic,0.5,False,0.5,scored
+"Which film was released first, My Friend Pinto or Vindhyarani?",agentic,1.0,False,1.0,scored
+Which country Ronald Dewolf's father is from?,agentic,0.0,False,0.0,scored
