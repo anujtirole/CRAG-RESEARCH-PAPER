@@ -1,0 +1,13 @@
+section,condition,metric,llama_mean,qwen_mean,qwen_n,comparison,n_pairs,mean_diff,wilcoxon_p,significant
+means,baseline,faithfulness,0.7121,0.7917,149,,,,,
+means,baseline,answer_relevancy,0.5735,0.5901,150,,,,,
+means,baseline,context_precision,0.6557,0.5467,144,,,,,
+means,reranker,faithfulness,0.7514,0.7807,148,,,,,
+means,reranker,answer_relevancy,0.5843,0.5871,150,,,,,
+means,reranker,context_precision,0.6807,0.5724,144,,,,,
+means,agentic,faithfulness,0.7603,0.8233,149,,,,,
+means,agentic,answer_relevancy,0.5924,0.5615,149,,,,,
+means,agentic,context_precision,0.6998,0.5642,146,,,,,
+wilcoxon_qwen_faithfulness,,faithfulness,,,,baseline vs reranker,147,-0.0164,0.613112,False
+wilcoxon_qwen_faithfulness,,faithfulness,,,,baseline vs agentic,148,0.0318,0.366477,False
+wilcoxon_qwen_faithfulness,,faithfulness,,,,reranker vs agentic,147,0.0484,0.144843,False

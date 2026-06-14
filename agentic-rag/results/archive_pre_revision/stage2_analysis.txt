@@ -1,0 +1,147 @@
+
+==============================================================================
+2A — Holm-Bonferroni corrected significance (n=150)
+==============================================================================
+           metric           comparison  n_pairs  mean_diff    p_raw   p_holm  ci95_low  ci95_high  ci_excludes_zero     status
+     faithfulness baseline vs reranker      140   0.066718 0.007378 0.022133  0.021120   0.114031              True     robust
+     faithfulness  reranker vs agentic      139   0.001633 0.841587 0.841587 -0.053677   0.055923             False       n.s.
+     faithfulness  baseline vs agentic      139   0.064514 0.016359 0.032719  0.007942   0.119363              True     robust
+ answer_relevancy baseline vs reranker      148   0.002560 0.767026 1.000000 -0.028812   0.034466             False       n.s.
+ answer_relevancy  reranker vs agentic      147  -0.003653 0.732228 1.000000 -0.050384   0.042790             False       n.s.
+ answer_relevancy  baseline vs agentic      147  -0.001075 0.757130 1.000000 -0.050318   0.049315             False       n.s.
+context_precision baseline vs reranker      150   0.036731 0.017554 0.052661 -0.001275   0.074230             False suggestive
+context_precision  reranker vs agentic      150  -0.009397 0.195840 0.195840 -0.022321   0.001787             False       n.s.
+context_precision  baseline vs agentic      150   0.027334 0.049040 0.098080 -0.013078   0.066253             False suggestive
+
+==============================================================================
+2B — Merge statistics (agentic re-retrieval)
+==============================================================================
+Agentic queries total:            150
+Queries with n_attempts > 1:      56 (37.3%)
+n_attempts distribution:
+agentic_n_attempts
+1    94
+2     7
+3    49
+
+Verbatim dedup/merge criterion from agentic_rag.py:
+   146 |         # ── MERGE-AND-DEDUPLICATE with chunks kept from previous attempts ────
+   147 |         seen: set = set()
+   148 |         merged: List[Dict] = []
+   149 |         for c in final_chunks + retrieved:
+   150 |             if c["text"] not in seen:
+   151 |                 seen.add(c["text"])
+   152 |                 merged.append(c)
+  -> Matching criterion: exact string equality of the full chunk text
+     (c["text"] not in seen). No fuzzy/embedding-based dedup.
+
+Attempt-level chunk provenance: NOT STORED. The cache persists only the
+final post-merge contexts (agentic_contexts); per-attempt retrieved sets
+are not logged anywhere, so we cannot report how many final chunks came
+from attempt 1 vs re-retrieval. This is a known logging gap.
+
+==============================================================================
+2C — RAGAS judge failure types per condition
+==============================================================================
+evaluate_phase3.log (original n=150 scoring run, judge=llama3.1:8b):
+  condition: baseline                 parser_exceptions=  9 (of which RagasOutputParserException=1), timeouts=0
+  condition: reranker                 parser_exceptions=  9 (of which RagasOutputParserException=1), timeouts=0
+  condition: agentic                  parser_exceptions= 14 (of which RagasOutputParserException=1), timeouts=0
+rescore_agentic.log (agentic-only re-score after fallback change):
+  condition: agentic (re-score)       parser_exceptions=  9 (of which RagasOutputParserException=2), timeouts=1
+
+NaN cells in results_main.csv (the authoritative per-query record —
+a NaN here = that sample ultimately unscored after retries):
+  baseline_faithfulness               NaN =   7 / 150
+  baseline_answer_relevancy           NaN =   2 / 150
+  baseline_context_precision          NaN =   0 / 150
+  reranker_faithfulness               NaN =   7 / 150
+  reranker_answer_relevancy           NaN =   2 / 150
+  reranker_context_precision          NaN =   0 / 150
+  agentic_faithfulness                NaN =   8 / 150
+  agentic_answer_relevancy            NaN =   2 / 150
+  agentic_context_precision           NaN =   0 / 150
+
+Current ragas_failure_report.txt (NOTE: covers AGENTIC ONLY — the
+re-score run rewrote the file; per-condition snapshots were not kept):
+  RAGAS failure report
+  generated: 2026-06-10 21:15:06
+  Counts of per-query RAGAS evaluations that succeeded vs. failed
+  (failure = batch error after retries, per-sample timeout/parse error,
+   or RAGAS returning NaN for that sample).
+  ================================================================
+  
+  [agentic]  rows=150  batches_failed=0/10
+    faithfulness           scored= 142   failed=   8
+    answer_relevancy       scored= 148   failed=   2
+    context_precision      scored= 150   failed=   0
+
+HONEST GAPS: (1) the logs do not tag each exception with the metric it
+belonged to, so per-metric failure attribution comes only from NaN counts
+above; (2) baseline/reranker failure counts for the original run survive
+only inside evaluate_phase3.log (counted above), since the failure-report
+file was overwritten; (3) zero judge timeouts occurred in either log —
+all failures were output-parsing failures (invalid JSON from llama3.1:8b).
+
+==============================================================================
+2D — Worked examples (full text, selected by inspection)
+==============================================================================
+(a) re-retrieval successes found: 4 -> showing first
+
+--- (a) RE-RETRIEVAL SUCCESS: confidence rose, gate passed, answer correct (cache row 2) ---
+question:      What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?
+ground_truth:  Animorphs
+answer:        The Animorphs series is a science fantasy young adult series, told in first person, with a set of companion books narrating the stories of enslaved worlds and alien species.
+n_attempts:    2
+confidence:    final=0.5  per-attempt=[0.38, 0.5]
+low_conf:      False
+used_fallback: False
+
+(b) critic-misled candidates (gate passed, ground truth absent from answer): 21 -> showing first
+
+--- (b) CRITIC-MISLED: gate passed, answer wrong (cache row 1) ---
+question:      What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?
+ground_truth:  Chief of Protocol
+answer:        As an adult, Shirley Temple Black served as United States ambassador to Ghana and to Czechoslovakia.
+n_attempts:    1
+confidence:    final=0.4  per-attempt=[0.4]
+low_conf:      False
+used_fallback: False
+
+(c) used_fallback=True rows with hedge prefix: 14 -> showing first
+
+--- (c) FALLBACK HEDGE: "Based on partial evidence:" (cache row 3) ---
+question:      Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?
+ground_truth:  no
+answer:        Based on partial evidence: The Esma Sultan Mansion is located in the Ortaköy neighborhood of Istanbul.
+n_attempts:    3
+confidence:    final=0.3  per-attempt=[0.3, 0.3]
+low_conf:      True
+used_fallback: True
+
+==============================================================================
+2E — Reranker detail (BAAI/bge-reranker-base)
+==============================================================================
+Parameter count: 278,044,417 (278.0 M)
+
+predict() call site — agentic_rag.py:
+   156 |         ce_pairs = [(query, c["text"]) for c in merged]
+   157 |         ce_scores = reranker.predict(ce_pairs)
+   158 |         ranked = sorted(zip(ce_scores, merged), key=lambda x: x[0], reverse=True)
+predict() call site — reranker_rag.py:
+    64 |         pairs: List[tuple] = [(query, c["text"]) for c in chunks]
+    65 |         scores = self.cross_encoder.predict(pairs)
+
+Batching: CrossEncoder.predict() batches internally with its default
+batch_size=32. Both call sites pass the full pair list in one call
+(TOP_K=10 pairs for reranker condition; up to ~10+5
+merged pairs in the agentic loop), i.e. a single internal batch per rerank.
+
+Timing 20 sample reranks (pairs per rerank: [10] chunks, CPU)...
+mean wall-clock per rerank: 7.568s  (std 13.266s, min 0.983s, max 49.490s)
+
+RE-TIMING NOTE (idle machine, 2026-06-12): the 7.568s mean in the run above
+was contaminated by concurrent background load. Re-measured on idle CPU:
+mean wall-clock per rerank: 2.148s (std 0.958s, min 1.119s, max 5.350s)
+First quiet-machine measurement (2026-06-11) was 1.610s (std 0.509s).
+Both are real measurements; report the idle-machine figure.

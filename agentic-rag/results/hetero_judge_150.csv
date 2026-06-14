@@ -1,0 +1,451 @@
+question,condition,faithfulness,answer_relevancy,context_precision
+Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?,baseline,0.0,0.0,0.0
+What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?,baseline,0.0,0.0,0.2916666666520833
+Are Random House Tower and 888 7th Avenue both used for real estate?,baseline,1.0,0.547440629980215,0.0
+Brown State Fishing Lake is in a country that has a population of how many inhabitants ?,baseline,1.0,0.0,0.0
+The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?,baseline,0.5,0.5844375017735346,0.3333333333
+"Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",baseline,1.0,0.5075359999574943,0.16666666665
+"Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",baseline,0.875,0.807478756617383,0.49999999995
+Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?,baseline,0.0,0.8533351917147005,0.9999999999
+Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?,baseline,0.0,0.5506462884931081,0.9999999999
+Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?,baseline,0.0,0.8328018818859014,0.9999999999
+What type of forum did a former Soviet statesman initiate?,baseline,1.0,0.6416741059032682,0.249999999975
+Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?,baseline,0.0,0.6254076361169797,0.9999999999
+In 1991 Euromarché was bought by a chain that operated how any hypermarkets at the end of 2016?,baseline,1.0,0.5008072971802485,0.49999999995
+What race track in the midwest hosts a 500 mile race eavery May?,baseline,0.5,0.6889764334131682,0.99999999995
+who is younger Keith Bostic or Jerry Glanville ?,baseline,1.0,0.9506396319865696,0.9999999999
+What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?,baseline,1.0,0.0,0.9999999999
+What is the inhabitant of the city where  122nd SS-Standarte was formed in2014,baseline,0.0,0.0,0.0
+In which year was the King who made the 1925 Birthday Honours born?,baseline,1.0,0.6360624209178626,0.49999999995
+The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name ?,baseline,1.0,0.6332543171352164,0.99999999995
+In which city is the ambassador of the Rabat-Salé-Kénitra administrative region to China based?,baseline,1.0,0.0,0.49999999995
+David Huntsinger has worked with this gospel singer born in the month of July?,baseline,1.0,0.7960956399940934,0.8333333332916666
+"Based on a True Story... is an album by which country music star, with the single My Eyes?",baseline,1.0,0.5978880290160659,0.99999999995
+"Over how many centuries were the ""dwelling place of the dead"" built?",baseline,1.0,0.0,0.3333333333
+"When was the British author who wrote the novel on which ""Here We Go Round the Mulberry Bush"" was based born? ",baseline,0.0,0.8470805253557875,0.1428571428428571
+Which component of shellite has the formula (ON)CHOH?,baseline,1.0,0.6118501334581107,0.3333333333
+Suicide's 1977 released album features a song based on what brand's comic character?,baseline,1.0,0.516568580591981,0.499999999975
+Are Daryl Hall and Gerry Marsden both musicians?,baseline,1.0,0.953481325827234,
+Mummulgum is a stop on the Bruxner Highway before reaching the town on the banks of which river?,baseline,1.0,0.7545619695305797,0.19999999998
+SuperMansion starred the actress who had a recurring role as whom on Workaholics?,baseline,1.0,0.6663791691922362,0.49999999995
+The author of Sexual Politics attended which British University?,baseline,0.0,0.0,0.49999999995
+Both Truth in Science and Discovery embrace what campaign?,baseline,1.0,0.5669788988804297,0.9999999999
+"Who is Bruce Spizer an expert on, known as the most influential act of the rock era?",baseline,1.0,0.6203154721089897,0.9999999999
+What occupation was shared by David Yates and Pietro Germi?,baseline,1.0,0.0,0.0
+The Memphis Hustle are based in a suburb of a city with a population of what in 2010?,baseline,1.0,0.8246437183040222,0.49999999995
+"Which of the city at the south of Shelly Beach, New South Wales is a local government area in the Hunter region of New South Wales, Australia?",baseline,1.0,0.5679671008291622,0.49999999995
+"Works by Hanna Leena Kristiina Varis are part of a collection in a museum that houses approximately 65,000 what?",baseline,0.6666666666666666,0.7133514618512636,0.49999999995
+"Which professional ice hockey position does the Captain of the National Hockey League All-Star Game ""Away Team"" play?",baseline,1.0,0.918113217699032,0.699999999965
+"What season was the character introduced that becomes the main antagonist in the  following season, from the animated television series created by Bryan Konietzko and Michael Dante DiMartino as a sequel to """", which aired from 2005 to 2008? ",baseline,1.0,0.5267086972799587,0.9166666666361112
+In which city are the headquarters of the American research and scientific development company where Ravi Sethi worked as computer scientist located?,baseline,0.5,0.7955655314537576,0.49999999995
+What is the full name of the viral respiratory disease in which Yi Guan's research helped to prevent the outbreak of?,baseline,1.0,0.8488437855756708,0.9999999999
+"Who was born first, Arthur Conan Doyle or Penelope Lively?",baseline,1.0,0.9133438778993598,0.0
+Ernest Foot was the best friend of the fighter pilot who had how many victories?,baseline,1.0,0.6859760586866063,0.49999999995
+Is the Marsilea or the Brabejum the genus of more individual species of plants?,baseline,0.0,0.0,0.7499999999625
+The Kansas City Wizards have had three home venues in Kansas City in their time.  Which was their first?,baseline,1.0,0.9071081235971584,0.1428571428428571
+Who is known for producing the documentary television series based on the book by science historian James Burke?,baseline,0.0,0.6839042687923599,0.9999999999666668
+"What is the name of the actress who has received a Drama Desk award and was part of the cast album for the 2007 Broadway production of the hit musical, ""Grease""?",baseline,1.0,0.9565591634689206,0.99999999995
+What type of magazine is Eugene Habecker the chairman of?,baseline,0.5,0.5289614292414839,0.699999999965
+In what month was the relief first officer of the flight that crashed on its way to Cairo with a stop in New York Born?,baseline,1.0,0.0,0.49999999995
+Where did Ian Harland study prior to studying at the oldest college at the University of Cambridge?,baseline,1.0,0.8492563619544962,0.9999999999
+What army did the namesake of the ship launched as the München in 1930 fight in during the American Revolutionary War?,baseline,1.0,0.0,0.0
+Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?,reranker,0.0,0.0,0.0
+What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?,reranker,0.0,0.0,0.99999999995
+Are Random House Tower and 888 7th Avenue both used for real estate?,reranker,1.0,0.6835169637834014,0.0
+Brown State Fishing Lake is in a country that has a population of how many inhabitants ?,reranker,0.0,0.0,0.0
+The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?,reranker,0.5,0.6293795767935575,0.49999999995
+"Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",reranker,1.0,0.5403682977658517,0.249999999975
+"Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",reranker,0.75,0.8374733628790257,0.0
+Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?,reranker,0.6666666666666666,0.7320356188862843,0.3333333333
+Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?,reranker,1.0,0.7114727526714465,0.9999999999
+Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?,reranker,,0.8328018818859014,0.9999999999
+What type of forum did a former Soviet statesman initiate?,reranker,1.0,0.5674804390785185,0.16666666665
+Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?,reranker,0.6666666666666666,0.5363419920117329,0.9999999999
+In 1991 Euromarché was bought by a chain that operated how any hypermarkets at the end of 2016?,reranker,0.75,0.0,0.49999999995
+What race track in the midwest hosts a 500 mile race eavery May?,reranker,1.0,0.0,0.3666666666483333
+who is younger Keith Bostic or Jerry Glanville ?,reranker,1.0,0.9506396319865696,0.3333333333
+What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?,reranker,1.0,0.746433304263781,0.1249999999875
+What is the inhabitant of the city where  122nd SS-Standarte was formed in2014,reranker,1.0,0.0,0.0
+In which year was the King who made the 1925 Birthday Honours born?,reranker,1.0,0.6360624209178626,0.49999999995
+The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name ?,reranker,0.0,0.6332543171352164,0.99999999995
+In which city is the ambassador of the Rabat-Salé-Kénitra administrative region to China based?,reranker,0.0,0.0,0.49999999995
+David Huntsinger has worked with this gospel singer born in the month of July?,reranker,0.0,0.7018717241131048,0.99999999995
+"Based on a True Story... is an album by which country music star, with the single My Eyes?",reranker,1.0,0.5517139059387265,0.99999999995
+"Over how many centuries were the ""dwelling place of the dead"" built?",reranker,0.0,0.0,0.3333333333
+"When was the British author who wrote the novel on which ""Here We Go Round the Mulberry Bush"" was based born? ",reranker,1.0,0.9854272218743352,0.1428571428428571
+Which component of shellite has the formula (ON)CHOH?,reranker,1.0,0.968286667250848,0.9999999999
+Suicide's 1977 released album features a song based on what brand's comic character?,reranker,0.5,0.6165666831177737,0.5833333333041666
+Are Daryl Hall and Gerry Marsden both musicians?,reranker,1.0,0.9656643582530912,
+Mummulgum is a stop on the Bruxner Highway before reaching the town on the banks of which river?,reranker,1.0,0.8450299360986975,0.49999999995
+SuperMansion starred the actress who had a recurring role as whom on Workaholics?,reranker,1.0,0.7552380684526016,0.9999999999
+The author of Sexual Politics attended which British University?,reranker,0.0,0.0,0.9999999999
+Both Truth in Science and Discovery embrace what campaign?,reranker,1.0,0.5998440073381021,0.9999999999
+"Who is Bruce Spizer an expert on, known as the most influential act of the rock era?",reranker,1.0,0.6231836552807771,0.9999999999
+What occupation was shared by David Yates and Pietro Germi?,reranker,1.0,0.9789482852497898,0.0
+The Memphis Hustle are based in a suburb of a city with a population of what in 2010?,reranker,1.0,0.7968672792439597,0.49999999995
+"Which of the city at the south of Shelly Beach, New South Wales is a local government area in the Hunter region of New South Wales, Australia?",reranker,1.0,0.5679671008291622,0.9999999999
+"Works by Hanna Leena Kristiina Varis are part of a collection in a museum that houses approximately 65,000 what?",reranker,0.75,0.6348676251483508,0.49999999995
+"Which professional ice hockey position does the Captain of the National Hockey League All-Star Game ""Away Team"" play?",reranker,1.0,0.695832617892116,0.249999999975
+"What season was the character introduced that becomes the main antagonist in the  following season, from the animated television series created by Bryan Konietzko and Michael Dante DiMartino as a sequel to """", which aired from 2005 to 2008? ",reranker,1.0,0.5393793592204891,0.5099206349078869
+In which city are the headquarters of the American research and scientific development company where Ravi Sethi worked as computer scientist located?,reranker,0.5,0.8454250197245461,0.49999999995
+What is the full name of the viral respiratory disease in which Yi Guan's research helped to prevent the outbreak of?,reranker,1.0,0.590508555303024,0.9999999999
+"Who was born first, Arthur Conan Doyle or Penelope Lively?",reranker,1.0,0.956385211018882,0.0
+Ernest Foot was the best friend of the fighter pilot who had how many victories?,reranker,1.0,0.6717571544338709,0.49999999995
+Is the Marsilea or the Brabejum the genus of more individual species of plants?,reranker,0.6666666666666666,0.0,0.499999999975
+The Kansas City Wizards have had three home venues in Kansas City in their time.  Which was their first?,reranker,0.0,0.0,0.9999999999
+Who is known for producing the documentary television series based on the book by science historian James Burke?,reranker,1.0,0.7401130925972829,0.9999999999666668
+"What is the name of the actress who has received a Drama Desk award and was part of the cast album for the 2007 Broadway production of the hit musical, ""Grease""?",reranker,1.0,0.9669017648785646,0.99999999995
+What type of magazine is Eugene Habecker the chairman of?,reranker,1.0,0.5289614292414839,0.7499999999625
+In what month was the relief first officer of the flight that crashed on its way to Cairo with a stop in New York Born?,reranker,1.0,0.0,0.49999999995
+Where did Ian Harland study prior to studying at the oldest college at the University of Cambridge?,reranker,1.0,0.8492563619544962,0.9999999999
+What army did the namesake of the ship launched as the München in 1930 fight in during the American Revolutionary War?,reranker,1.0,0.5277529445995816,0.0
+Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?,agentic,1.0,0.8074714300984606,0.0
+What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?,agentic,1.0,0.5476803279144776,0.99999999995
+Are Random House Tower and 888 7th Avenue both used for real estate?,agentic,0.5,0.0,0.0
+Brown State Fishing Lake is in a country that has a population of how many inhabitants ?,agentic,1.0,0.0,0.0
+The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?,agentic,0.5,0.6151807196111614,0.49999999995
+"Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",agentic,1.0,0.5898798948216447,0.249999999975
+"Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",agentic,0.75,0.8528273622051166,0.0
+Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?,agentic,0.5,0.7737932652333713,0.3333333333
+Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?,agentic,1.0,0.7243913552314193,0.9999999999
+Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?,agentic,1.0,0.6707817625816389,0.9999999999
+What type of forum did a former Soviet statesman initiate?,agentic,0.0,0.5897576694428609,0.0
+Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?,agentic,1.0,0.0,0.9999999999
+In 1991 Euromarché was bought by a chain that operated how any hypermarkets at the end of 2016?,agentic,0.5,0.0,0.49999999995
+What race track in the midwest hosts a 500 mile race eavery May?,agentic,0.75,0.0,0.249999999975
+who is younger Keith Bostic or Jerry Glanville ?,agentic,1.0,0.9308753135025172,0.3333333333
+What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?,agentic,0.0,0.0,0.0
+What is the inhabitant of the city where  122nd SS-Standarte was formed in2014,agentic,0.0,0.0,0.0
+In which year was the King who made the 1925 Birthday Honours born?,agentic,1.0,0.6360624209178626,0.49999999995
+The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name ?,agentic,1.0,0.6332543171352164,0.99999999995
+In which city is the ambassador of the Rabat-Salé-Kénitra administrative region to China based?,agentic,1.0,0.5866978709840653,0.49999999995
+David Huntsinger has worked with this gospel singer born in the month of July?,agentic,1.0,0.7960956399940934,0.99999999995
+"Based on a True Story... is an album by which country music star, with the single My Eyes?",agentic,1.0,0.626417520736669,0.99999999995
+"Over how many centuries were the ""dwelling place of the dead"" built?",agentic,0.6666666666666666,0.0,0.3333333333
+"When was the British author who wrote the novel on which ""Here We Go Round the Mulberry Bush"" was based born? ",agentic,1.0,0.0,0.0
+Which component of shellite has the formula (ON)CHOH?,agentic,1.0,0.6118501334581107,0.9999999999
+Suicide's 1977 released album features a song based on what brand's comic character?,agentic,1.0,0.0,0.5833333333041666
+Are Daryl Hall and Gerry Marsden both musicians?,agentic,1.0,0.9190645595796691,0.3333333333
+Mummulgum is a stop on the Bruxner Highway before reaching the town on the banks of which river?,agentic,1.0,0.7202890627811657,0.49999999995
+SuperMansion starred the actress who had a recurring role as whom on Workaholics?,agentic,1.0,0.7518221992636825,0.9999999999
+The author of Sexual Politics attended which British University?,agentic,1.0,0.5595269295042673,0.9999999999
+Both Truth in Science and Discovery embrace what campaign?,agentic,1.0,0.5847659708622209,0.9999999999
+"Who is Bruce Spizer an expert on, known as the most influential act of the rock era?",agentic,1.0,0.6217495636948835,0.9999999999
+What occupation was shared by David Yates and Pietro Germi?,agentic,1.0,0.9774110644182684,0.0
+The Memphis Hustle are based in a suburb of a city with a population of what in 2010?,agentic,1.0,0.8204565832440341,0.49999999995
+"Which of the city at the south of Shelly Beach, New South Wales is a local government area in the Hunter region of New South Wales, Australia?",agentic,1.0,0.5679671008291622,0.9999999999
+"Works by Hanna Leena Kristiina Varis are part of a collection in a museum that houses approximately 65,000 what?",agentic,0.6666666666666666,0.7133514618512636,0.49999999995
+"Which professional ice hockey position does the Captain of the National Hockey League All-Star Game ""Away Team"" play?",agentic,1.0,0.695832617892116,0.249999999975
+"What season was the character introduced that becomes the main antagonist in the  following season, from the animated television series created by Bryan Konietzko and Michael Dante DiMartino as a sequel to """", which aired from 2005 to 2008? ",agentic,0.5,0.5174351042459314,0.5833333333041666
+In which city are the headquarters of the American research and scientific development company where Ravi Sethi worked as computer scientist located?,agentic,1.0,0.8454250197245461,0.49999999995
+What is the full name of the viral respiratory disease in which Yi Guan's research helped to prevent the outbreak of?,agentic,1.0,0.8488437855756708,0.9999999999
+"Who was born first, Arthur Conan Doyle or Penelope Lively?",agentic,1.0,0.956385211018882,0.0
+Ernest Foot was the best friend of the fighter pilot who had how many victories?,agentic,1.0,0.6735625932206291,0.49999999995
+Is the Marsilea or the Brabejum the genus of more individual species of plants?,agentic,1.0,0.7894523263408927,0.499999999975
+The Kansas City Wizards have had three home venues in Kansas City in their time.  Which was their first?,agentic,0.5,0.0,0.9999999999
+Who is known for producing the documentary television series based on the book by science historian James Burke?,agentic,1.0,0.6771413438383534,0.9999999999666668
+"What is the name of the actress who has received a Drama Desk award and was part of the cast album for the 2007 Broadway production of the hit musical, ""Grease""?",agentic,1.0,0.4492188912855119,0.99999999995
+What type of magazine is Eugene Habecker the chairman of?,agentic,1.0,0.5289614292414839,0.699999999965
+In what month was the relief first officer of the flight that crashed on its way to Cairo with a stop in New York Born?,agentic,1.0,0.0,0.49999999995
+Where did Ian Harland study prior to studying at the oldest college at the University of Cambridge?,agentic,1.0,0.8753365450001777,0.9999999999
+What army did the namesake of the ship launched as the München in 1930 fight in during the American Revolutionary War?,agentic,0.0,0.657506899088236,0.0
+What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?,baseline,1.0,0.5454031823190465,0.3333333333
+The arena where the Lewiston Maineiacs played their home games can seat how many people?,baseline,1.0,0.9539633871245251,0.9999999999
+"Who is older, Annie Morton or Terry Richardson?",baseline,1.0,0.9535010536565962,0.0
+Are Local H and For Against both from the United States?,baseline,0.6666666666666666,0.8521227896580301,0.0
+The football manager who recruited David Beckham managed Manchester United during what timeframe?,baseline,1.0,0.752443781433764,0.9999999999
+What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?,baseline,1.0,0.7465045883212172,
+Who was the writer of These Boots Are Made for Walkin' and who died in 2007?,baseline,0.5,0.0,0.0
+"Are both Dictyosperma, and Huernia described as a genus?",baseline,1.0,0.9569901760872751,0.0
+"What is the name for the adventure in ""Tunnels and Trolls"", a game designed by Ken St. Andre?",baseline,0.3333333333333333,0.0,0.3333333333
+"When was Poison's album ""Shut Up, Make Love"" released?",baseline,1.0,0.7655713485471166,0.9999999999
+"Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",baseline,1.0,0.7385880970271946,0.0
+Which  French ace pilot and adventurer fly L'Oiseau Blanc,baseline,0.5,0.7863256964276522,0.0
+Are Freakonomics and In the Realm of the Hackers both American documentaries?,baseline,1.0,0.0,0.0
+Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?,baseline,1.0,0.47642240729816293,0.49999999995
+Ralph Hefferline was a psychology professor at a university that is located in what city?,baseline,1.0,0.7570199497952693,0.3333333333
+"A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",baseline,0.0,0.7763020965659505,0.249999999975
+"In what city did the ""Prince of tenors"" star in a film based on an opera by Giacomo Puccini?",baseline,0.6666666666666666,0.5401347411196237,0.19999999998
+"Ellie Goulding worked with what other writers on her third studio album, Delirium?",baseline,0.6666666666666666,0.945890375632905,0.2916666666520833
+Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.,baseline,0.6666666666666666,0.5928942347068769,0.9999999999
+"According to the 2001 census, what was the population of the city in which Kirton End is located?",baseline,1.0,0.0,0.249999999975
+What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?,baseline,1.0,0.684345395692303,0.474999999988125
+Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?,baseline,1.0,0.7156303291649699,0.8333333332916666
+The 2017–18 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?,baseline,0.5,0.8263819308175071,0.9999999999
+What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ,baseline,0.5,0.8997681472164274,0.9999999999
+"What was the name of the 1996 loose adaptation of William Shakespeare's ""Romeo & Juliet"" written by James Gunn?",baseline,1.0,0.5644329647654172,0.8333333332916666
+Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?,baseline,1.0,0.7897817102743189,0.499999999975
+What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?,baseline,1.0,0.5284705517598537,0.49999999995
+What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?,baseline,1.0,0.0,0.0
+"What is the county seat of the county where East Lempster, New Hampshire is located?",baseline,1.0,0.7303692552498827,0.249999999975
+"In what year was the novel that Lourenço Mutarelli based ""Nina"" on based first published?",baseline,1.0,0.5803426993881559,0.49999999995
+Where are Teide National Park and Garajonay National Park located?,baseline,1.0,0.9999999999997072,0.99999999995
+How many copies of Roald Dahl's variation on a popular anecdote sold?,baseline,1.0,0.0,
+What occupation do Chris Menges and Aram Avakian share?,baseline,1.0,0.5855141764521594,0.0
+Andrew Jaspan was the co-founder of what not-for-profit media outlet?,baseline,1.0,0.7723050302134954,0.9999999999
+Do the drinks Gibson and Zurracapote both contain gin?,baseline,1.0,0.7880581242438786,0.0
+"In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",baseline,1.0,0.6823037921600011,0.9999999999
+What type of activity does Owner earnings and Warren Buffett have in common?,baseline,1.0,0.8119755808851096,0.9999999999
+When was the  former Indian cricketer who made his ODI debuts during the 2000 ICC KnockOut Trophy born? ,baseline,1.0,0.6047981696960364,0.3333333333
+"Which airplane was this Major test-flying after whom the base, that 514th Flight Test Squadron is stated at, is named?",baseline,1.0,0.5068583798910868,0.1249999999875
+The Argentine PGA Championship record holder has won how many tournaments worldwide?,baseline,1.0,0.7191674033765731,0.0
+What other political position did the person who introduced the DISCLOSE Act hold?,baseline,0.0,0.8331995344149311,0.9999999999
+Were the bands Skin Yard and Ostava from the U.S.?,baseline,0.5,0.0,0.49999999995
+What major truck road is located in Backford Cross?,baseline,1.0,0.7729132537337108,0.9999999999
+In which role did Caroline Carver played in a 1999 Hallmark Entertainment made-for-TV fantasy movie?,baseline,1.0,0.6703081486626038,0.9999999999
+Maxeda has been owned since 2004 by which American multinational equity firm?,baseline,1.0,0.7910019565911073,0.9999999999
+The youngest daughter of Lady Mary-Gaye Curzon stars with Douglas Smith and Lucien Laviscount  in what 2017 film?,baseline,0.6666666666666666,0.6460720114890273,0.9999999999
+"The 1974 Texas Tech Raiders football team represented what public research university in Lubbock, Texas?",baseline,1.0,0.7574930492956119,0.8333333332916666
+"During Siege of Bharatpur, which Commander-in-Chief of Ireland and Commander-in-Chief of India contributed to the storming of the castle?",baseline,0.5,0.7742078535713786,0.499999999975
+"Who was born first, Erika Jayne or Marco Da Silva",baseline,1.0,0.9293488233433203,0.49999999995
+What is the name of the Isles who were led by Aonghus Mór and covered a total land area of over 8300 km2?,baseline,1.0,0.731348848275804,0.5833333333041666
+"Which song was behind the third single on the album  ""A Lot About Livin' (And a Little 'bout Love)"" for two weeks on the country charts?",baseline,0.0,0.0,0.0
+"Marcus Wayne Garland spent nine seasons with an American professional baseball team that is based in Baltimore, Maryland, and was one of the AMerican League's original eight charter franchises when the league was established in what year?",baseline,0.75,0.7693759669681001,0.7555555555303703
+What major city is the Faith Lutheran Middle School and High School located by?,baseline,1.0,0.9590044978936137,0.9999999999
+This Celtic ruler who was born in AD 43 ruled southeastern Britain prior to conquest by which empire?,baseline,0.0,0.5221151639881813,0.3291666666584375
+"What is the name of the detective novelist parent of the author of '""Q"" Is for Quarry'?",baseline,1.0,0.8695892214718147,0.49999999995
+"Which songwriting duo composed music for ""La La Land"", and created lyrics for ""A Christmas Story: The Musical""? ",baseline,0.5,0.8109456905544402,0.7116666666524333
+When was the Western Germanic language spoken from which the small settlement situated on the river Leda opposite Leer derives its name?,baseline,0.6666666666666666,0.0,0.0
+"Born on 6 March 1937, this man was also a citizen of the United Kingdom.",baseline,1.0,0.5208837118102697,0.9999999999
+"What country does Hatton Hill and Hatton Castle, Angus have in common?",baseline,1.0,0.9560154398079478,0.91666666664375
+"What year did the series on CBS, starring the actor who known for his role in ""Rebel Without a Cause,"" air?",baseline,1.0,0.0,0.0
+Do The Importance of Being Icelandic and The Five Obstructions belong to different film genres ?,baseline,1.0,0.7524452318748214,0.0
+Tefik Selim Mborja was a part of a party that held power in Albania until what year? ,baseline,1.0,0.8505047325557541,0.3333333333
+Georges-Henri Bousquet translated the work of a historian who is of what heritage?,baseline,1.0,0.6099338689795671,0.7499999999625
+Which Kentucky Writers Hall of Fame author has had works published by Dim Gray Bar Press?,baseline,0.0,0.438657660549354,0.99999999995
+What amount was the settlement that the character from the Son of al Quada got in 2017?,baseline,1.0,0.5611922290695798,0.3333333333
+The 2000 British film Snatch was later adapted into a television series for what streaming service?,baseline,1.0,0.0,0.9999999999
+Who designed the hotel that held the IFBB professional bodybuilding competition in September 1991?,baseline,0.0,0.0,0.0
+"At the 71st Golden Globe Awards for television in 2013, what achievement did Breaking Bad, police sitcom Brooklyn Nine-Nine and American Hustle attain?",baseline,0.0,0.6488029707043126,0.9999999999
+Onika Tanya Maraj is a judge on a television show hosted by whom? ,baseline,0.0,0.6350055339119312,0.11111111109999999
+Are Hot Rod and The Memory of Our People both magazines?,baseline,1.0,0.0,0.0
+Which post DC Extended Universe actress will also play a role in what is intended to be the fifth installment of the DC Extended Universe?,baseline,1.0,0.706273089938902,0.8333333332916666
+Who was the captain of the only battleship to provide gunfire support during the Vietnam War?,baseline,0.3333333333333333,0.7024882118648305,0.49999999995
+"Is the Pakistan fast bowler who joined the Kent County Cricket Club in June, 2011 a left-hand or right-hand batsmans?",baseline,1.0,0.5172887720515266,0.7777777777518519
+"Which Netflix series ""Unbreakable"" character is Elizabeth Claire Kemper known for playing?",baseline,1.0,0.7798727834206711,
+"Which television series featured an actor who also performed in ""The Young Ones""?",baseline,1.0,0.48742623085784625,0.49999999995
+What is the name of the ethnic group who settled in Canada in the 17th century that participated in a conflict with Irish Catholic immigrants in the Shiners' War?,baseline,1.0,0.5259185581498088,0.0
+"Martin Patterson ""Pat"" Hingle was a close friend of an actor who achieved success in what Western TV series? ",baseline,0.5,0.7479402285801177,0.49999999995
+"What material did a hairdresser from Yorkshire, England invent that was named by his granddaughter?",baseline,1.0,0.5282642069076533,0.8333333332916666
+One Raffles Place is one of the tallest skyscrapers in the city of Singapore and tallest in the wolrd outside North America until it was succeeded by a Building in city?,baseline,0.5,0.7312903839589131,0.9999999999
+What is the nickname of the city where Darling's Waterfront Pavilion is located?,baseline,1.0,0.44845345740156173,0.249999999975
+"Henry Hall is known for fighting in the Revolutionary War, and for being the first to successfully cultivate this food found in what type of bogs?",baseline,1.0,0.605636963515806,0.62499999996875
+"What airport serviced by American Airlines Shuttle, is also the largest airport in the New England region and 17th busiest in the U.S?",baseline,1.0,0.5039869224959377,0.99999999995
+"Which genus has more species, Xanthoceras or Ehretia?",baseline,1.0,0.7848914992515234,0.9999999999
+Which professional baseball player and National 1993 Baseball Hall of Fame inductee is featured in the Greatest Sports Legends anthology? ,baseline,1.0,0.641282324239376,0.49999999995
+"Yoann Lemoine, a French video director, has created music videos for Lana Del Rey, Katy Perry, and an orchestral country pop ballad by which top pop artist?",baseline,0.5,0.5833082254438527,0.9999999999
+In what city can a person find both the Nusretiye Clock Tower and the Eski Imaret Mosque be found?,baseline,1.0,0.94817103543641,0.9999999999
+"What is Opry Mills in Nashville, Tennessee?",baseline,1.0,0.8163663767174961,0.9999999999
+which is larger Asante Traditional Buildings or Gulangyu?,baseline,1.0,0.8481842029129499,0.0
+What NIFL Premier Intermediate League team did Sean Connor play for?,baseline,1.0,0.0,0.0
+Can Stenocereus and Pachypodium both include tree like plants?,baseline,1.0,0.8846308595911913,0.99999999995
+"on 16 January 1995 ""First Knight"" was being filmed at a studio located how far from Windsor ?",baseline,0.0,0.7173153363142083,0.49999999995
+"Marion Greene was a health policy analyst for St. Judt Medical company, which had how many principal operations worldwide?",baseline,1.0,0.6370726070703437,0.49999999995
+Which Genus has more species Eucryphia or Lepidozamia ?,baseline,1.0,0.9216980580788475,0.49999999995
+"Flyboys stars which actor who was nominated for an Academy Award for ""127 Hours""?",baseline,1.0,0.483965066968709,0.999999999975
+I'd Come for You is a single by the band formed in what Alberta city?,baseline,1.0,0.8184925226765397,
+"Who is older, Ferdi Taygan or Mahesh Bhupathi?",baseline,1.0,0.9566206175435384,0.0
+"Which came to market first, ""Hey Pa! There's a Goat on the Roof"" or ""Poleconomy""",baseline,,0.0,
+What was the position of Jean Baptiste Androuet du Cerceau under the man who was King of the Polish-Lithuanian Commonwealth from 1573 to 1575?,baseline,1.0,0.7641991125791273,0.49999999995
+The Church of the Guanche People was founded in the city that is on the most populated island of what larger area?,baseline,1.0,0.8664152436552836,0.49999999995
+What officially ended the first phase of the military conflict between the British Raj and the Emirate of Afghanistan from 1878 to 1880?,baseline,1.0,0.7996870363918047,0.8055555555287036
+What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?,reranker,1.0,0.0,0.249999999975
+The arena where the Lewiston Maineiacs played their home games can seat how many people?,reranker,1.0,0.9473069944326079,0.49999999995
+"Who is older, Annie Morton or Terry Richardson?",reranker,1.0,0.9547035100895666,0.0
+Are Local H and For Against both from the United States?,reranker,1.0,0.8408018649764681,0.0
+The football manager who recruited David Beckham managed Manchester United during what timeframe?,reranker,1.0,0.7264618467552117,0.9999999999
+What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?,reranker,1.0,0.7465045883212172,
+Who was the writer of These Boots Are Made for Walkin' and who died in 2007?,reranker,0.5,0.0,0.0
+"Are both Dictyosperma, and Huernia described as a genus?",reranker,1.0,0.9528588889372673,0.0
+"What is the name for the adventure in ""Tunnels and Trolls"", a game designed by Ken St. Andre?",reranker,0.8,0.45666828226973255,0.249999999975
+"When was Poison's album ""Shut Up, Make Love"" released?",reranker,1.0,0.9365707818680717,0.9999999999
+"Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",reranker,1.0,0.7385880970271946,0.0
+Which  French ace pilot and adventurer fly L'Oiseau Blanc,reranker,1.0,0.8675711866389387,0.0
+Are Freakonomics and In the Realm of the Hackers both American documentaries?,reranker,0.0,0.0,0.9999999999
+Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?,reranker,0.0,0.47642240729816293,0.49999999995
+Ralph Hefferline was a psychology professor at a university that is located in what city?,reranker,1.0,0.7570199497952693,0.3333333333
+"A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",reranker,1.0,0.4897613780133105,0.49999999995
+"In what city did the ""Prince of tenors"" star in a film based on an opera by Giacomo Puccini?",reranker,1.0,0.5179981970384833,0.9999999999
+"Ellie Goulding worked with what other writers on her third studio album, Delirium?",reranker,0.6666666666666666,0.945890375632905,0.30952380950833336
+Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.,reranker,0.75,0.594751842490104,0.9999999999
+"According to the 2001 census, what was the population of the city in which Kirton End is located?",reranker,0.0,0.0,0.49999999995
+What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?,reranker,1.0,0.684345395692303,0.733333333315
+Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?,reranker,0.5,0.7354810488952656,0.99999999995
+The 2017–18 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?,reranker,1.0,0.8263819308175071,0.49999999995
+What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ,reranker,1.0,0.8871897726732175,0.9999999999
+"What was the name of the 1996 loose adaptation of William Shakespeare's ""Romeo & Juliet"" written by James Gunn?",reranker,1.0,0.560213608100001,0.99999999995
+Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?,reranker,1.0,0.7768868921668469,0.5833333333041666
+What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?,reranker,1.0,0.7561683470574563,0.9999999999
+What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?,reranker,1.0,0.0,0.0
+"What is the county seat of the county where East Lempster, New Hampshire is located?",reranker,1.0,0.7303692552498827,0.3333333333
+"In what year was the novel that Lourenço Mutarelli based ""Nina"" on based first published?",reranker,1.0,0.6099808924434235,0.249999999975
+Where are Teide National Park and Garajonay National Park located?,reranker,1.0,0.9999999999997072,0.99999999995
+How many copies of Roald Dahl's variation on a popular anecdote sold?,reranker,1.0,0.0,
+What occupation do Chris Menges and Aram Avakian share?,reranker,1.0,0.4374277121666956,0.0
+Andrew Jaspan was the co-founder of what not-for-profit media outlet?,reranker,1.0,0.7515619143178581,0.9999999999
+Do the drinks Gibson and Zurracapote both contain gin?,reranker,0.5,0.0,0.0
+"In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",reranker,1.0,0.6823037921600011,0.49999999995
+What type of activity does Owner earnings and Warren Buffett have in common?,reranker,1.0,0.8122301897385599,0.9999999999
+When was the  former Indian cricketer who made his ODI debuts during the 2000 ICC KnockOut Trophy born? ,reranker,1.0,0.6047981696960364,0.3333333333
+"Which airplane was this Major test-flying after whom the base, that 514th Flight Test Squadron is stated at, is named?",reranker,0.0,0.548708264308793,0.49999999995
+The Argentine PGA Championship record holder has won how many tournaments worldwide?,reranker,1.0,0.7191674033765731,0.0
+What other political position did the person who introduced the DISCLOSE Act hold?,reranker,0.6666666666666666,0.0,0.9999999999
+Were the bands Skin Yard and Ostava from the U.S.?,reranker,1.0,0.0,0.49999999995
+What major truck road is located in Backford Cross?,reranker,1.0,0.7502811035673376,0.9999999999
+In which role did Caroline Carver played in a 1999 Hallmark Entertainment made-for-TV fantasy movie?,reranker,1.0,0.9440271628795579,0.49999999995
+Maxeda has been owned since 2004 by which American multinational equity firm?,reranker,1.0,0.7872808785101948,0.9999999999
+The youngest daughter of Lady Mary-Gaye Curzon stars with Douglas Smith and Lucien Laviscount  in what 2017 film?,reranker,1.0,0.6460720114890273,0.49999999995
+"The 1974 Texas Tech Raiders football team represented what public research university in Lubbock, Texas?",reranker,1.0,0.7588689617471317,0.99999999995
+"During Siege of Bharatpur, which Commander-in-Chief of Ireland and Commander-in-Chief of India contributed to the storming of the castle?",reranker,0.75,0.7218615195088178,0.8333333332916666
+"Who was born first, Erika Jayne or Marco Da Silva",reranker,1.0,0.789003719323844,0.9999999999
+What is the name of the Isles who were led by Aonghus Mór and covered a total land area of over 8300 km2?,reranker,0.75,0.7344769527899384,0.7499999999625
+"Which song was behind the third single on the album  ""A Lot About Livin' (And a Little 'bout Love)"" for two weeks on the country charts?",reranker,0.0,0.0,0.0
+"Marcus Wayne Garland spent nine seasons with an American professional baseball team that is based in Baltimore, Maryland, and was one of the AMerican League's original eight charter franchises when the league was established in what year?",reranker,0.75,0.7693759669681001,0.5317460317283068
+What major city is the Faith Lutheran Middle School and High School located by?,reranker,1.0,0.9590044978936137,0.9999999999
+This Celtic ruler who was born in AD 43 ruled southeastern Britain prior to conquest by which empire?,reranker,0.0,0.5011390572943457,0.48214285713080357
+"What is the name of the detective novelist parent of the author of '""Q"" Is for Quarry'?",reranker,1.0,0.8315576694776657,0.249999999975
+"Which songwriting duo composed music for ""La La Land"", and created lyrics for ""A Christmas Story: The Musical""? ",reranker,0.6666666666666666,0.9300782209804567,0.8766666666491334
+When was the Western Germanic language spoken from which the small settlement situated on the river Leda opposite Leer derives its name?,reranker,0.0,0.5624956264797938,0.0
+"Born on 6 March 1937, this man was also a citizen of the United Kingdom.",reranker,0.0,0.5208837118102697,0.9999999999
+"What country does Hatton Hill and Hatton Castle, Angus have in common?",reranker,1.0,0.9560154398079478,0.7874999999803125
+"What year did the series on CBS, starring the actor who known for his role in ""Rebel Without a Cause,"" air?",reranker,0.0,0.0,0.0
+Do The Importance of Being Icelandic and The Five Obstructions belong to different film genres ?,reranker,1.0,0.5289273836913891,0.0
+Tefik Selim Mborja was a part of a party that held power in Albania until what year? ,reranker,1.0,0.738940393429242,0.49999999995
+Georges-Henri Bousquet translated the work of a historian who is of what heritage?,reranker,0.5,0.6729927770151481,0.99999999995
+Which Kentucky Writers Hall of Fame author has had works published by Dim Gray Bar Press?,reranker,0.0,0.48184799491343683,0.99999999995
+What amount was the settlement that the character from the Son of al Quada got in 2017?,reranker,0.6666666666666666,0.5198506913078408,0.9999999999
+The 2000 British film Snatch was later adapted into a television series for what streaming service?,reranker,1.0,0.6678648297236628,0.3333333333
+Who designed the hotel that held the IFBB professional bodybuilding competition in September 1991?,reranker,0.0,0.0,0.0
+"At the 71st Golden Globe Awards for television in 2013, what achievement did Breaking Bad, police sitcom Brooklyn Nine-Nine and American Hustle attain?",reranker,0.0,0.6488029707043126,0.9999999999
+Onika Tanya Maraj is a judge on a television show hosted by whom? ,reranker,1.0,0.5905732059611399,0.3333333333
+Are Hot Rod and The Memory of Our People both magazines?,reranker,1.0,0.4776747185491401,0.0
+Which post DC Extended Universe actress will also play a role in what is intended to be the fifth installment of the DC Extended Universe?,reranker,1.0,0.6710852926279885,0.99999999995
+Who was the captain of the only battleship to provide gunfire support during the Vietnam War?,reranker,0.5,0.7285491256363263,0.14285714284285714
+"Is the Pakistan fast bowler who joined the Kent County Cricket Club in June, 2011 a left-hand or right-hand batsmans?",reranker,0.0,0.4935054451528221,0.8333333333055556
+"Which Netflix series ""Unbreakable"" character is Elizabeth Claire Kemper known for playing?",reranker,1.0,0.7798727834206711,
+"Which television series featured an actor who also performed in ""The Young Ones""?",reranker,1.0,0.4690029790552351,0.9999999999
+What is the name of the ethnic group who settled in Canada in the 17th century that participated in a conflict with Irish Catholic immigrants in the Shiners' War?,reranker,,0.5259185581498088,0.0
+"Martin Patterson ""Pat"" Hingle was a close friend of an actor who achieved success in what Western TV series? ",reranker,0.6666666666666666,0.7496655746892072,0.49999999995
+"What material did a hairdresser from Yorkshire, England invent that was named by his granddaughter?",reranker,1.0,0.4731410073540101,0.99999999995
+One Raffles Place is one of the tallest skyscrapers in the city of Singapore and tallest in the wolrd outside North America until it was succeeded by a Building in city?,reranker,0.5,0.6844550431747655,0.9999999999
+What is the nickname of the city where Darling's Waterfront Pavilion is located?,reranker,1.0,0.4682804309951758,0.49999999995
+"Henry Hall is known for fighting in the Revolutionary War, and for being the first to successfully cultivate this food found in what type of bogs?",reranker,1.0,0.5608734925831339,0.99999999995
+"What airport serviced by American Airlines Shuttle, is also the largest airport in the New England region and 17th busiest in the U.S?",reranker,0.6666666666666666,0.4789520848446868,0.99999999995
+"Which genus has more species, Xanthoceras or Ehretia?",reranker,1.0,0.8060623094743038,0.9999999999
+Which professional baseball player and National 1993 Baseball Hall of Fame inductee is featured in the Greatest Sports Legends anthology? ,reranker,1.0,0.641282324239376,0.49999999995
+"Yoann Lemoine, a French video director, has created music videos for Lana Del Rey, Katy Perry, and an orchestral country pop ballad by which top pop artist?",reranker,1.0,0.5815911245601876,0.9999999999
+In what city can a person find both the Nusretiye Clock Tower and the Eski Imaret Mosque be found?,reranker,1.0,0.8732443049053384,0.49999999995
+"What is Opry Mills in Nashville, Tennessee?",reranker,1.0,0.8163663767174961,0.9999999999
+which is larger Asante Traditional Buildings or Gulangyu?,reranker,0.0,0.8444412019663018,0.0
+What NIFL Premier Intermediate League team did Sean Connor play for?,reranker,1.0,0.0,0.0
+Can Stenocereus and Pachypodium both include tree like plants?,reranker,1.0,0.8783351857565617,0.99999999995
+"on 16 January 1995 ""First Knight"" was being filmed at a studio located how far from Windsor ?",reranker,1.0,0.0,0.9999999999
+"Marion Greene was a health policy analyst for St. Judt Medical company, which had how many principal operations worldwide?",reranker,1.0,0.6370726070703437,0.49999999995
+Which Genus has more species Eucryphia or Lepidozamia ?,reranker,1.0,0.9231178909731659,0.49999999995
+"Flyboys stars which actor who was nominated for an Academy Award for ""127 Hours""?",reranker,1.0,0.829256046213136,0.74999999998125
+I'd Come for You is a single by the band formed in what Alberta city?,reranker,1.0,0.0,
+"Who is older, Ferdi Taygan or Mahesh Bhupathi?",reranker,1.0,0.9414056692914222,0.0
+"Which came to market first, ""Hey Pa! There's a Goat on the Roof"" or ""Poleconomy""",reranker,1.0,0.6764781840012682,
+What was the position of Jean Baptiste Androuet du Cerceau under the man who was King of the Polish-Lithuanian Commonwealth from 1573 to 1575?,reranker,1.0,0.7648414118894841,0.49999999995
+The Church of the Guanche People was founded in the city that is on the most populated island of what larger area?,reranker,1.0,0.8664152436552836,0.49999999995
+What officially ended the first phase of the military conflict between the British Raj and the Emirate of Afghanistan from 1878 to 1880?,reranker,1.0,0.7996870363918047,0.9999999999666667
+What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?,agentic,1.0,0.5070887025403055,0.249999999975
+The arena where the Lewiston Maineiacs played their home games can seat how many people?,agentic,1.0,0.9493434897108122,0.49999999995
+"Who is older, Annie Morton or Terry Richardson?",agentic,1.0,0.9777182079490497,0.0
+Are Local H and For Against both from the United States?,agentic,1.0,0.8960592267981157,0.0
+The football manager who recruited David Beckham managed Manchester United during what timeframe?,agentic,1.0,0.7631524194448315,0.9999999999
+What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?,agentic,0.0,0.7465045883212172,0.0
+Who was the writer of These Boots Are Made for Walkin' and who died in 2007?,agentic,0.5,,0.0
+"Are both Dictyosperma, and Huernia described as a genus?",agentic,1.0,0.9410072677548648,0.0
+"What is the name for the adventure in ""Tunnels and Trolls"", a game designed by Ken St. Andre?",agentic,1.0,0.4825339548484837,0.249999999975
+"When was Poison's album ""Shut Up, Make Love"" released?",agentic,0.0,0.0,0.9999999999
+"Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",agentic,1.0,0.7316905775715546,0.0
+Which  French ace pilot and adventurer fly L'Oiseau Blanc,agentic,1.0,0.8088356508406741,0.0
+Are Freakonomics and In the Realm of the Hackers both American documentaries?,agentic,0.0,0.0,0.9999999999
+Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?,agentic,1.0,0.47642240729816293,0.49999999995
+Ralph Hefferline was a psychology professor at a university that is located in what city?,agentic,1.0,0.7570199497952693,0.3333333333
+"A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",agentic,1.0,0.7041683203051394,0.49999999995
+"In what city did the ""Prince of tenors"" star in a film based on an opera by Giacomo Puccini?",agentic,0.6666666666666666,0.5209035503842739,0.9999999999
+"Ellie Goulding worked with what other writers on her third studio album, Delirium?",agentic,1.0,0.945890375632905,0.3333333333
+Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.,agentic,0.75,0.0,0.9999999999
+"According to the 2001 census, what was the population of the city in which Kirton End is located?",agentic,1.0,0.0,0.49999999995
+What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?,agentic,1.0,0.684345395692303,0.7555555555303703
+Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?,agentic,1.0,0.7183586328782464,0.99999999995
+The 2017–18 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?,agentic,1.0,0.8263819308175071,0.49999999995
+What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ,agentic,1.0,0.906424242871307,0.9999999999
+"What was the name of the 1996 loose adaptation of William Shakespeare's ""Romeo & Juliet"" written by James Gunn?",agentic,1.0,0.44514248424825403,0.99999999995
+Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?,agentic,1.0,0.77242503442779,0.5833333333041666
+What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?,agentic,1.0,0.7561683470574563,0.9999999999
+What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?,agentic,1.0,0.0,0.0
+"What is the county seat of the county where East Lempster, New Hampshire is located?",agentic,1.0,0.7303692552498827,0.3333333333
+"In what year was the novel that Lourenço Mutarelli based ""Nina"" on based first published?",agentic,1.0,0.5803426993881559,0.249999999975
+Where are Teide National Park and Garajonay National Park located?,agentic,1.0,0.9999999999997072,0.99999999995
+How many copies of Roald Dahl's variation on a popular anecdote sold?,agentic,1.0,0.0,
+What occupation do Chris Menges and Aram Avakian share?,agentic,1.0,0.4374277121666956,0.0
+Andrew Jaspan was the co-founder of what not-for-profit media outlet?,agentic,1.0,0.7596381530111569,0.9999999999
+Do the drinks Gibson and Zurracapote both contain gin?,agentic,1.0,0.8239688731375744,0.0
+"In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",agentic,1.0,0.7163242645735014,0.49999999995
+What type of activity does Owner earnings and Warren Buffett have in common?,agentic,1.0,0.8178496892614766,0.9999999999
+When was the  former Indian cricketer who made his ODI debuts during the 2000 ICC KnockOut Trophy born? ,agentic,1.0,0.5710168505911084,0.3333333333
+"Which airplane was this Major test-flying after whom the base, that 514th Flight Test Squadron is stated at, is named?",agentic,1.0,0.5570303231406105,0.49999999995
+The Argentine PGA Championship record holder has won how many tournaments worldwide?,agentic,1.0,0.7191674033765731,0.0
+What other political position did the person who introduced the DISCLOSE Act hold?,agentic,0.0,0.0,0.9999999999
+Were the bands Skin Yard and Ostava from the U.S.?,agentic,1.0,0.0,0.49999999995
+What major truck road is located in Backford Cross?,agentic,1.0,0.642141867527812,0.9999999999
+In which role did Caroline Carver played in a 1999 Hallmark Entertainment made-for-TV fantasy movie?,agentic,1.0,0.9963536822185244,0.49999999995
+Maxeda has been owned since 2004 by which American multinational equity firm?,agentic,1.0,0.783208166547281,0.9999999999
+The youngest daughter of Lady Mary-Gaye Curzon stars with Douglas Smith and Lucien Laviscount  in what 2017 film?,agentic,1.0,0.6953486878666083,0.49999999995
+"The 1974 Texas Tech Raiders football team represented what public research university in Lubbock, Texas?",agentic,1.0,0.8245382414422334,0.99999999995
+"During Siege of Bharatpur, which Commander-in-Chief of Ireland and Commander-in-Chief of India contributed to the storming of the castle?",agentic,0.0,0.7843982752542441,0.8333333332916666
+"Who was born first, Erika Jayne or Marco Da Silva",agentic,1.0,0.8013166751372888,0.9999999999
+What is the name of the Isles who were led by Aonghus Mór and covered a total land area of over 8300 km2?,agentic,0.75,0.7355969296037074,0.7499999999625
+"Which song was behind the third single on the album  ""A Lot About Livin' (And a Little 'bout Love)"" for two weeks on the country charts?",agentic,0.0,0.0,0.0
+"Marcus Wayne Garland spent nine seasons with an American professional baseball team that is based in Baltimore, Maryland, and was one of the AMerican League's original eight charter franchises when the league was established in what year?",agentic,0.6666666666666666,0.7713321228986237,0.5833333333041666
+What major city is the Faith Lutheran Middle School and High School located by?,agentic,0.5,0.5769619103054523,0.9999999999
+This Celtic ruler who was born in AD 43 ruled southeastern Britain prior to conquest by which empire?,agentic,0.5,0.5570868443627045,0.499999999975
+"What is the name of the detective novelist parent of the author of '""Q"" Is for Quarry'?",agentic,1.0,0.5422833957279231,0.0
+"Which songwriting duo composed music for ""La La Land"", and created lyrics for ""A Christmas Story: The Musical""? ",agentic,0.5,0.9258196689491892,0.8874999999778125
+When was the Western Germanic language spoken from which the small settlement situated on the river Leda opposite Leer derives its name?,agentic,0.0,0.0,0.0
+"Born on 6 March 1937, this man was also a citizen of the United Kingdom.",agentic,0.5,0.5208837118102697,0.9999999999
+"What country does Hatton Hill and Hatton Castle, Angus have in common?",agentic,1.0,0.9560154398079478,0.9166666666361111
+"What year did the series on CBS, starring the actor who known for his role in ""Rebel Without a Cause,"" air?",agentic,0.0,0.0,0.0
+Do The Importance of Being Icelandic and The Five Obstructions belong to different film genres ?,agentic,0.0,0.0,0.0
+Tefik Selim Mborja was a part of a party that held power in Albania until what year? ,agentic,1.0,0.7368143655574558,0.49999999995
+Georges-Henri Bousquet translated the work of a historian who is of what heritage?,agentic,1.0,0.6729927770151481,0.99999999995
+Which Kentucky Writers Hall of Fame author has had works published by Dim Gray Bar Press?,agentic,0.6666666666666666,0.0,0.99999999995
+What amount was the settlement that the character from the Son of al Quada got in 2017?,agentic,1.0,0.0,0.9999999999
+The 2000 British film Snatch was later adapted into a television series for what streaming service?,agentic,0.3333333333333333,0.0,0.3333333333
+Who designed the hotel that held the IFBB professional bodybuilding competition in September 1991?,agentic,0.5,0.0,0.0
+"At the 71st Golden Globe Awards for television in 2013, what achievement did Breaking Bad, police sitcom Brooklyn Nine-Nine and American Hustle attain?",agentic,1.0,0.6488029707043126,0.9999999999
+Onika Tanya Maraj is a judge on a television show hosted by whom? ,agentic,1.0,0.587001307670159,0.3333333333
+Are Hot Rod and The Memory of Our People both magazines?,agentic,1.0,0.5326664202143041,0.0
+Which post DC Extended Universe actress will also play a role in what is intended to be the fifth installment of the DC Extended Universe?,agentic,1.0,0.7001247665582757,0.99999999995
+Who was the captain of the only battleship to provide gunfire support during the Vietnam War?,agentic,1.0,0.0,0.0
+"Is the Pakistan fast bowler who joined the Kent County Cricket Club in June, 2011 a left-hand or right-hand batsmans?",agentic,1.0,0.514561164061631,0.99999999995
+"Which Netflix series ""Unbreakable"" character is Elizabeth Claire Kemper known for playing?",agentic,1.0,0.79272861327178,
+"Which television series featured an actor who also performed in ""The Young Ones""?",agentic,1.0,0.4693825881307904,0.9999999999
+What is the name of the ethnic group who settled in Canada in the 17th century that participated in a conflict with Irish Catholic immigrants in the Shiners' War?,agentic,0.0,0.0,0.0
+"Martin Patterson ""Pat"" Hingle was a close friend of an actor who achieved success in what Western TV series? ",agentic,0.6666666666666666,0.7599285417157997,0.49999999995
+"What material did a hairdresser from Yorkshire, England invent that was named by his granddaughter?",agentic,1.0,0.4731410073540101,0.99999999995
+One Raffles Place is one of the tallest skyscrapers in the city of Singapore and tallest in the wolrd outside North America until it was succeeded by a Building in city?,agentic,0.5,0.6624823100573439,0.9999999999
+What is the nickname of the city where Darling's Waterfront Pavilion is located?,agentic,1.0,0.4657966905920592,0.49999999995
+"Henry Hall is known for fighting in the Revolutionary War, and for being the first to successfully cultivate this food found in what type of bogs?",agentic,1.0,0.5608734925831339,0.99999999995
+"What airport serviced by American Airlines Shuttle, is also the largest airport in the New England region and 17th busiest in the U.S?",agentic,0.6666666666666666,0.49491823347613684,0.99999999995
+"Which genus has more species, Xanthoceras or Ehretia?",agentic,1.0,0.9408395296350224,0.9999999999
+Which professional baseball player and National 1993 Baseball Hall of Fame inductee is featured in the Greatest Sports Legends anthology? ,agentic,0.6666666666666666,0.4964239435368765,0.49999999995
+"Yoann Lemoine, a French video director, has created music videos for Lana Del Rey, Katy Perry, and an orchestral country pop ballad by which top pop artist?",agentic,0.6666666666666666,0.7052948496411148,0.9999999999
+In what city can a person find both the Nusretiye Clock Tower and the Eski Imaret Mosque be found?,agentic,0.5,0.8560028709634765,0.49999999995
+"What is Opry Mills in Nashville, Tennessee?",agentic,1.0,0.8163663767174961,0.9999999999
+which is larger Asante Traditional Buildings or Gulangyu?,agentic,0.6666666666666666,0.9061568439851745,0.0
+What NIFL Premier Intermediate League team did Sean Connor play for?,agentic,1.0,0.0,0.0
+Can Stenocereus and Pachypodium both include tree like plants?,agentic,1.0,0.8862878382086565,0.99999999995
+"on 16 January 1995 ""First Knight"" was being filmed at a studio located how far from Windsor ?",agentic,1.0,0.7148673655612314,0.9999999999
+"Marion Greene was a health policy analyst for St. Judt Medical company, which had how many principal operations worldwide?",agentic,1.0,0.6370726070703437,0.49999999995
+Which Genus has more species Eucryphia or Lepidozamia ?,agentic,1.0,0.9245377380748306,0.49999999995
+"Flyboys stars which actor who was nominated for an Academy Award for ""127 Hours""?",agentic,1.0,0.7820270774721904,0.8666666666377778
+I'd Come for You is a single by the band formed in what Alberta city?,agentic,,0.0,
+"Who is older, Ferdi Taygan or Mahesh Bhupathi?",agentic,1.0,0.9566206175435384,0.0
+"Which came to market first, ""Hey Pa! There's a Goat on the Roof"" or ""Poleconomy""",agentic,1.0,0.6483261213306873,
+What was the position of Jean Baptiste Androuet du Cerceau under the man who was King of the Polish-Lithuanian Commonwealth from 1573 to 1575?,agentic,1.0,0.7638525442140297,0.49999999995
+The Church of the Guanche People was founded in the city that is on the most populated island of what larger area?,agentic,0.6666666666666666,0.8664152436552836,0.49999999995
+What officially ended the first phase of the military conflict between the British Raj and the Emirate of Afghanistan from 1878 to 1880?,agentic,1.0,0.7996870363918047,0.9999999999666667

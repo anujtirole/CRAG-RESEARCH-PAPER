@@ -1,0 +1,4 @@
+tau,n_queries,source,mean_faithfulness,n_scored_faithfulness,mean_answer_relevancy,n_scored_answer_relevancy,mean_context_precision,n_scored_context_precision,mean_latency_s,refusal_count,fallback_fired,low_conf_count
+0.4,150,results_main.csv (first-150 filter),0.7877,142,0.5975,148,0.6366,150,23.98,19,14,49
+0.5,150,sweep_fb_tau050_cache.csv,0.8352,142,0.662,149,0.6328,150,36.04,6,25,96
+0.6,150,sweep_fb_tau060_cache.csv,0.8203,142,0.6862,147,0.6349,150,34.99,1,32,128

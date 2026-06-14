@@ -1,0 +1,10 @@
+metric,comparison,n_pairs,mean_diff,sd_diff,cohens_dz,achieved_power,power_method
+faithfulness,baseline vs reranker,281,0.0402,0.2826,0.1421,0.6437,"normal approximation Phi(|d_z|*sqrt(n_eff) - z_.975) + Phi(-|d_z|*sqrt(n_eff) - z_.975), n_eff = 0.955 * n (Wilcoxon ARE)"
+faithfulness,reranker vs agentic,281,0.0014,0.3171,0.0044,0.0506,"normal approximation Phi(|d_z|*sqrt(n_eff) - z_.975) + Phi(-|d_z|*sqrt(n_eff) - z_.975), n_eff = 0.955 * n (Wilcoxon ARE)"
+faithfulness,baseline vs agentic,281,0.0391,0.339,0.1154,0.4726,"normal approximation Phi(|d_z|*sqrt(n_eff) - z_.975) + Phi(-|d_z|*sqrt(n_eff) - z_.975), n_eff = 0.955 * n (Wilcoxon ARE)"
+answer_relevancy,baseline vs reranker,295,0.0064,0.2015,0.0319,0.0834,"normal approximation Phi(|d_z|*sqrt(n_eff) - z_.975) + Phi(-|d_z|*sqrt(n_eff) - z_.975), n_eff = 0.955 * n (Wilcoxon ARE)"
+answer_relevancy,reranker vs agentic,293,0.0141,0.2751,0.0514,0.1381,"normal approximation Phi(|d_z|*sqrt(n_eff) - z_.975) + Phi(-|d_z|*sqrt(n_eff) - z_.975), n_eff = 0.955 * n (Wilcoxon ARE)"
+answer_relevancy,baseline vs agentic,295,0.0161,0.2994,0.0539,0.1476,"normal approximation Phi(|d_z|*sqrt(n_eff) - z_.975) + Phi(-|d_z|*sqrt(n_eff) - z_.975), n_eff = 0.955 * n (Wilcoxon ARE)"
+context_precision,baseline vs reranker,299,0.0233,0.219,0.1065,0.4366,"normal approximation Phi(|d_z|*sqrt(n_eff) - z_.975) + Phi(-|d_z|*sqrt(n_eff) - z_.975), n_eff = 0.955 * n (Wilcoxon ARE)"
+context_precision,reranker vs agentic,299,0.0202,0.1276,0.1586,0.7644,"normal approximation Phi(|d_z|*sqrt(n_eff) - z_.975) + Phi(-|d_z|*sqrt(n_eff) - z_.975), n_eff = 0.955 * n (Wilcoxon ARE)"
+context_precision,baseline vs agentic,299,0.0436,0.2549,0.171,0.8235,"normal approximation Phi(|d_z|*sqrt(n_eff) - z_.975) + Phi(-|d_z|*sqrt(n_eff) - z_.975), n_eff = 0.955 * n (Wilcoxon ARE)"

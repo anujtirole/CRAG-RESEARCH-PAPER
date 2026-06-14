@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Are the movies About A Wife, A Dream And Another... and The Doolins Of Oklahoma, from the same country?",
+    "ground_truth": "no",
+    "type": "comparison"
+  },
+  {
+    "question": "Who is Wisigard's father-in-law?",
+    "ground_truth": "Theuderic I",
+    "type": "inference"
+  },
+  {
+    "question": "Which film has the director who died later, The Death Kiss or Her Luck In London?",
+    "ground_truth": "Her Luck In London",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Which film has the director who was born first, Hanuman Patal Vijay or Young And Dangerous: The Prequel?",
+    "ground_truth": "Hanuman Patal Vijay",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Where was the director of film Aylwin (Film) born?",
+    "ground_truth": "Weston-super-Mare, Somerset",
+    "type": "compositional"
+  },
+  {
+    "question": "What nationality is Prince Napoléon Bonaparte's father?",
+    "ground_truth": "French",
+    "type": "compositional"
+  },
+  {
+    "question": "Who is the paternal grandmother of Renaud Iii, Count Of Soissons?",
+    "ground_truth": "Adelaide, Countess of Soissons",
+    "type": "inference"
+  },
+  {
+    "question": "Where did the director of film Carbon (Film) study?",
+    "ground_truth": "Film and Television Institute of India",
+    "type": "compositional"
+  },
+  {
+    "question": "Are both Alex Bregman and Francesca Sterlacci from the same country?",
+    "ground_truth": "yes",
+    "type": "comparison"
+  },
+  {
+    "question": "Where did M. K. Muthu's father die?",
+    "ground_truth": "kauvery hospital",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film was released more recently, Sacred Silence or Ek Haseena Thi Ek Deewana Tha?",
+    "ground_truth": "Ek Haseena Thi Ek Deewana Tha",
+    "type": "comparison"
+  },
+  {
+    "question": "Which film whose director is younger, A Night'S Adventure or Insaciable?",
+    "ground_truth": "Insaciable",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Who is the father of the director of film The Thousand Faces Of Dunjia?",
+    "ground_truth": "Yuen Siu-tien",
+    "type": "compositional"
+  },
+  {
+    "question": "Were Gotthilf Heinrich Ernst Muhlenberg and Todd Williams of the same nationality?",
+    "ground_truth": "yes",
+    "type": "comparison"
+  },
+  {
+    "question": "Which film came out first, Stella'S Oorlog or Sampathige Savaal?",
+    "ground_truth": "Sampathige Savaal",
+    "type": "comparison"
+  },
+  {
+    "question": "Do the bands The Gordons (Duo) and Sacred Rite (Band), originate from the same country?",
+    "ground_truth": "yes",
+    "type": "comparison"
+  },
+  {
+    "question": "What is the place of birth of the director of film The Return Of Swamp Thing?",
+    "ground_truth": "New York",
+    "type": "compositional"
+  },
+  {
+    "question": "Where did the director of film Nalini By Day, Nancy By Night graduate from?",
+    "ground_truth": "Mount Holyoke College",
+    "type": "compositional"
+  },
+  {
+    "question": "Are director of film Susanna Whipped Cream and director of film Le Salamandre both from the same country?",
+    "ground_truth": "yes",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Which film has the director born later, Occhio, Malocchio, Prezzemolo E Finocchio or Jailhouse Rock (Film)?",
+    "ground_truth": "Occhio, Malocchio, Prezzemolo E Finocchio",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Which film has the director died later, The Life And Loves Of Tschaikovsky or Dokuz Dağın Efesi?",
+    "ground_truth": "Dokuz Dağın Efesi",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Which film whose director is younger, Outlaw King or Gunman'S Walk?",
+    "ground_truth": "Outlaw King",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Was Ausaf Ali or Steven Perry born first?",
+    "ground_truth": "Ausaf Ali",
+    "type": "comparison"
+  },
+  {
+    "question": "Who is younger, Zhang Lifang or Lalengzama Vangchhia?",
+    "ground_truth": "Lalengzama Vangchhia",
+    "type": "comparison"
+  },
+  {
+    "question": "Who is the maternal grandmother of Flavia Julia Constantia?",
+    "ground_truth": "Eutropia",
+    "type": "inference"
+  },
+  {
+    "question": "Are the directors of both films Captain Calamity (Film) and Heaven Only Knows (Film) from the same country?",
+    "ground_truth": "yes",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "What is the place of birth of the director of film Pages Of Life (Film)?",
+    "ground_truth": "Concepción",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film whose director is younger, Hell To Pay (2014 Film) or Darwin'S Nightmare?",
+    "ground_truth": "Darwin'S Nightmare",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "What is the date of death of the founder of Suez Canal Company?",
+    "ground_truth": "7 December 1894",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film was released more recently, Scandal At The Girls' School or One Dangerous Night?",
+    "ground_truth": "Scandal At The Girls' School",
+    "type": "comparison"
+  },
+  {
+    "question": "What is the date of death of Peter Dale Scott's mother?",
+    "ground_truth": "28 November 1993",
+    "type": "compositional"
+  },
+  {
+    "question": "Which award the composer of film Howrah Bridge (Film) earned?",
+    "ground_truth": "Filmfare Award",
+    "type": "compositional"
+  },
+  {
+    "question": "Who is Ieuan Ab Owain Glyndŵr's paternal grandfather?",
+    "ground_truth": "Gruffudd Fychan II",
+    "type": "inference"
+  },
+  {
+    "question": "What is the place of birth of Geoffrey Plantagenet, Count Of Anjou's wife?",
+    "ground_truth": "Westminster",
+    "type": "compositional"
+  },
+  {
+    "question": "Where did the founder of Ford Australia die?",
+    "ground_truth": "Dearborn",
+    "type": "compositional"
+  },
+  {
+    "question": "When did Thomas Knox, 3Rd Earl Of Ranfurly's father die?",
+    "ground_truth": "21 March 1858",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film has the director died earlier, Crime Against Joe or Vagabonderne På Bakkegården?",
+    "ground_truth": "Vagabonderne På Bakkegården",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Which film has the director born later, The Fighting Demon or Blood Of The Losers?",
+    "ground_truth": "Blood Of The Losers",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "What is the place of birth of the composer of song Bullet (Misfits Song)?",
+    "ground_truth": "Lodi, New Jersey",
+    "type": "compositional"
+  },
+  {
+    "question": "Who is younger, Empress Xiaoshurui or Goran Veselinovski?",
+    "ground_truth": "Goran Veselinovski",
+    "type": "comparison"
+  },
+  {
+    "question": "Who lived longer, Friedrich Paschen or Ernst Bessey?",
+    "ground_truth": "Friedrich Paschen",
+    "type": "comparison"
+  },
+  {
+    "question": "Who is Amalie Adlerberg's stepfather?",
+    "ground_truth": "Karl Alexander, 5th Prince of Thurn and Taxis",
+    "type": "inference"
+  },
+  {
+    "question": "Do both films Masters Of The Sea (Film) and The Auction Mart have the directors from the same country?",
+    "ground_truth": "yes",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Where did the director of film Things Behind The Sun study?",
+    "ground_truth": "UCLA School of Theater, Film and Television",
+    "type": "compositional"
+  },
+  {
+    "question": "Where was the director of film War Of The Buttons (1994 Film) born?",
+    "ground_truth": "Buffalo, New York",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film has the director who was born later, Attack Of Life: The Bang Tango Movie or King Kong (2005 Film)?",
+    "ground_truth": "Attack Of Life: The Bang Tango Movie",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Where was the place of death of the director of film Romulus And The Sabines?",
+    "ground_truth": "Le Plessis-Bouchard",
+    "type": "compositional"
+  },
+  {
+    "question": "Where did Crow Foot's father die?",
+    "ground_truth": "United States",
+    "type": "compositional"
+  },
+  {
+    "question": "Where did the director of film Journal Of A Crime die?",
+    "ground_truth": "New York",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film whose director is younger, A Social Celebrity or A Sound Of Trumpets?",
+    "ground_truth": "A Sound Of Trumpets",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Who was born later, Jean-Jacques Rousseau or Richard Cawley?",
+    "ground_truth": "Richard Cawley",
+    "type": "comparison"
+  },
+  {
+    "question": "Who is the paternal grandfather of Diarmait Ua Briain?",
+    "ground_truth": "Tadc mac Briain",
+    "type": "inference"
+  },
+  {
+    "question": "Where was the wife of Otto I, Count Of Guelders born?",
+    "ground_truth": "Kelheim",
+    "type": "compositional"
+  },
+  {
+    "question": "Where was the place of death of Thomas Sheridan (Soldier)'s father?",
+    "ground_truth": "London",
+    "type": "compositional"
+  },
+  {
+    "question": "What is the place of birth of Henrik Selberg's father?",
+    "ground_truth": "Flora",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film has the director who is older, Aardram or Land And Freedom?",
+    "ground_truth": "Land And Freedom",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Who is Antoine-Charles Taschereau's paternal grandfather?",
+    "ground_truth": "Thomas-Jacques Taschereau",
+    "type": "inference"
+  },
+  {
+    "question": "Which film has the director died first, Köpekler Adası or Twisted Mistress?",
+    "ground_truth": "Twisted Mistress",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Which film has the director born later, Battle Of Memories or The Wedding Of Lilli Marlene?",
+    "ground_truth": "Battle Of Memories",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Where was the founder of magazine Amazing Stories born?",
+    "ground_truth": "Luxembourgish",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film came out earlier, Der Wixxer or The Butterfly Room?",
+    "ground_truth": "Der Wixxer",
+    "type": "comparison"
+  },
+  {
+    "question": "Who is the spouse of the composer of film Kalle Stropp, Grodan Boll Och Deras Vänner?",
+    "ground_truth": "Eva Funck",
+    "type": "compositional"
+  },
+  {
+    "question": "What is the date of death of Charles Mills, 1St Baron Hillingdon's father?",
+    "ground_truth": "4 October 1872",
+    "type": "compositional"
+  },
+  {
+    "question": "Who is the paternal grandmother of Princess Feodora Of Hohenlohe-Langenburg?",
+    "ground_truth": "Countess Amalie Henriette of Solms-Baruth",
+    "type": "inference"
+  },
+  {
+    "question": "Which film has the director who is older than the other, Rolling In Money or A Fine, Windy Day? ",
+    "ground_truth": "Rolling In Money",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Which film has the director died later, The Man From Lost River or Mcveagh Of The South Seas?",
+    "ground_truth": "The Man From Lost River",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Do the movies Seven Sinners (1936 Film) and Everyday (Film), originate from the same country?",
+    "ground_truth": "yes",
+    "type": "comparison"
+  },
+  {
+    "question": "Where was the director of film He'S A Cockeyed Wonder born?",
+    "ground_truth": "London",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film has the director born later, Life Hits or It'S In The Air?",
+    "ground_truth": "Life Hits",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Who is the paternal grandfather of James Fitzgerald, 8Th Earl Of Desmond?",
+    "ground_truth": "James FitzGerald, 6th Earl of Desmond",
+    "type": "inference"
+  },
+  {
+    "question": "When did Joanna Of Aragon, Countess Of Foix's mother die?",
+    "ground_truth": "23 October 1378",
+    "type": "compositional"
+  },
+  {
+    "question": "Where did the director of film Search And Destroy (1995 Film) study?",
+    "ground_truth": "California Institute of the Arts",
+    "type": "compositional"
+  },
+  {
+    "question": "Where was the husband of Wilhelmine Of Prussia, Margravine Of Brandenburg-Bayreuth born?",
+    "ground_truth": "Weferlingen",
+    "type": "compositional"
+  },
+  {
+    "question": "What is the place of birth of the composer of film Men With Brooms?",
+    "ground_truth": "Calgary",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film has the director born later, Best Of The Best 3: No Turning Back or Ven Mi Corazón Te Llama?",
+    "ground_truth": "Best Of The Best 3: No Turning Back",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "What is the place of birth of the director of film Growing Up Smith?",
+    "ground_truth": "Melbourne",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film has the director who was born later, Aloha, Bobby And Rose or The Elusive Avengers?",
+    "ground_truth": "Aloha, Bobby And Rose",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Who is Mary Of Bourbon's paternal grandfather?",
+    "ground_truth": "Francis",
+    "type": "inference"
+  },
+  {
+    "question": "Where did Niklas Frank's father die?",
+    "ground_truth": "Nuremberg",
+    "type": "compositional"
+  },
+  {
+    "question": "What nationality is the performer of song Pareho Tayo?",
+    "ground_truth": "Filipino",
+    "type": "compositional"
+  },
+  {
+    "question": "Do both directors of films The Curse Of Iku and Cops And Robbers (1973 Film) have the same nationality?",
+    "ground_truth": "yes",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Where does the founder of Les Films Du Losange work at?",
+    "ground_truth": "Cahiers du cinéma",
+    "type": "compositional"
+  },
+  {
+    "question": "Who is the maternal grandfather of Princess Alexandra Of Hanover (Born 1999)?",
+    "ground_truth": "Rainier III, Prince of Monaco",
+    "type": "inference"
+  },
+  {
+    "question": "What is the date of death of Philibert I, Duke Of Savoy's mother?",
+    "ground_truth": "23 August 1478",
+    "type": "compositional"
+  },
+  {
+    "question": "Who is Sultan Hatun's mother-in-law?",
+    "ground_truth": "Emine Hatun",
+    "type": "inference"
+  },
+  {
+    "question": "Which film came out first, João Da Mata or Beautiful Girls (Film)?",
+    "ground_truth": "João Da Mata",
+    "type": "comparison"
+  },
+  {
+    "question": "Which film has the director born later, Brutti Di Notte or Bir Türk'E Gönül Verdim?",
+    "ground_truth": "Bir Türk'E Gönül Verdim",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Where was the director of film Mark (Film) born?",
+    "ground_truth": "Toronto",
+    "type": "compositional"
+  },
+  {
+    "question": "What is the place of birth of Aurelio De Laurentiis's father?",
+    "ground_truth": "Torre Annunziata",
+    "type": "compositional"
+  },
+  {
+    "question": "Which country Count Of St. Germain's father is from?",
+    "ground_truth": "Hungarian",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film has the director who was born later, Budak Nafsu or The Bilingual Lover?",
+    "ground_truth": "Budak Nafsu",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Who is the paternal grandfather of Uskhal Khan Tögüs Temür?",
+    "ground_truth": "Khutughtu Khan",
+    "type": "inference"
+  },
+  {
+    "question": "Which film has the director who was born later, Así En El Cielo Como En La Tierra or Buck And The Preacher?",
+    "ground_truth": "Así En El Cielo Como En La Tierra",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Which film whose director is younger, Return Of The Hero or Home In Indiana?",
+    "ground_truth": "Return Of The Hero",
+    "type": "bridge_comparison"
+  },
+  {
+    "question": "Where was the place of death of the director of film Sensational Janine?",
+    "ground_truth": "Gräfelfing",
+    "type": "compositional"
+  },
+  {
+    "question": "What is the date of birth of Frederick Of Liege's father?",
+    "ground_truth": "1027",
+    "type": "compositional"
+  },
+  {
+    "question": "Who is Rostislav I Of Kiev's paternal grandfather?",
+    "ground_truth": "Vladimir II Monomakh",
+    "type": "inference"
+  },
+  {
+    "question": "Which country the director of film Hotel By The Hour is from?",
+    "ground_truth": "Austria",
+    "type": "compositional"
+  },
+  {
+    "question": "Which film was released first, My Friend Pinto or Vindhyarani?",
+    "ground_truth": "Vindhyarani",
+    "type": "comparison"
+  },
+  {
+    "question": "Which country Ronald Dewolf's father is from?",
+    "ground_truth": "American",
+    "type": "compositional"
+  }
+]
